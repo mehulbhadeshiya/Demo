@@ -4,13 +4,6 @@ html, html body {
   backface-visibility: hidden;
 }
 
-.primary-content {
-  margin:auto;
-  padding-top:50px;
-  padding-bottom: 25px;
-  width:60%;
-}
-
 .notification, form small.error, form small.valid {
   -webkit-animation: bounce 1s ease 0.1s 1 both;
   animation: bounce 1s ease 0.1s 1 both;

@@ -39,6 +39,8 @@ $homepage_id = 2;
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-overlaps.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/application.js"></script>
     <?php
+      echo '<link rel="stylesheet" type="text/css" href="' . get_stylesheet_uri() . '" />';
+
       if (get_the_ID() == $homepage_id) {
         echo '<link rel="stylesheet" type="text/css" href="' . get_template_directory_uri() . '/css/application-homepage.css" />';
       } else {
@@ -59,6 +61,8 @@ $homepage_id = 2;
     <div id='main'>
 
 <?php
+  get_header();
+
   if (get_the_ID() != $homepage_id) {
     if (have_posts()) : while (have_posts()) : the_post();
       get_template_part('content', 'header');
@@ -68,7 +72,6 @@ $homepage_id = 2;
       get_template_part('content', 'subfooter');
     endwhile; endif;
   } elseif (get_the_ID() == $homepage_id) {
-    get_header();
     get_template_part('content', 'none');
   }
 
