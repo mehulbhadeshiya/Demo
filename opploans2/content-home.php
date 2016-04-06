@@ -44,13 +44,6 @@
       <div class='row collapse'>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            
-            
-            
-            
-            
-            
-            
             <div class='review-hero'>
               <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-left.png'>
             </div>
@@ -65,13 +58,6 @@
         </div>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            
-            
-            
-            
-            
-            
-            
             <div class='review-hero'>
               <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-center.png'>
             </div>
@@ -86,13 +72,6 @@
         </div>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            
-            
-            
-            
-            
-            
-            
             <div class='review-hero'>
               <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-right.png'>
             </div>
@@ -108,8 +87,7 @@
       </div>
 
       <br>
-      
-      
+
       <div class='grid'>
         <div class='grid__item'>
           <div class='flex-image' style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/manlookingup.png')"></div>

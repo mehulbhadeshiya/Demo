@@ -6891,6 +6891,14 @@ code.language-coffeescript::after {
   .grid__item {
     min-height: 450px;
   }
+
+  .grid__item .small-block {
+    min-height:300px;
+  }
+
+  .grid_menu_small {
+    margin-top:50px;
+  }
 }
 @media screen and (max-width: 47.4375em) {
   /* line 17, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_grid.scss */
@@ -9490,7 +9498,7 @@ body #main {
 /* line 176, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
 .main-copy-1 {
   font-size: 3rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 @media screen and (max-width: 47.4375em) {
   /* line 176, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
