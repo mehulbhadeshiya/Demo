@@ -23,15 +23,15 @@
               </a>
             </li>
             <li class='about-us'>
-              <a href="/public/about-us/"><h6>About Us</h6>
+              <a href="/about-us/"><h6>About Us</h6>
               </a>
             </li>
             <li class='faq'>
-              <a href="/public/faq/"><h6>FAQ</h6>
+              <a href="/faq/"><h6>FAQ</h6>
               </a>
             </li>
             <li class='blog'>
-              <a href="/public/blog/"><h6>Blog</h6>
+              <a href="/blog/"><h6>Blog</h6>
               </a>
             </li>
             <li class='account-home'>
