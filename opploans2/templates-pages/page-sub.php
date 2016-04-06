@@ -4,63 +4,77 @@
  * Description: Displays page title and content in Hero section above 3 widgets.
  *
   */
-get_header(); ?>
+?>
 
-    <div class="hidden-lg hidden-md">
-      <div id="start-today">
-          <a class="close">Close</a>
-           <?php
-          if (function_exists('dynamic_sidebar')) {
-              dynamic_sidebar("home-right");
-          } ?> 
-      </div>
+<html>
+  <head>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery_ujs.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/foundation.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/turbolinks.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/underscore.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/async.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/raphael.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/raphael-svg-import.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/holder.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/stickyfill.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bounce.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-slimscroll.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/icheck.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/imagesloaded.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/hideShowPassword.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-inputmask.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-verticalcenter.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-overlaps.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/application.js"></script>
+
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/application.js"></script>
+    <!-- <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script> -->
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/modern-business.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-validate.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/application.css" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" /> -->
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/modern-business.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.css" />
+  </head>
+
+  <body data-context='engines#locomotive_pages'>
+    <div id='main'>
+      <?php
+        get_header();
+        get_template_part('content', 'header');
+        echo "<div class='primary-content'>";
+
+        while (have_posts()) : the_post();
+      ?>
+
+        <div class="container">
+          <div class="row">
+            <h1><?php the_title();?></h1>
+
+            <?php  wp_strip_all_tags( the_content()) ?>
+
+            <?php // wp_list_pages(); // uncomment to get all page list ?> 
+          </div>
+        </div>
+      <?php endwhile; ?>  
     </div>
 
-<div id="banner3" class="hidden-xs" class="hidden-sm"></div>  
-<div class="section subpage" id="cont_holder">
- 
- <?php while (have_posts()) : the_post(); ?>
-  <div class="container"><!-- /.row --> 
-    <div class="row">
-      <div id="super-header" class="hidden-xs" style="padding-bottom:30px"><?php the_title();?></div>
+    <div>
+      <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/form.js"></script> 
+
+      <?php
+        echo "</div>";
+        get_template_part('content', 'subfooter');
+
+        get_footer();
+      ?>
     </div>
-
- 
-    <div class="row">
-      <h2 class="hidden-lg" class="hidden-md"><?php the_title();?></h2>
-
-        <?php  wp_strip_all_tags( the_content()) ?>
-
-        <?php // wp_list_pages(); // uncomment to get all page list ?> 
+    <div id='main-bg'>
+      <img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png'>
     </div>
-  </div>
-
-</div>
-   
-            <?php endwhile; // end of the loop. ?>
-<!--
-            <div class="tab_title">A Truly Better Personal Loan</div>
--->
-
-<div style="background-color: #384a58; text-align: center; margin-top: 30px;">
-  <div style="padding: 20px;">
-    <span style="color: #ffffff; font-size: 1.4em;">
-      A Truly Better Personal Loan
-    </span>
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://www.opploans-app.com/apply.aspx">
-      <button type="button" class="btn btn-info">
-        <span style="color: #ffffff; font-size: 2em;">Get Approved Now</span>
-      </button>
-    </a>
-  </div>
-</div>
-
-  <!-- /.container --> 
-  
-</div>
-<!-- /.section --><!-- /.section-colored -->
-
-<div>
-<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/js/form.js"></script> 
-<?php get_footer(); ?>
+  </body>
+</html>
