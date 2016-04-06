@@ -39,7 +39,7 @@
               </a>
             </li>
             <li class='button hollow apply-now'>
-              <a href="http://acquisition.dev/public/registrations/step1/"><h6>Apply Now</h6>
+              <a href="/registrations/step1/"><h6>Apply Now</h6>
               </a>
             </li>
           </ul>
