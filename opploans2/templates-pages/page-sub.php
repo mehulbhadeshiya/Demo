@@ -29,7 +29,7 @@
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/application.js"></script>
 
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/application.js"></script>
-    <!-- <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script> -->
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/modern-business.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-validate.js"></script>
 
