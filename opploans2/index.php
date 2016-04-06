@@ -1,21 +1,15 @@
 <?php
-/**
- * The main template file
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * e.g., it puts together the home page when no home.php file exists.
- *
- * Learn more: {@link https://codex.wordpress.org/Template_Hierarchy}
- *
- * @package WordPress
- * @subpackage OppLoans2
- */
+  /**
+   * The main template file
+   *
+   * @package WordPress
+   * @subpackage OppLoans2
+   */
 
-# this theme acts as the homepage and a template for all other content pages
-# need to split content/styles by homepage or all other pages
-$homepage_id = 2;
+  # this theme acts as the homepage and a template for all other content pages
+  # need to split content/styles by homepage or all other pages
+  $homepage_id = 2;
+  $about_id = 10;
 ?>
 <html>
   <head>
@@ -60,23 +54,26 @@ $homepage_id = 2;
 
     <div id='main'>
 
-<?php
-  get_header();
+  <?php
+    get_header();
 
-  if (get_the_ID() != $homepage_id) {
-    if (have_posts()) : while (have_posts()) : the_post();
-      get_template_part('content', 'header');
-      echo "<div class='primary-content'>";
-      the_content();
-      echo "</div>";
-      get_template_part('content', 'subfooter');
-    endwhile; endif;
-  } elseif (get_the_ID() == $homepage_id) {
-    get_template_part('content', 'none');
-  }
+    if (get_the_ID() == $homepage_id) {
+      get_template_part('content', 'home');
+    } elseif (get_the_ID() == $about_id) {
+      get_template_part('content', 'headerabout');
+      get_template_part('content', 'about');
+    } else {
+      if (have_posts()) : while (have_posts()) : the_post();
+        get_template_part('content', 'header');
+        echo "<div class='primary-content'>";
+        the_content();
+        echo "</div>";
+        get_template_part('content', 'subfooter');
+      endwhile; endif;
+    }
 
-  get_footer();
-?>
+    get_footer();
+  ?>
 
     </div>
     <div id='main-bg'>
