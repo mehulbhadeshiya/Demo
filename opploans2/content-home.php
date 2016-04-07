@@ -36,43 +36,49 @@
       <div class='row collapse'>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            <div class='review-hero'>
-              <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-left.png'>
-            </div>
-            <div class='review-panel'>
-              <div class='review-header'>
-                <strong>"I used my personal loan to get my rent in on time." - Mel</strong>
+            <a href='https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1'>
+              <div class='review-hero'>
+                <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-left.png'>
               </div>
-              <div class='review-footer'>LOS ANGELES, CA | $1,000 OPPLOAN</div>
-              <div class='customer-rating google' data-alt-display='true' data-rating='4.9' data-url='https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1'></div>
-            </div>
+              <div class='review-panel'>
+                <div class='review-header'>
+                  <strong>"I used my personal loan to get my rent in on time." - Mel</strong>
+                </div>
+                <div class='review-footer'>LOS ANGELES, CA | $1,000 OPPLOAN</div>
+                <div class='customer-rating google' data-alt-display='true' data-rating='4.9'></div>
+              </div>
+            </a>
           </div>
         </div>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            <div class='review-hero'>
-              <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-center.png'>
-            </div>
-            <div class='review-panel'>
-              <div class='review-header'>
-                <strong>"I was able to use my installment loan to fix my car!" - Jose</strong>
+            <a href='https://www.facebook.com/OpportunityLoans?sk=reviews'>
+              <div class='review-hero'>
+                <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-center.png'>
               </div>
-              <div class='review-footer'>CHICAGO, IL | $2,000 OPPLOAN</div>
-              <div class='customer-rating facebook' data-alt-display='true' data-rating='4.9' data-url='https://www.facebook.com/OpportunityLoans?sk=reviews'></div>
-            </div>
+              <div class='review-panel'>
+                <div class='review-header'>
+                  <strong>"I was able to use my installment loan to fix my car!" - Jose</strong>
+                </div>
+                <div class='review-footer'>CHICAGO, IL | $2,000 OPPLOAN</div>
+                <div class='customer-rating facebook' data-alt-display='true' data-rating='4.9'></div>
+              </div>
+            </a>
           </div>
         </div>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            <div class='review-hero'>
-              <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-right.png'>
-            </div>
-            <div class='review-panel'>
-              <div class='review-header'>
-                <strong>"My loan helped me cover an unforeseen medical emergency!" - Julie</strong>
+            <a href='https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1'>
+              <div class='review-hero'>
+                <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-right.png'>
               </div>
-              <div class='review-footer'>MADISON, WI | $1,600 OPPLOAN</div>
-              <div class='customer-rating google' data-alt-display='true' data-rating='4.5' data-url='https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1'></div>
+              <div class='review-panel'>
+                <div class='review-header'>
+                  <strong>"My loan helped me cover an unforeseen medical emergency!" - Julie</strong>
+                </div>
+                <div class='review-footer'>MADISON, WI | $1,600 OPPLOAN</div>
+                <div class='customer-rating google' data-alt-display='true' data-rating='4.9'></div>
+              </a>
             </div>
           </div>
         </div>

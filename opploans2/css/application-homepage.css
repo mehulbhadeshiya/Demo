@@ -6820,6 +6820,14 @@ code.language-coffeescript::after {
   width: 40px;
 }
 
+.online-review a {
+  color: #0A0A0A;
+}
+
+.online-review a:hover {
+  color: black;
+}
+
 /* line 132, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_customer_rating.scss */
 .customer-quote-name::before {
   content: '- ';
