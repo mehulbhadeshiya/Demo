@@ -401,7 +401,7 @@ CustomerRating = (function() {
     this.containerWidth = (this.starCount * this.starSize) + ((this.starCount - 1) * this.starPadding);
     $.ajax({
       type: 'GET',
-      url: '../../wp-content/themes/opploans2/icons/star-full.svg',
+      url: '../../wp-content/themes/wordpress/opploans2/icons/star-full.svg',
       dataType: 'xml',
       success: function(svgXML) {
         return self.afterFetch.apply(self, [svgXML]);

@@ -8686,7 +8686,7 @@ ul.numbers li:not(.header).three::before {
 .irs-bar,
 .irs-bar-edge,
 .irs-slider {
-  background: url(../img/sprite-skin-simple.png) repeat-x;
+  /*background: url(../img/sprite-skin-simple.png) repeat-x;*/
 }
 
 /* line 18, /Users/ryan/Documents/acquisition/node_modules/ion-rangeslider/css/ion.rangeSlider.skinSimple.css */
