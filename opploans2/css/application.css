@@ -10459,3 +10459,7 @@ body.about-us[data-context*=locomotive] #main-bg {
   top: 0;
   width: 100%;
 }
+
+body.about-us[data-context*=locomotive] .main-copy-1 {
+  margin-top: 4rem !important;
+}
