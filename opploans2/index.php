@@ -9,7 +9,7 @@
   # this theme acts as the homepage and a template for all other content pages
   # need to split content/styles by homepage or all other pages
   $homepage_id = 2;
-  $about_id = 10;
+  $about_id = 5;
 ?>
 <html>
   <head>
@@ -47,6 +47,8 @@
   <?php
     if (get_the_ID() == $homepage_id) {
       echo "<body data-context='engines#locomotive_index'>";
+    } else if (get_the_ID() == $about_id) {
+      echo "<body data-context='engines#locomotive_pages' class=about-us>";
     } else {
       echo "<body data-context='engines#locomotive_pages'>";
     }

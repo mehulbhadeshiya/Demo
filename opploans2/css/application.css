@@ -10444,3 +10444,18 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
 .weight-800 {
   font-weight: 800;
 }
+
+/*
+ * ===================
+ * About Us ==========
+ * ===================
+ */
+
+body.about-us[data-context*=locomotive] #main-bg {
+  background-image: url('../images/IMG_AboutUs.png');
+  height: 400px !important;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
