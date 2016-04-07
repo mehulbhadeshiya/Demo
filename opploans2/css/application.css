@@ -6861,6 +6861,15 @@ code.language-coffeescript::after {
           flex-direction: row;
 }
 
+.grid--center .grid__item {
+  text-align: center;
+}
+
+.grid--center .grid__item p, .grid--center .grid__item h7 {
+  display: block;
+  width: 100%;
+}
+
 .grid--transparent .grid__item {
   background-color: transparent;
 }
@@ -10503,6 +10512,12 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
 .pb\+ { padding-bottom: 2em; }
 .pl\+ { padding-left: 2em; }
 
+.image--profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
 /*
  * ===================
  * About Us ==========
@@ -10534,4 +10549,13 @@ body.about-us[data-context*=locomotive] .grid__item {
 .about-us__highlight img {
   width: auto;
   height: auto;
+}
+
+.about-us__team {
+  color: #1E2436;
+}
+
+.about-us__team__heading {
+  max-width: 720px;
+  margin: 0 auto;
 }

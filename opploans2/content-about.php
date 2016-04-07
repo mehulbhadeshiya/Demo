@@ -61,6 +61,57 @@
       <br>
       <strong>JARED KAPLAN, CEO</strong>
     </p>
-    <p class=mt+><a href='#'>See what others are saying about us ></p>
+    <p class=mt+><a href='#'>See what others are saying about us ></a></p>
+  </div>
+</div>
+
+<div class='about-us__team mt+ pt+'>
+  <div class='about-us__team__heading mb+'>
+    <h6 class='text-center'><strong>LEADERSHIP TEAM</strong></h6>
+    <h5 class='text-center mh+ ph+'>Family-Owned. Dedicated to providing affordable personal loans to improve credit.</h5>
+  </div>
+  <div class='grid grid--transparent grid--center'>
+    <div class=grid__item>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_ToddSchwartz0436.png" class=image--profile />
+      <h7 class='mt mb0 bold'>Todd Schwartz</h7>
+      <h7>Founder</h7>
+    </div>
+    <div class=grid__item>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_JaredKaplan0470.png" class=image--profile />
+      <h7 class='mt mb0 bold'>Jared Kaplan</h7>
+      <h7>Chief Executive Officer</h7>
+    </div>
+    <div class=grid__item>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_SteveDurko0239_edited.png" class=image--profile />
+      <h7 class='mt mb0 bold'>Steve Durko</h7>
+      <h7>Chief Technology Officer</h7>
+    </div>
+    <div class=grid__item>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_ChrisMcKay0073.png" class=image--profile />
+      <h7 class='mt mb0 bold'>Chris McKay</h7>
+      <h7>Chief Credit Officer</h7>
+    </div>
+  </div>
+  <div class='grid grid--transparent grid--center mv+'>
+    <div class=grid__item>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_BruceHammersley0530.png" class=image--profile />
+      <h7 class='mt mb0 bold'>Bruce Hammersley</h7>
+      <h7>Chief Financial Officer</h7>
+    </div>
+    <div class=grid__item>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_RayChay0561.png" class=image--profile />
+      <h7 class='mt mb0 bold'>Ray Chay</h7>
+      <h7>Director of Operations</h7>
+    </div>
+    <div class=grid__item>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_KristinSculli0114_edited.png" class=image--profile />
+      <h7 class='mt mb0 bold'>Kristin Sculli</h7>
+      <h7>General Counsel</h7>
+    </div>
+    <div class=grid__item>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_BobOConnell0624.png" class=image--profile />
+      <h7 class='mt mb0 bold'>Bob O'Connell</h7>
+      <h7>Director of Sales</h7>
+    </div>
   </div>
 </div>
