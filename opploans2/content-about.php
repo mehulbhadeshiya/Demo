@@ -1,6 +1,6 @@
 <div class="primary-content">
   <div class=box>
-    <h5 class="text-center">Family-owned, OppLoans believes you deserve better than payday loans. With faster funding, significantly lower rates, total transparency and unmatched customer service, Opploans is your opportunity to escape payday lending and improve your credit.</h5>
+    <h5 class="text-center">Family-owned OppLoans believes you deserve better than payday loans. With faster funding, significantly lower rates, total transparency and unmatched customer service, OppLoans is your opportunity to escape payday lending and improve your credit.</h5>
   </div>
 </div>
 
@@ -9,27 +9,27 @@
     <div class='about-us__highlight mt pt'>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_FastFunding.svg" />
     </div>
-    <h5 class=mt>Fast Funding</h5>
-    <h6>Get instant approval today and money in your bank accout as early as tomorrow.</h6>
+    <h5 class=mt>Faster Funding</h5>
+    <h6>Get approved today and receive money in your bank accout as soon as the next business day!*</h6>
   </div>
   <div class='grid__item small-block text-center'>
     <div class='about-us__highlight mt'>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_LowInterest.svg" />
     </div>
-    <h5 class=mt>Low Interest.</h5>
-    <h6>Never be subject to payday or origination fees, low loan amounts and rigid deadlines. OppLoans offers longer terms, higher loan amounts and APRs as much as 80% lower than payday lenders.</h6>
+    <h5 class=mt>Lower Interest.</h5>
+    <h6>Never be subject to payday or origination fees, low loan amounts and rigid deadlines. OppLoans offers longer terms, higher loan amounts and APRs as much as 125% lower than payday lenders.</h6>
   </div>
   <div class='grid__item small-block text-center'>
     <div class='about-us__highlight mt pt'>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_CaringService.svg" />
     </div>
-    <h5 class=mt>Caring Service.</h5>
-    <h6>While other lenders push customers through automated approval processes, Opploans' highly-trained Loan Advocates combine amazing HUMAN customer service with our easy online application to deliver the money you need now!</h6>
+    <h5 class=mt>More Personal.</h5>
+    <h6>OppLoans' highly-trained Loan Advocates combine amazing <em>human</em> customer service with our easy online application to deliver the money you need now!</h6>
   </div>
 </div>
 
 <div class=about-us__compare>
-  <h5 class="text-center">Just right rates.</h5>
+  <h5 class="text-center">Just Right Rates.</h5>
   <div class="grid grid--transparent">
     <div class="grid__item text-center">
       <h5 class='mb0 bold'>Credit Cards</h5>
@@ -38,7 +38,7 @@
     </div>
     <div class="grid__item text-center" style="color: #3973C9;">
       <h5 class='mb0 bold'>OppLoans</h5>
-      <h6>36-199% APR</h6>
+      <h6>59-199% APR</h6>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_2_Therm_OppLoans.svg" class=mt />
     </div>
     <div class="grid__item text-center" style="color: #BE0004;">
@@ -58,18 +58,18 @@
   <div class='about-us__testimony'>
     <img src="<?php echo get_template_directory_uri(); ?>/images/quote.png" width=40 height=40 />
     <p class='mh+ ph+'>
-      "If you’ve been turned away from a less than 36% APR loan from other lenders, OppLoans is your home for affordable loans with flexible terms and the BEST customer service."
+      "If you’ve been turned away from a less than 36% APR loan from other lenders, OppLoans is your home for affordable loans with flexible terms and the <em>best</em> customer service."
       <br>
-      <strong>JARED KAPLAN, CEO</strong>
+      <strong>Jared Kaplan, CEO</strong>
     </p>
-    <p class=mt+><a href='#'>See what others are saying about us ></a></p>
+    <!-- <p class=mt+><a href='#'>See what others are saying about us ></a></p> -->
   </div>
 </div>
 
 <div class='about-us__team mt+ pt+'>
   <div class='about-us__team__heading mb+'>
     <h6 class='text-center'><strong>LEADERSHIP TEAM</strong></h6>
-    <h5 class='text-center mh+ ph+'>Family-Owned. Dedicated to providing affordable personal loans to improve credit.</h5>
+    <h5 class='text-center mh+ ph+'>Family-owned OppLoans is dedicated to providing affordable personal loans to improve your credit.</h5>
   </div>
   <div class='grid grid--transparent grid--center'>
     <div class=grid__item>
@@ -117,7 +117,7 @@
   </div>
 </div>
 
-<div class='box box--blue box__scholarship mh0'>
+<!-- <div class='box box--blue box__scholarship mh0'>
   <div class="primary-content">
     <div class=row>
       <div class='small-12 medium-8 columns'>
@@ -130,7 +130,7 @@
     </div>
   </div>
 </div>
-
+ -->
 <div class='box mh0'>
   <div class="primary-content">
     <div class=row>
@@ -141,7 +141,7 @@
           </div>
           <div class=about-us__contact__item__content>
             <h5>We're Growing!</h5>
-            <p class=mv+>Do you want to enable people to transform their financial lives for the better? At OppLoans, we’re helping people every day, and we’re looking for talent to help us carry out that mission.</p>
+            <p class=mv+>We're Growing! Do you want to enable people to transform their financial lives for the better? At OppLoans, we’re helping people every day, and we’re looking for talent to help us carry out that mission. Join the team.</p>
           </div>
           <div class=about-us__contact__item__footer>
             <a href='#' class='btn btn--blue'>Join the Team</a>

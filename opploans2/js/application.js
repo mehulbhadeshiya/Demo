@@ -427,7 +427,7 @@ CustomerRating = (function() {
     container.addClass('is-loaded');
     ratingValue = parseFloat(container.attr('data-rating'));
     if (container.attr('data-alt-display')) {
-      ratingText = "(" + ratingValue + "/5.0 Customer Satisfaction)*";
+      ratingText = "(" + ratingValue + "/5.0 Customer Satisfaction*)";
     } else {
       ratingText = "<b>Become one of our 20,000+ happy customers today.</b> <br><br>Customer Rating " + ratingValue + " / 5 Stars";
     }
