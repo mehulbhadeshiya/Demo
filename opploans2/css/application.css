@@ -10445,6 +10445,30 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
   font-weight: 800;
 }
 
+.m { margin: 1em; }
+.mv { margin: 1em 0px; }
+.mh { margin: 0em 1px; }
+.mt { margin-top: 1em; }
+.mr { margin-right: 1em; }
+.mb { margin-bottom: 1em; }
+.ml { margin-left: 1em; }
+.mt\+ { margin-top: 2em; }
+.mr\+ { margin-right: 2em; }
+.mb\+ { margin-bottom: 2em; }
+.ml\+ { margin-left: 2em; }
+
+.p { padding: 1em; }
+.pv { padding: 1em 0px; }
+.ph { padding: 0em 1px; }
+.pt { padding-top: 1em; }
+.pr { padding-right: 1em; }
+.pb { padding-bottom: 1em; }
+.pl { padding-left: 1em; }
+.pt\+ { padding-top: 2em; }
+.pr\+ { padding-right: 2em; }
+.pb\+ { padding-bottom: 2em; }
+.pl\+ { padding-left: 2em; }
+
 /*
  * ===================
  * About Us ==========
