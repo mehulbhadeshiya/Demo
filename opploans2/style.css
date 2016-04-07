@@ -4,3 +4,11 @@
   padding-bottom: 25px;
   width:70%;
 }
+
+@media screen and (max-width: 47.4375em) {
+  .primary-content {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+  }
+}

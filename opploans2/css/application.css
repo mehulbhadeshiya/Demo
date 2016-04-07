@@ -6543,6 +6543,25 @@ code.language-coffeescript::after {
   margin: 1.28571429rem 1.71428571rem;
 }
 
+.box--gray {
+  background-color: #EFEFEF;
+}
+
+.box--blue {
+  color: white;
+  background-color: #3973C9;
+}
+
+.box--comfy {
+  padding: 2em 4em;
+}
+
+.box__scholarship {
+  background-image: url('../images/IMG_GradCap.png');
+  background-repeat: no-repeat;
+  background-position: 10% 0%;
+}
+
 /* line 1, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_customer_rating.scss */
 .background-float + * .customer-rating {
   margin: 0;
@@ -6852,6 +6871,28 @@ code.language-coffeescript::after {
       -ms-flex-direction: row;
           flex-direction: row;
 }
+
+.grid--center .grid__item {
+  text-align: center;
+}
+
+.grid--center .grid__item p, .grid--center .grid__item h6 {
+  display: block;
+  width: 100%;
+}
+
+.grid--transparent .grid__item {
+  background-color: transparent;
+}
+
+.grid--alternate .grid__item:nth-child(odd) {
+  background-color: #EFEFEF;
+}
+
+.grid--alternate .grid__item:nth-child(even) {
+  background-color: #F5F5F5;
+}
+
 @media screen and (max-width: 47.4375em) {
   /* line 1, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_grid.scss */
   .grid {
@@ -10443,4 +10484,179 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
 /* line 84, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_typography.scss */
 .weight-800 {
   font-weight: 800;
+}
+
+.m { margin: 1em; }
+.mv { margin: 1em 0px; }
+.mh { margin: 0em 1px; }
+.mt { margin-top: 1em; }
+.mr { margin-right: 1em; }
+.mb { margin-bottom: 1em; }
+.ml { margin-left: 1em; }
+.m\+ { margin: 2em; }
+.mv\+ { margin-top: 2em; margin-bottom: 2em; }
+.mh\+ { margin-right: 2em; margin-left: 2em; }
+.mt\+ { margin-top: 2em; }
+.mr\+ { margin-right: 2em; }
+.mb\+ { margin-bottom: 2em; }
+.ml\+ { margin-left: 2em; }
+.m0 { margin: 1em; }
+.mv0 { margin-top: 0em; margin-bottom: 0px; }
+.mh0 { margin-right: 0em; margin-left: 0px; }
+.mt0 { margin-top: 0em; }
+.mr0 { margin-right: 0em; }
+.mb0 { margin-bottom: 0em; }
+.ml0 { margin-left: 0em; }
+
+.p { padding: 1em; }
+.pv { padding: 1em 0px; }
+.ph { padding: 0em 1px; }
+.pt { padding-top: 1em; }
+.pr { padding-right: 1em; }
+.pb { padding-bottom: 1em; }
+.pl { padding-left: 1em; }
+.p\+ { padding-top: 2em; }
+.pv\+ { padding-top: 2em; padding-bottom: 2em; }
+.ph\+ { padding-right: 2em; padding-left: 2em; }
+.pt\+ { padding-top: 2em; }
+.pr\+ { padding-right: 2em; }
+.pb\+ { padding-bottom: 2em; }
+.pl\+ { padding-left: 2em; }
+
+.image--profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.btn {
+  padding: 1rem 4em;
+  border-radius: 0.25em;
+}
+
+.btn--reversed {
+  background-color: white;
+  color: #3973C9;
+}
+
+.btn--blue {
+  background-color: #3A76CE;
+  color: white;
+}
+
+.btn--blue:hover {
+  color: white;
+}
+
+/*
+ * ===================
+ * About Us ==========
+ * ===================
+ */
+
+body.about-us[data-context*=locomotive] #main-bg {
+  background-image: url('../images/IMG_AboutUs.png');
+  height: 400px !important;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+body.about-us[data-context*=locomotive] .main-copy-1 {
+  margin-top: 4rem !important;
+}
+
+body.about-us[data-context*=locomotive] .grid__item {
+  min-height: inherit;
+}
+
+.about-us__highlight {
+  display: block;
+  height: 8rem;
+}
+
+.about-us__highlight img {
+  width: auto;
+  height: auto;
+}
+
+.about-us__compare {
+  margin: 0 auto;
+  margin-top: 4em;
+  max-width: 80em;
+}
+
+.about-us__compare .grid .grid__item {
+  min-height: inherit;
+}
+
+.about-us__testimony {
+  max-width: 60em;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2em 4em;
+  background-color: #F5F3F3;
+  text-align: center;
+}
+
+@media screen and (max-width: 47.4375em) {
+  .about-us__testimony {
+    margin: 2em 0em;
+    padding: 1em 2em;
+  }
+}
+
+.about-us__team {
+  margin: 0 auto;
+  color: #1E2436;
+  max-width: 90em;
+}
+
+.about-us__team__heading {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.about-us__contact__item {
+  padding: 0px 2em;
+}
+
+.column--divider {
+  border-right: 1px solid gray;
+}
+
+.about-us__contact__item .about-us__contact__item__heading {
+  display: block;
+  height: 80px;
+}
+
+.about-us__contact__item .about-us__contact__item__content {
+  display: block;
+  height: 240px;
+}
+
+@media screen and (max-width: 47.4375em) {
+  .about-us__contact__item {
+    margin-bottom: 3em;
+  }
+
+  .about-us__contact__item .about-us__contact__item__content {
+    display: block;
+    height: auto;
+  }
+}
+
+.about-us__contact__item .about-us__contact__item__footer {
+  display: block;
+  height: 40px;
+}
+
+.about-us__cta .apply-now {
+  width: 20em;
+}
+
+.about-us__cta .credit-score-copy {
+  color: black;
 }
