@@ -6556,6 +6556,12 @@ code.language-coffeescript::after {
   padding: 2em 4em;
 }
 
+.box__scholarship {
+  background-image: url('../images/IMG_GradCap.png');
+  background-repeat: no-repeat;
+  background-position: 10% 0%;
+}
+
 /* line 1, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_customer_rating.scss */
 .background-float + * .customer-rating {
   margin: 0;
