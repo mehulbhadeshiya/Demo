@@ -30,10 +30,6 @@
                 <a href="#"><h6>State Guides</h6>
                 </a>
               </li>
-              <li class='scholarship_program'>
-                <a href="#"><h6>Scholarship Program</h6>
-                </a>
-              </li>
               <li class='our-customers'>
                 <a href="#"><h6>Our Customers</h6>
                 </a>
