@@ -3,10 +3,8 @@
         <div class='small-12 medium-12 small-centered columns text-center'>
           <h3 class='main-copy-1 weight-400'>You Deserve Better than a Payday Loan.</h3>
           <h4 class='main-copy-2 weight-400'>
-            
             <span class='wrap'>Faster Funding. Lower Interest.</span>
             <span class='wrap'>More Personal.</span>
-            
           </h4>
           <div class='box text-center'>
             <div class='slider'>
@@ -15,16 +13,12 @@
       ' id='loan-amount' name='loan-amount' type='text' value='2500'>
             </div>
             <a class='apply-now button button--no-transition' href='/registrations/step1'>
-              
               Apply Online
-              
             </a>
             <h6 class='credit-score-copy'>
-              
               This does
               <u>not</u>
               affect your credit score!
-              
             </h6>
           </div>
         </div>
@@ -33,10 +27,8 @@
         <div class='customer-rating weight-400' data-alt-display='true' data-rating='4.9'>
           <span>
             <strong>
-              
               <span class='wrap'>Become one of our 20,000+</span>
               <span class='wrap'>happy customers today.</span>
-              
             </strong>
           </span>
         </div>
@@ -117,11 +109,9 @@
           <ul class='numbers menu vertical menu-centered text-center flexVerticalCenter'>
             <li class='header'>
               <h4>
-                
                 Apply online in three
                 <br>
                 simple steps!
-                
               </h4>
             </li>
             <li class='one'>
@@ -145,22 +135,16 @@
       <br>
       <div class='box text-center'>
         <h4 class='weight-300'>
-          
           Get approved today. Receive your money as soon as
           <strong>tomorrow!</strong>
           ***
-          
         </h4>
         <a class='apply-now button button--no-transition' href='/registrations/step1'>
-          
           Apply Online
-          
         </a>
         <h6 class='credit-score-copy color-black'>
-          
           This does
           <u>not</u>
           affect your credit score!
-          
         </h6>
       </div>
