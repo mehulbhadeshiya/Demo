@@ -9,7 +9,7 @@
   # this theme acts as the homepage and a template for all other content pages
   # need to split content/styles by homepage or all other pages
   $homepage_id = 2;
-  $about_id = 10;
+  $about_id = 17;
 ?>
 <html>
   <head>
