@@ -9495,7 +9495,14 @@ body #main {
   font-size: 3rem;
   margin-top: 10rem;
 }
-@media screen and (max-width: 47.4375em) {
+@media screen and (max-width: 22em) {
+  /* line 176, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
+  .main-copy-1 {
+    font-size: 2.42857143rem;
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 22em) and (max-width: 47.4375em) {
   /* line 176, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
   .main-copy-1 {
     font-size: 2.42857143rem;
