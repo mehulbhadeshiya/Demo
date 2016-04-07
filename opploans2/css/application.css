@@ -10487,3 +10487,17 @@ body.about-us[data-context*=locomotive] #main-bg {
 body.about-us[data-context*=locomotive] .main-copy-1 {
   margin-top: 4rem !important;
 }
+
+body.about-us[data-context*=locomotive] .grid__item {
+  min-height: auto;
+}
+
+.about-us__highlight {
+  display: block;
+  height: 8rem;
+}
+
+.about-us__highlight img {
+  width: auto;
+  height: auto;
+}
