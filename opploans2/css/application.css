@@ -6547,6 +6547,11 @@ code.language-coffeescript::after {
   background-color: #EFEFEF;
 }
 
+.box--blue {
+  color: white;
+  background-color: #3973C9;
+}
+
 .box--comfy {
   padding: 2em 4em;
 }
@@ -10518,6 +10523,21 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
   border-radius: 50%;
 }
 
+.btn {
+  padding: 1rem 4em;
+  border-radius: 0.25em;
+}
+
+.btn--reversed {
+  background-color: white;
+  color: #3973C9;
+}
+
+.btn--blue {
+  background-color: #3A76CE;
+  color: white;
+}
+
 /*
  * ===================
  * About Us ==========
@@ -10558,4 +10578,27 @@ body.about-us[data-context*=locomotive] .grid__item {
 .about-us__team__heading {
   max-width: 720px;
   margin: 0 auto;
+}
+
+.about-us__contact__item {
+  padding: 0px 2em;
+}
+
+.column--divider {
+  border-right: 1px solid gray;
+}
+
+.about-us__contact__item .about-us__contact__item__heading {
+  display: block;
+  height: 80px;
+}
+
+.about-us__contact__item .about-us__contact__item__content {
+  display: block;
+  height: 240px;
+}
+
+.about-us__contact__item .about-us__contact__item__footer {
+  display: block;
+  height: 40px;
 }

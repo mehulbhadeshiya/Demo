@@ -115,3 +115,52 @@
     </div>
   </div>
 </div>
+
+<div class='box box--blue box__scholarship mh0'>
+  <div class="primary-content">
+    <div class=row>
+      <div class='small-12 medium-8 columns'>
+        <h7>OPPLOANS SCHOLARSHIP PROGRAM</h7>
+        <h5 class='mt bold'>Are you a student? Here's a chance to win $2,500 towards your education!</h5>
+      </div>
+      <div class='small-12 medium-4 columns'>
+        <p class='mt+ text-center'><a href='#' class='btn btn--reversed'>Learn More</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='box mh0'>
+  <div class="primary-content">
+    <div class=row>
+      <div class='small-12 medium-6 columns text-center column--divider'>
+        <div class=about-us__contact__item>
+          <div class=about-us__contact__item__heading>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_JoinTheTeam.svg" />
+          </div>
+          <div class=about-us__contact__item__content>
+            <h5>We're Growing!</h5>
+            <p class=mv+>Do you want to enable people to transform their financial lives for the better? At OppLoans, we’re helping people every day, and we’re looking for talent to help us carry out that mission.</p>
+          </div>
+          <div class=about-us__contact__item__footer>
+            <a href='#' class='btn btn--blue'>Join the Team</a>
+          </div>
+        </div>
+      </div>
+      <div class='small-12 medium-6 columns text-center'>
+        <div class=about-us__contact__item>
+          <div class=about-us__contact__item__heading>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_GetinTouch.svg" />
+          </div>
+          <div class=about-us__contact__item__content>
+            <h5>Get in Touch!</h5>
+            <p class=mv+>Have questions? Good! Reach out to us so we can get started helping you today!</p>
+          </div>
+          <div class=about-us__contact__item__footer>
+            <a href='#' class='btn btn--blue'>Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
