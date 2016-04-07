@@ -9,7 +9,7 @@
           <div class='box text-center'>
             <div class='slider'>
               <input data-options='
-      {"min":1000,"max":5000,"from":2500,"step":100}
+      {"min":1000,"max":10000,"from":2500,"step":100}
       ' id='loan-amount' name='loan-amount' type='text' value='2500'>
             </div>
             <a class='apply-now button button--no-transition' href='/registrations/step1'>
