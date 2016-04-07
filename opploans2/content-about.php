@@ -28,33 +28,34 @@
   </div>
 </div>
 
-<div class="primary-content">
+<div class=about-us__compare>
   <h5 class="text-center">Just right rates.</h5>
-
   <div class="grid grid--transparent">
     <div class="grid__item text-center">
-      <h6 class=mb0>Credit Cards</h6>
-      <h7>12-36% APR</h7>
+      <h5 class='mb0 bold'>Credit Cards</h5>
+      <h6>12-36% APR</h6>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_1_Therm_CreditCard.svg" class=mt />
     </div>
     <div class="grid__item text-center" style="color: #3973C9;">
-      <h6 class=mb0>OppLoans</h6>
-      <h7>36-199% APR</h7>
+      <h5 class='mb0 bold'>OppLoans</h5>
+      <h6>36-199% APR</h6>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_2_Therm_OppLoans.svg" class=mt />
     </div>
     <div class="grid__item text-center" style="color: #BE0004;">
-      <h6 class=mb0>Payday Loans</h6>
-      <h7>400-1200% APR</h7>
+      <h5 class='mb0 bold'>Payday Loans</h5>
+      <h6>400-1200% APR</h6>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_3_Therm_Payday.svg" class=mt />
     </div>
     <div class="grid__item text-center" style="color: #850003;">
-      <h6 class=mb0>Bank Overdraft</h6>
-      <h7>2000%+ APR</h7>
+      <h5 class='mb0 bold'>Bank Overdraft</h5>
+      <h6>2000%+ APR</h6>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_4_Therm_BankOverdraft.svg" class=mt />
     </div>
   </div>
+</div>
 
-  <div class='box box--gray box--comfy text-center'>
+<div class="primary-content">
+  <div class='about-us__testimony'>
     <img src="<?php echo get_template_directory_uri(); ?>/images/quote.png" width=40 height=40 />
     <p class='mh+ ph+'>
       "If you’ve been turned away from a less than 36% APR loan from other lenders, OppLoans is your home for affordable loans with flexible terms and the BEST customer service."
@@ -73,45 +74,45 @@
   <div class='grid grid--transparent grid--center'>
     <div class=grid__item>
       <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_ToddSchwartz0436.png" class=image--profile />
-      <h7 class='mt mb0 bold'>Todd Schwartz</h7>
-      <h7>Founder</h7>
+      <h6 class='mt mb0 bold'>Todd Schwartz</h6>
+      <h6>Founder</h6>
     </div>
     <div class=grid__item>
       <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_JaredKaplan0470.png" class=image--profile />
-      <h7 class='mt mb0 bold'>Jared Kaplan</h7>
-      <h7>Chief Executive Officer</h7>
+      <h6 class='mt mb0 bold'>Jared Kaplan</h6>
+      <h6>Chief Executive Officer</h6>
     </div>
     <div class=grid__item>
       <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_SteveDurko0239_edited.png" class=image--profile />
-      <h7 class='mt mb0 bold'>Steve Durko</h7>
-      <h7>Chief Technology Officer</h7>
+      <h6 class='mt mb0 bold'>Steve Durko</h6>
+      <h6>Chief Technology Officer</h6>
     </div>
     <div class=grid__item>
       <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_ChrisMcKay0073.png" class=image--profile />
-      <h7 class='mt mb0 bold'>Chris McKay</h7>
-      <h7>Chief Credit Officer</h7>
+      <h6 class='mt mb0 bold'>Chris McKay</h6>
+      <h6>Chief Credit Officer</h6>
     </div>
   </div>
   <div class='grid grid--transparent grid--center mv+'>
     <div class=grid__item>
       <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_BruceHammersley0530.png" class=image--profile />
-      <h7 class='mt mb0 bold'>Bruce Hammersley</h7>
-      <h7>Chief Financial Officer</h7>
+      <h6 class='mt mb0 bold'>Bruce Hammersley</h6>
+      <h6>Chief Financial Officer</h6>
     </div>
     <div class=grid__item>
       <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_RayChay0561.png" class=image--profile />
-      <h7 class='mt mb0 bold'>Ray Chay</h7>
-      <h7>Director of Operations</h7>
+      <h6 class='mt mb0 bold'>Ray Chay</h6>
+      <h6>Director of Operations</h6>
     </div>
     <div class=grid__item>
       <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_KristinSculli0114_edited.png" class=image--profile />
-      <h7 class='mt mb0 bold'>Kristin Sculli</h7>
-      <h7>General Counsel</h7>
+      <h6 class='mt mb0 bold'>Kristin Sculli</h6>
+      <h6>General Counsel</h6>
     </div>
     <div class=grid__item>
       <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_BobOConnell0624.png" class=image--profile />
-      <h7 class='mt mb0 bold'>Bob O'Connell</h7>
-      <h7>Director of Sales</h7>
+      <h6 class='mt mb0 bold'>Bob O'Connell</h6>
+      <h6>Director of Sales</h6>
     </div>
   </div>
 </div>
@@ -120,7 +121,7 @@
   <div class="primary-content">
     <div class=row>
       <div class='small-12 medium-8 columns'>
-        <h7>OPPLOANS SCHOLARSHIP PROGRAM</h7>
+        <h6>OPPLOANS SCHOLARSHIP PROGRAM</h6>
         <h5 class='mt bold'>Are you a student? Here's a chance to win $2,500 towards your education!</h5>
       </div>
       <div class='small-12 medium-4 columns'>

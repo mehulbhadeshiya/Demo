@@ -6870,7 +6870,7 @@ code.language-coffeescript::after {
   text-align: center;
 }
 
-.grid--center .grid__item p, .grid--center .grid__item h7 {
+.grid--center .grid__item p, .grid--center .grid__item h6 {
   display: block;
   width: 100%;
 }
@@ -10538,6 +10538,10 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
   color: white;
 }
 
+.btn--blue:hover {
+  color: white;
+}
+
 /*
  * ===================
  * About Us ==========
@@ -10558,7 +10562,7 @@ body.about-us[data-context*=locomotive] .main-copy-1 {
 }
 
 body.about-us[data-context*=locomotive] .grid__item {
-  min-height: auto;
+  min-height: inherit;
 }
 
 .about-us__highlight {
@@ -10571,8 +10575,37 @@ body.about-us[data-context*=locomotive] .grid__item {
   height: auto;
 }
 
+.about-us__compare {
+  margin: 0 auto;
+  margin-top: 4em;
+  max-width: 80em;
+}
+
+.about-us__compare .grid .grid__item {
+  min-height: inherit;
+}
+
+.about-us__testimony {
+  max-width: 60em;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2em 4em;
+  background-color: #EBEBEB;
+  text-align: center;
+}
+
+@media screen and (max-width: 47.4375em) {
+  .about-us__testimony {
+    margin: 2em 0em;
+    padding: 1em 2em;
+  }
+}
+
 .about-us__team {
+  margin: 0 auto;
   color: #1E2436;
+  max-width: 90em;
 }
 
 .about-us__team__heading {
@@ -10596,6 +10629,17 @@ body.about-us[data-context*=locomotive] .grid__item {
 .about-us__contact__item .about-us__contact__item__content {
   display: block;
   height: 240px;
+}
+
+@media screen and (max-width: 47.4375em) {
+  .about-us__contact__item {
+    margin-bottom: 3em;
+  }
+
+  .about-us__contact__item .about-us__contact__item__content {
+    display: block;
+    height: auto;
+  }
 }
 
 .about-us__contact__item .about-us__contact__item__footer {
