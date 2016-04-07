@@ -9,7 +9,7 @@
   # this theme acts as the homepage and a template for all other content pages
   # need to split content/styles by homepage or all other pages
   $homepage_id = 2;
-  $about_id = 17;
+  $about_id = 10;
 ?>
 <html>
   <head>
@@ -70,9 +70,11 @@
 
     if (get_the_ID() == $homepage_id) {
       get_template_part('content', 'home');
+      get_footer();
     } elseif (get_the_ID() == $about_id) {
       get_template_part('content', 'headerabout');
       get_template_part('content', 'about');
+      get_template_part('content', 'footerabout');
     } else {
       if (have_posts()) : while (have_posts()) : the_post();
         get_template_part('content', 'header');
@@ -80,10 +82,9 @@
         the_content();
         echo "</div>";
         get_template_part('content', 'subfooter');
+        get_footer();
       endwhile; endif;
     }
-
-    get_footer();
   ?>
 
     </div>
