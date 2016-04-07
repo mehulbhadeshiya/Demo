@@ -6852,6 +6852,15 @@ code.language-coffeescript::after {
       -ms-flex-direction: row;
           flex-direction: row;
 }
+
+.grid--alternate .grid__item:nth-child(odd) {
+  background-color: #EFEFEF;
+}
+
+.grid--alternate .grid__item:nth-child(even) {
+  background-color: #F5F5F5;
+}
+
 @media screen and (max-width: 47.4375em) {
   /* line 1, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_grid.scss */
   .grid {

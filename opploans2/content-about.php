@@ -4,7 +4,7 @@
   </div>
 </div>
 
-<div class='grid'>
+<div class='grid grid--alternate'>
   <div class='grid__item small-block text-center'>
     <div class='about-us__highlight mt pt'>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_FastFunding.svg" />
