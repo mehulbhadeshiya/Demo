@@ -170,10 +170,12 @@
   <div class='small-12 medium-12 text-center'>
     <div class=about-us__cta>
       <h5 class=mt+>You Deserve Better than a Payday Loan.</h5>
-      <div class='box text-center ph+'>
-        <a class='apply-now button button--no-transition' href='/registrations/step1'>
-          Apply Online
-        </a>
+      <div class='box text-center'>
+        <div class=mh>
+          <a class='apply-now button' href='/registrations/step1'>
+            Apply Online
+          </a>
+        </div>
         <h6 class='credit-score-copy'>
           This does
           <u>not</u>

@@ -10486,9 +10486,21 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
   font-weight: 800;
 }
 
+/*
+ * These are just helpers to modify spacing
+ * Naming convention follows:
+ *  - "m": margin
+ *  - "p": padding
+ *  - "t": top
+ *  - "r": right
+ *  - "b": bottom
+ *  - "l": left
+ *  - "+": double margin or padding
+ *  - "0": zero margin or padding
+ */
 .m { margin: 1em; }
-.mv { margin: 1em 0px; }
-.mh { margin: 0em 1px; }
+.mv { margin-top: 1em; margin-bottom: 1em; }
+.mh { margin-right: 1em; margin-left: 1em; }
 .mt { margin-top: 1em; }
 .mr { margin-right: 1em; }
 .mb { margin-bottom: 1em; }
@@ -10501,16 +10513,16 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
 .mb\+ { margin-bottom: 2em; }
 .ml\+ { margin-left: 2em; }
 .m0 { margin: 1em; }
-.mv0 { margin-top: 0em; margin-bottom: 0px; }
-.mh0 { margin-right: 0em; margin-left: 0px; }
+.mv0 { margin-top: 0em; margin-bottom: 0em; }
+.mh0 { margin-right: 0em; margin-left: 0em; }
 .mt0 { margin-top: 0em; }
 .mr0 { margin-right: 0em; }
 .mb0 { margin-bottom: 0em; }
 .ml0 { margin-left: 0em; }
 
 .p { padding: 1em; }
-.pv { padding: 1em 0px; }
-.ph { padding: 0em 1px; }
+.pv { padding-top: 1em; padding-bottom: 1em; }
+.ph { padding-right: 1em; padding-left: 1em; }
 .pt { padding-top: 1em; }
 .pr { padding-right: 1em; }
 .pb { padding-bottom: 1em; }
