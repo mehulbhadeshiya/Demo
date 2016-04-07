@@ -12,7 +12,7 @@
       {"min":1000,"max":10000,"from":2500,"step":100}
       ' id='loan-amount' name='loan-amount' type='text' value='2500'>
             </div>
-            <a class='apply-now button button--no-transition' href='/registrations/step1'>
+            <a class='apply-now button' href='/registrations/step1'>
               Apply Online
             </a>
             <h6 class='credit-score-copy'>
@@ -139,7 +139,7 @@
           <strong>tomorrow!</strong>
           ***
         </h4>
-        <a class='apply-now button button--no-transition' href='/registrations/step1'>
+        <a class='apply-now button' href='/registrations/step1'>
           Apply Online
         </a>
         <h6 class='credit-score-copy color-black'>

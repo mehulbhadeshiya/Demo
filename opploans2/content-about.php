@@ -171,7 +171,7 @@
     <div class=about-us__cta>
       <h5 class=mt+>You Deserve Better than a Payday Loan.</h5>
       <div class='box text-center ph+'>
-        <a class='apply-now button button--no-transition' href='/registrations/step1'>
+        <a class='apply-now button' href='/registrations/step1'>
           Apply Online
         </a>
         <h6 class='credit-score-copy'>
