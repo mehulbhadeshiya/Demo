@@ -1,5 +1,7 @@
 <div class="primary-content">
-  <h5 class="text-center">Family-owned, OppLoans believes you deserve better than payday loans. With faster funding, significantly lower rates, total transparency and unmatched customer service, Opploans is your opportunity to escape payday lending and improve your credit.</h5>
+  <div class=box>
+    <h5 class="text-center">Family-owned, OppLoans believes you deserve better than payday loans. With faster funding, significantly lower rates, total transparency and unmatched customer service, Opploans is your opportunity to escape payday lending and improve your credit.</h5>
+  </div>
 
   <div class='grid'>
     <div class='grid__item small-block'>
