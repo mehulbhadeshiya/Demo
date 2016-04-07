@@ -8819,7 +8819,7 @@ ul.numbers li:not(.header).three::before {
 @media screen and (min-width: 47.5em) {
   /* line 7, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_sliders.scss */
   .slider {
-    margin-top: 5.71428571rem !important;
+    margin-top: 2rem !important;
   }
 }
 @media screen and (max-width: 47.4375em) {
@@ -9493,7 +9493,7 @@ body #main {
 /* line 176, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
 .main-copy-1 {
   font-size: 3rem;
-  margin-top: 10rem;
+  margin-top: 14rem;
 }
 @media screen and (max-width: 22em) {
   /* line 176, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
@@ -9513,7 +9513,7 @@ body #main {
   /* line 176, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
   .main-copy-1 {
     font-size: 2.71428571rem;
-    margin-top: 8.57142857rem;
+    margin-top: 13.57142857rem;
   }
 }
 
