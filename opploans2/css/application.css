@@ -10602,3 +10602,11 @@ body.about-us[data-context*=locomotive] .grid__item {
   display: block;
   height: 40px;
 }
+
+.about-us__cta .apply-now {
+  width: 20em;
+}
+
+.about-us__cta .credit-score-copy {
+  color: black;
+}
