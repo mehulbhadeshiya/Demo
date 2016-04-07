@@ -6543,6 +6543,14 @@ code.language-coffeescript::after {
   margin: 1.28571429rem 1.71428571rem;
 }
 
+.box--gray {
+  background-color: #EFEFEF;
+}
+
+.box--comfy {
+  padding: 2em 4em;
+}
+
 /* line 1, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_customer_rating.scss */
 .background-float + * .customer-rating {
   margin: 0;
@@ -10465,6 +10473,9 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
 .mr { margin-right: 1em; }
 .mb { margin-bottom: 1em; }
 .ml { margin-left: 1em; }
+.m\+ { margin: 2em; }
+.mv\+ { margin-top: 2em; margin-bottom: 2em; }
+.mh\+ { margin-right: 2em; margin-left: 2em; }
 .mt\+ { margin-top: 2em; }
 .mr\+ { margin-right: 2em; }
 .mb\+ { margin-bottom: 2em; }
@@ -10484,6 +10495,9 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
 .pr { padding-right: 1em; }
 .pb { padding-bottom: 1em; }
 .pl { padding-left: 1em; }
+.p\+ { padding-top: 2em; }
+.pv\+ { padding-top: 2em; padding-bottom: 2em; }
+.ph\+ { padding-right: 2em; padding-left: 2em; }
 .pt\+ { padding-top: 2em; }
 .pr\+ { padding-right: 2em; }
 .pb\+ { padding-bottom: 2em; }

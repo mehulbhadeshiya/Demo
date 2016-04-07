@@ -53,4 +53,14 @@
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_4_Therm_BankOverdraft.svg" class=mt />
     </div>
   </div>
+
+  <div class='box box--gray box--comfy text-center'>
+    <img src="<?php echo get_template_directory_uri(); ?>/images/quote.png" width=40 height=40 />
+    <p class='mh+ ph+'>
+      "If you’ve been turned away from a less than 36% APR loan from other lenders, OppLoans is your home for affordable loans with flexible terms and the BEST customer service."
+      <br>
+      <strong>JARED KAPLAN, CEO</strong>
+    </p>
+    <p class=mt+><a href='#'>See what others are saying about us ></p>
+  </div>
 </div>
