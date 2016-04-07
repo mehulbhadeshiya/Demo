@@ -8827,7 +8827,7 @@ ul.numbers li:not(.header).three::before {
   .slider {
     width: 100%;
     margin: 0 0 1.28571429rem 0;
-    margin-top: 5rem !important;
+    margin-top: 2rem !important;
   }
 }
 
@@ -9499,7 +9499,7 @@ body #main {
   /* line 176, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
   .main-copy-1 {
     font-size: 2.42857143rem;
-    margin-top: 1.42857143rem;
+    margin-top: 7rem;
   }
 }
 @media screen and (min-width: 47.5em) and (max-width: 66.1875em) {
