@@ -9,11 +9,19 @@
   # this theme acts as the homepage and a template for all other content pages
   # need to split content/styles by homepage or all other pages
   $homepage_id = 2;
-  $about_id = 5;
+  $about_id = 10;
 ?>
 <html>
   <head>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+    <?php
+      ob_start();
+      wp_head();
+      $head = ob_get_contents();
+      ob_end_clean();
+
+      echo substr($head, 0, strpos($head, "<script"));
+    ?>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery_ujs.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/foundation.js"></script>
