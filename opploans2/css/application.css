@@ -6853,6 +6853,10 @@ code.language-coffeescript::after {
           flex-direction: row;
 }
 
+.grid--transparent .grid__item {
+  background-color: transparent;
+}
+
 .grid--alternate .grid__item:nth-child(odd) {
   background-color: #EFEFEF;
 }
@@ -10465,6 +10469,13 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
 .mr\+ { margin-right: 2em; }
 .mb\+ { margin-bottom: 2em; }
 .ml\+ { margin-left: 2em; }
+.m0 { margin: 1em; }
+.mv0 { margin-top: 0em; margin-bottom: 0px; }
+.mh0 { margin-right: 0em; margin-left: 0px; }
+.mt0 { margin-top: 0em; }
+.mr0 { margin-right: 0em; }
+.mb0 { margin-bottom: 0em; }
+.ml0 { margin-left: 0em; }
 
 .p { padding: 1em; }
 .pv { padding: 1em 0px; }

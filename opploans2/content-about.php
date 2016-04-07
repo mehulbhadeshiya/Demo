@@ -31,32 +31,26 @@
 <div class="primary-content">
   <h5 class="text-center">Just right rates.</h5>
 
-  <div class="grid">
-    <div class="grid__item" style="background-color:#ffffff;">
-      <ul class='menu vertical text-center'>
-        <h6>Credit Cards</h6>
-        <h7>12-36% APR</h7>
-      </ul>
+  <div class="grid grid--transparent">
+    <div class="grid__item text-center">
+      <h6 class=mb0>Credit Cards</h6>
+      <h7>12-36% APR</h7>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_1_Therm_CreditCard.svg" class=mt />
     </div>
-    <div class="grid__item" style="background-color:#ffffff;">
-      <ul class='menu vertical text-center'>
-        <h6>OppLoans</h6>
-        <h7>36-199% APR</h7>
-      </ul>
+    <div class="grid__item text-center" style="color: #3973C9;">
+      <h6 class=mb0>OppLoans</h6>
+      <h7>36-199% APR</h7>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_2_Therm_OppLoans.svg" class=mt />
     </div>
-    <div class="grid__item" style="background-color:#ffffff;">
-      <ul class='menu vertical text-center'>
-        <h6>Payday Loans</h6>
-        <h7>400-1200% APR</h7>
-      </ul>
+    <div class="grid__item text-center" style="color: #BE0004;">
+      <h6 class=mb0>Payday Loans</h6>
+      <h7>400-1200% APR</h7>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_3_Therm_Payday.svg" class=mt />
     </div>
-    <div class="grid__item" style="background-color:#ffffff;">
-      <ul class='menu vertical text-center'>
-        <h6>Bank Overdraft</h6>
-        <h7>2000%+ APR</h7>
-      </ul>
+    <div class="grid__item text-center" style="color: #850003;">
+      <h6 class=mb0>Bank Overdraft</h6>
+      <h7>2000%+ APR</h7>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_4_Therm_BankOverdraft.svg" class=mt />
     </div>
   </div>
-
-  <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_Thermometer.png" />
 </div>
