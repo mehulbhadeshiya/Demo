@@ -5,13 +5,13 @@
           <div class='menu-centered footerNavMenu'>
             <ul class='menu'>
               <li class='prl'>
-                <a href="PRL"></a>
+                <a href="#"></a>
               </li>
               <li class='fisca'>
-                <a href="FISCA"></a>
+                <a href="#"></a>
               </li>
               <li class='godaddy'>
-                <a href="GODADDY"></a>
+                <a href="#"></a>
               </li>
             </ul>
           </div>
@@ -42,9 +42,9 @@
         <div class='small-12 columns text-center'>
           <div class='menu-centered'>
             <ul class='menu social-links'>
-              <li class='google'><a alt-text="Google+ Profile" href="#"></a></li>
-              <li class='twitter'><a alt-text="Twitter Profile" href="#"></a></li>
-              <li class='facebook'><a alt-text="Facebook Profile" href="#"></a></li>
+              <li class='google'><a alt-text="Google+ Profile" href="https://plus.google.com/s/opploans/top"></a></li>
+              <li class='twitter'><a alt-text="Twitter Profile" href="https://twitter.com/opploans"></a></li>
+              <li class='facebook'><a alt-text="Facebook Profile" href="https://www.facebook.com/OpportunityLoans/"></a></li>
             </ul>
           </div>
           <br>
