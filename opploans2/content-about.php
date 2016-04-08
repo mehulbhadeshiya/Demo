@@ -1,9 +1,3 @@
-<div class="primary-content">
-  <div class=box>
-    <h5 class="text-center">Family-owned OppLoans believes you deserve better than payday loans. With faster funding, significantly lower rates, total transparency and unmatched customer service, OppLoans is your opportunity to escape payday lending and improve your credit.</h5>
-  </div>
-</div>
-
 <div class='grid grid--alternate'>
   <div class='grid__item small-block text-center'>
     <div class='about-us__highlight mt pt'>
@@ -17,7 +11,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_LowInterest.svg" />
     </div>
     <h5 class=mt>Lower Interest.</h5>
-    <h6>Never be subject to payday or origination fees, low loan amounts and rigid deadlines. OppLoans offers longer terms, higher loan amounts and APRs as much as 125% lower than payday lenders.</h6>
+    <h6>Never be subject to payday fees, low loan amounts and rigid deadlines. OppLoans offers longer terms, higher loan amounts and APRs as much as 125% lower than payday lenders.</h6>
   </div>
   <div class='grid__item small-block text-center'>
     <div class='about-us__highlight mt pt'>
@@ -141,7 +135,7 @@
           </div>
           <div class=about-us__contact__item__content>
             <h5>We're Growing!</h5>
-            <p class=mv+>We're Growing! Do you want to enable people to transform their financial lives for the better? At OppLoans, we’re helping people every day, and we’re looking for talent to help us carry out that mission. Join the team.</p>
+            <p class=mv+>Do you want to enable people to transform their financial lives for the better? At OppLoans, we’re helping people every day, and we’re looking for talent to help us carry out that mission.</p>
           </div>
           <div class=about-us__contact__item__footer>
             <a href='#' class='btn btn--blue'>Join the Team</a>
