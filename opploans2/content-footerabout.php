@@ -23,15 +23,11 @@
           <div class='menu-centered footer-nav'>
             <ul class='menu'>
               <li class='contact-us'>
-                <a href="#"><h6>Rates & Terms</h6>
+                <a href="/licenses"><h6>Rates & Terms</h6>
                 </a>
               </li>
               <li class='about-us'>
-                <a href="#"><h6>State Guides</h6>
-                </a>
-              </li>
-              <li class='scholarship_program'>
-                <a href="#"><h6>Scholarship Program</h6>
+                <a href="/rates-terms"><h6>State Guides</h6>
                 </a>
               </li>
               <li class='our-customers'>
@@ -39,7 +35,7 @@
                 </a>
               </li>
               <li class='contact-us'>
-                <a href="#"><h6>Contact Us</h6>
+                <a href="contact-us"><h6>Contact Us</h6>
                 </a>
               </li>
             </ul>
@@ -65,10 +61,10 @@
               &copy; 2016 Opportunity Financial, LLC.
               All Rights Reserved.
               Use of Opportunity Financial, LLC is subject to our
-              <a>Terms of Service,</a>
-              <a>Privacy Policy,</a>
+              <a href='/licenses/terms-of-us'>Terms of Use,</a>
+              <a href='/privacy-policy'>Privacy Policy,</a>
               and
-              <a>Licenses.</a>
+              <a href='/licenses'>Licenses.</a>
             </small>
           </p>
           <p>
@@ -88,7 +84,7 @@
           </p>
           <p>
             <small>
-              OH &TX residents: Opportunity Financial, LLC is a Credit Services Organization/Credit Access Business that arranges loans issued by a third-party lender. Ohio Credit Services Organization Certificate of Registration No. CS.900195.000.
+              OH & TX residents: Opportunity Financial, LLC is a Credit Services Organization/Credit Access Business that arranges loans issued by a third-party lender. Ohio Credit Services Organization Certificate of Registration No. CS.900195.000.
             </small>
           </p>
         </div>
