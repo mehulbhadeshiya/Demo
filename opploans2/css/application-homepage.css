@@ -7965,7 +7965,7 @@ ul.numbers li:not(.header).three::before {
 }
 @media screen and (min-width: 47.5em) {
   .slider {
-    margin-top: 5.71428571rem !important;
+    margin-top: 2rem !important;
   }
 }
 @media screen and (max-width: 47.4375em) {
@@ -8540,7 +8540,7 @@ body #main {
 
 .main-copy-1 {
   font-size: 3rem;
-  margin-top: 10rem;
+  margin-top: 14rem;
 }
 @media screen and (max-width: 22em) {
   .main-copy-1 {
@@ -8557,7 +8557,7 @@ body #main {
 @media screen and (min-width: 47.5em) and (max-width: 66.1875em) {
   .main-copy-1 {
     font-size: 2.71428571rem;
-    margin-top: 8.57142857rem;
+    margin-top: 13.57142857rem;
   }
 }
 
