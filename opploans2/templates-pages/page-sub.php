@@ -21,7 +21,6 @@
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery_ujs.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/foundation.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/turbolinks.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/underscore.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/async.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/raphael.js"></script>
