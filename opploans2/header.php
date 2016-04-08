@@ -1,11 +1,20 @@
+<?php
+//get page's path
+$pagePath = parse_url( $_SERVER['REQUEST_URI'] );
+$pagePath = $pagePath['path'];
+$pagePath = substr($pagePath, 1, -1);//remove slashes
+?>
 <div class="position-sticky">
+  <?php if ($pagePath == '') { ?>
+  <div class="masthead">
+  <?php } else { ?>
   <div class="masthead masthead--overlay">
+  <?php } ?>
     <div class="masthead-left">
       <a alt-text="Opportunity Loans: A better personal loan" class="logo" href="/">
         <img src="<?php echo get_template_directory_uri(); ?>/images/OppLoans-logo-white.png" alt="Opp Loans" width="150" height="45">
         <span class="tagline">A better personal loan</span>
       </a>
-      <span class="secure">Secure Form</span>
     </div>
     <div class="masthead-right">
       <a class="phone" href="tel:+1855-408-5000">(855) 408-5000</a>
