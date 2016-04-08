@@ -1458,10 +1458,10 @@ $(window).on('load', function() {
   $(window).on('scroll', function(evt) {
     var className;
     className = 'position-sticky--scroll';
-    $('.nav-bar.position-sticky').addClass(className);
+    $('.position-sticky').addClass(className);
     clearTimeout($.data(this, 'scrollTimer'));
     return $.data(this, 'scrollTimer', setTimeout((function() {
-      return $('.nav-bar.position-sticky').removeClass(className);
+      return $('.position-sticky').removeClass(className);
     }), 250));
   });
   if (typeof Raven !== "undefined" && Raven !== null) {
