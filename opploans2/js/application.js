@@ -16082,6 +16082,8 @@ time_estimates = {
 
 module.exports = time_estimates;
 
+},{}]},{},["/Users/ryan/Downloads/acquisition/app/assets/javascripts/_stream_0.js"]);
+
 /*
 Generated from acquisition app/assets/javascripts/components/_toggle_button.coffee
 Supports masthead hamburger button only (for now)
@@ -16103,9 +16105,6 @@ initializeToggleButton = function(fieldSelector) {
   });
 };
 
-$(document).on('page:change', function() {
+$(document).ready(function() {
   initializeToggleButton('.toggle')
 })
-
-},{}]},{},["/Users/ryan/Downloads/acquisition/app/assets/javascripts/_stream_0.js"]);
-
