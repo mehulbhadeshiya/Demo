@@ -166,20 +166,8 @@
   </div>
 </div>
 
-<div class=row>
-  <div class='small-12 medium-12 text-center'>
-    <div class=about-us__cta>
-      <h5 class=mt+>You Deserve Better than a Payday Loan.</h5>
-      <div class='box text-center ph+'>
-        <a class='apply-now button button--no-transition' href='/registrations/step1'>
-          Apply Online
-        </a>
-        <h6 class='credit-score-copy'>
-          This does
-          <u>not</u>
-          affect your credit score!
-        </h6>
-      </div>
-    </div>
-  </div>
+<div class='box text-center'>
+  <h5 class='weight-300'>You Deserve Better than a Payday Loan.</h5>
+  <a class='apply-now button button--no-transition' href='/registrations/step1'>Apply Online</a>
+  <h6 class='credit-score-copy color-black'>This does <u>not</u> affect your credit score!</h6>
 </div>
