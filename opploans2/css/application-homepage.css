@@ -8524,6 +8524,7 @@ body #main {
 .position-sticky {
   position: relative;
   top: 0;
+  z-index: 6;
 }
 
 @media screen and (max-width: 47.4375em) {
