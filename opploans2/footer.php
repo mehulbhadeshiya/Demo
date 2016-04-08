@@ -65,7 +65,7 @@
           </p>
           <p>
             <small>
-              *Based on customer service ratings on Google and Facebook. Testimonials reflect the individual's opinion and may not be illustrative of all individual experiences with Opportunity Loans.
+              *Based on customer service ratings on Google and Facebook. Testimonials reflect the individual's opinion and may not be illustrative of all individual experiences with OppLoans.
             </small>
           </p>
           <p>
