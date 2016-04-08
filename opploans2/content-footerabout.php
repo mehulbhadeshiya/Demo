@@ -1,5 +1,5 @@
       <a class='hide' href='#footer' id='footer'></a>
-      <br>
+      <br />
       <div class='row bg-gray'>
         <div class='small-12 columns text-center'>
           <div class='menu-centered footerNavMenu'>
@@ -28,6 +28,10 @@
               </li>
               <li class='about-us'>
                 <a href="#"><h6>State Guides</h6>
+                </a>
+              </li>
+              <li class='scholarship_program'>
+                <a href="#"><h6>Scholarship Program</h6>
                 </a>
               </li>
               <li class='our-customers'>
@@ -69,17 +73,7 @@
           </p>
           <p>
             <small>
-              *Based on customer service ratings on Google and Facebook. Testimonials reflect the individual's opinion and may not be illustrative of all individual experiences with Opportunity Loans.
-            </small>
-          </p>
-          <p>
-            <small>
-              **Approval may take longer if additional verification documents are requested. Not all loan requests are approved. Approval and loan terms vary based on credit determination and state law.
-            </small>
-          </p>
-          <p>
-            <small>
-              ***Applications processed and approved before 7:30 p.m. ET Monday-Friday are typically funded the next business day.
+              *Approval may take longer if additional verification documents are requested. Not all loan requests are approved. Approval and loan terms based on credit determination and state law.
             </small>
           </p>
           <p>

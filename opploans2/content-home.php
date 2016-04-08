@@ -13,10 +13,10 @@
       ' id='loan-amount' name='loan-amount' type='text' value='2500'>
             </div>
             <div class=ph+>
-              <a class='apply-now button button--no-transition' href='/registrations/step1'>
-                Apply Online
-              </a>
-            </div>
+            <a class='apply-now button' href='/registrations/step1'>
+              Apply Online
+            </a>
+          </div>
             <h6 class='credit-score-copy'>
               This does
               <u>not</u>
@@ -93,7 +93,7 @@
             </li>
             <li class='checkmark'>
               <h5>Faster Funding.</h5>
-              <h6>Get approved today and receive money in your account as soon as the next business day. **</h6>
+              <h6>Get approved today and receive money in your account as soon as the next business day.**</h6>
             </li>
             <li class='checkmark'>
               <h5>Lower Interest.</h5>
@@ -101,7 +101,7 @@
             </li>
             <li class='checkmark'>
               <h5>More Personal.</h5>
-              <h6>OppLoans treats customers like family. Our 20,000+ customers rate us 4.9 out of 5 stars.</h6>
+              <h6>OppLoans treats customers like family.<br />Our 20,000+ customers rate us 4.9 out of 5 stars.</h6>
             </li>
           </ul>
         </div>
@@ -111,14 +111,12 @@
           <ul class='numbers menu vertical menu-centered text-center flexVerticalCenter'>
             <li class='header'>
               <h4>
-                Apply online in three
-                <br>
-                simple steps!
+                Apply online in<br />3 simple steps!
               </h4>
             </li>
             <li class='one'>
               <h5>Get Approved Today.</h5>
-              <h6>Complete the quick and easy application</h6>
+              <h6>Complete the quick and easy application.</h6>
             </li>
             <li class='two'>
               <h5>E-Sign Your Contract.</h5>
@@ -138,10 +136,9 @@
       <div class='box text-center'>
         <h4 class='weight-300'>
           Get approved today. Receive your money as soon as
-          <strong>tomorrow!</strong>
-          ***
+          <strong>tomorrow!</strong>***
         </h4>
-        <a class='apply-now button button--no-transition' href='/registrations/step1'>
+        <a class='apply-now button' href='/registrations/step1'>
           Apply Online
         </a>
         <h6 class='credit-score-copy color-black'>

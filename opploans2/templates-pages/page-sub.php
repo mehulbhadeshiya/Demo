@@ -8,6 +8,16 @@
 
 <html>
   <head>
+    <title><?php wp_title(); ?></title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+    <?php
+      ob_start();
+      wp_head();
+      $head = ob_get_contents();
+      ob_end_clean();
+
+      echo substr($head, 0, strpos($head, "<script"));
+    ?>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery_ujs.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/foundation.js"></script>
@@ -36,7 +46,6 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/application.css" />
 
-    <!-- <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" /> -->
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/modern-business.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.css" />
   </head>

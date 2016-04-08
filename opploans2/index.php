@@ -9,11 +9,20 @@
   # this theme acts as the homepage and a template for all other content pages
   # need to split content/styles by homepage or all other pages
   $homepage_id = 2;
-  $about_id = 5;
+  $about_id = 17;
 ?>
 <html>
   <head>
+    <title><?php wp_title(); ?></title>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+    <?php
+      ob_start();
+      wp_head();
+      $head = ob_get_contents();
+      ob_end_clean();
+
+      echo substr($head, 0, strpos($head, "<script"));
+    ?>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery_ujs.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/foundation.js"></script>
@@ -62,9 +71,11 @@
 
     if (get_the_ID() == $homepage_id) {
       get_template_part('content', 'home');
+      get_footer();
     } elseif (get_the_ID() == $about_id) {
       get_template_part('content', 'headerabout');
       get_template_part('content', 'about');
+      get_template_part('content', 'footerabout');
     } else {
       if (have_posts()) : while (have_posts()) : the_post();
         get_template_part('content', 'header');
@@ -72,10 +83,9 @@
         the_content();
         echo "</div>";
         get_template_part('content', 'subfooter');
+        get_footer();
       endwhile; endif;
     }
-
-    get_footer();
   ?>
 
     </div>
