@@ -31,7 +31,7 @@
                 </a>
               </li>
               <li class='contact-us'>
-                <a href="contact-us"><h6>Contact Us</h6>
+                <a href="/contact-us"><h6>Contact Us</h6>
                 </a>
               </li>
             </ul>
