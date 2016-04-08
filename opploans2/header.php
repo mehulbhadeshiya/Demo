@@ -13,19 +13,19 @@
         <a class="toggle close" data-target=".masthead">X</a>
         <ul>
           <li class="navigation__item">
-            <a href="/public/about-us/">About Us</a>
+            <a href="/about-us/">About Us</a>
           </li>
           <li class="navigation__item">
-            <a href="/public/faq/">FAQ</a>
+            <a href="/faq/">FAQ</a>
           </li>
           <li class="navigation__item">
-            <a href="/public/blog/">Blog</a>
+            <a href="/blog/">Blog</a>
           </li>
           <li class="navigation__item">
-            <a href="#">Sign In</a>
+            <a href="https://www.opploans-app.com/MemberPage.aspx?subpage=customerLogin">Sign In</a>
           </li>
           <li class="navigation__item button hollow apply-now">
-            <a href="http://acquisition.dev/registrations/step1//">Apply Now</a>
+            <a href="/registrations/step1">Apply Now</a>
           </li>
         </ul>
         <hr>

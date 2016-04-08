@@ -103,11 +103,11 @@
             </li>
             <li class='checkmark'>
               <h5>Lower Interest.</h5>
-              <h6>OppLoans Personal Loans are up to 70-125% cheaper than payday loans.</h6>
+              <h6>OppLoans personal loans are up to 70-125% cheaper than payday loans.</h6>
             </li>
             <li class='checkmark'>
               <h5>More Personal.</h5>
-              <h6>OppLoans treats customers like family.<br />Our 20,000+ customers rate us 4.9 out of 5 stars.</h6>
+              <h6>OppLoans treats customers like family. Our 20,000+ customers rate us 4.9 out of 5 stars.</h6>
             </li>
           </ul>
         </div>
@@ -117,7 +117,7 @@
           <ul class='numbers menu vertical menu-centered text-center flexVerticalCenter'>
             <li class='header'>
               <h4>
-                Apply online in<br />3 simple steps!
+                Apply online in 3 simple steps!
               </h4>
             </li>
             <li class='one'>

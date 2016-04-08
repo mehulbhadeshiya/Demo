@@ -5,13 +5,13 @@
           <div class='menu-centered footerNavMenu'>
             <ul class='menu'>
               <li class='prl'>
-                <a href="PRL"></a>
+                <a href="#"></a>
               </li>
               <li class='fisca'>
-                <a href="FISCA"></a>
+                <a href="#"></a>
               </li>
               <li class='godaddy'>
-                <a href="GODADDY"></a>
+                <a href="#"></a>
               </li>
             </ul>
           </div>
@@ -23,19 +23,15 @@
           <div class='menu-centered footer-nav'>
             <ul class='menu'>
               <li class='contact-us'>
-                <a href="#"><h6>Rates & Terms</h6>
+                <a href="/licenses"><h6>Rates & Terms</h6>
                 </a>
               </li>
               <li class='about-us'>
-                <a href="#"><h6>State Guides</h6>
-                </a>
-              </li>
-              <li class='our-customers'>
-                <a href="#"><h6>Our Customers</h6>
+                <a href="/rates-terms"><h6>State Guides</h6>
                 </a>
               </li>
               <li class='contact-us'>
-                <a href="#"><h6>Contact Us</h6>
+                <a href="/contact-us"><h6>Contact Us</h6>
                 </a>
               </li>
             </ul>
@@ -46,9 +42,9 @@
         <div class='small-12 columns text-center'>
           <div class='menu-centered'>
             <ul class='menu social-links'>
-              <li class='google'><a alt-text="Google+ Profile" href="#"></a></li>
-              <li class='twitter'><a alt-text="Twitter Profile" href="#"></a></li>
-              <li class='facebook'><a alt-text="Facebook Profile" href="#"></a></li>
+              <li class='google'><a alt-text="Google+ Profile" href="https://plus.google.com/s/opploans/top"></a></li>
+              <li class='twitter'><a alt-text="Twitter Profile" href="https://twitter.com/opploans"></a></li>
+              <li class='facebook'><a alt-text="Facebook Profile" href="https://www.facebook.com/OpportunityLoans/"></a></li>
             </ul>
           </div>
           <br>
@@ -61,15 +57,15 @@
               &copy; 2016 Opportunity Financial, LLC.
               All Rights Reserved.
               Use of Opportunity Financial, LLC is subject to our
-              <a>Terms of Service,</a>
-              <a>Privacy Policy,</a>
+              <a href='/licenses/terms-of-use'>Terms of Use,</a>
+              <a href='/privacy-policy'>Privacy Policy,</a>
               and
-              <a>Licenses.</a>
+              <a href='/licenses'>Licenses.</a>
             </small>
           </p>
           <p>
             <small>
-              *Based on customer service ratings on Google and Facebook. Testimonials reflect the individual's opinion and may not be illustrative of all individual experiences with Opportunity Loans.
+              *Based on customer service ratings on Google and Facebook. Testimonials reflect the individual's opinion and may not be illustrative of all individual experiences with OppLoans.
             </small>
           </p>
           <p>
@@ -94,7 +90,7 @@
           </p>
           <p>
             <small>
-              OH &TX residents: Opportunity Financial, LLC is a Credit Services Organization/Credit Access Business that arranges loans issued by a third-party lender. Ohio Credit Services Organization Certificate of Registration No. CS.900195.000.
+              OH & TX residents: Opportunity Financial, LLC is a Credit Services Organization/Credit Access Business that arranges loans issued by a third-party lender. Ohio Credit Services Organization Certificate of Registration No. CS.900195.000.
             </small>
           </p>
         </div>
