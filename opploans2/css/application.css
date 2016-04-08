@@ -567,7 +567,6 @@ ul.social-links li.facebook a, ul.social-links a.facebook {
   font-weight: 600;
   font-style: normal;
 }
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
 .type-face-OpenSans-600-normal {
   font-family: "Open Sans";
   font-style: normal;
@@ -580,7 +579,6 @@ ul.social-links li.facebook a, ul.social-links a.facebook {
   font-weight: 700;
   font-style: italic;
 }
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
 .type-face-OpenSans-700-italic {
   font-family: "Open Sans";
   font-style: italic;
@@ -589,11 +587,10 @@ ul.social-links li.facebook a, ul.social-links a.facebook {
 
 @font-face {
   font-family: "Open Sans";
-  src: url(/assets/OpenSans700-Regular-683aa23a242ed6bb3bc1a0869258969fa668caf72d859c56fd4640ae878490d3.eot) format('embedded-opentype'), url(/assets/OpenSans700-Regular-683aa23a242ed6bb3bc1a0869258969fa668caf72d859c56fd4640ae878490d3.eot?#OpenSans700-Regular) format('embedded-opentype'), url(/assets/OpenSans700-Regular-74b956b8034ce5c657dcd5c2149aad5f184c370e37a1d474debf50889410728a.woff) format('woff'), url(/assets/OpenSans700-Regular-3f58154f4e3593762c1897bceafddf0a26a48780b215057c2ff9131548af14cc.woff2) format('woff2'), url(/assets/OpenSans700-Regular-0c0128bf3a5d3f03ff6d330110a275e29f169ba654c915125fed2f36f19a87ec.ttf) format('truetype'), url(/assets/OpenSans700-Regular-e4b68999085cdaa46425372f9795ad50c43db84f1469d14eb1dcc4be69543791.svg) format('svg'), url(/assets/OpenSans700-Regular-e4b68999085cdaa46425372f9795ad50c43db84f1469d14eb1dcc4be69543791.svg#OpenSans700-Regular) format('svg');
+  src: url(../fonts/OpenSans700-Regular.eot) format('embedded-opentype'), url(../fonts/OpenSans700-Regular.eot?#OpenSans700-Regular) format('embedded-opentype'), url(../fonts/OpenSans700-Regular.woff) format('woff'), url(../fonts/OpenSans700-Regular.woff2) format('woff2'), url(../fonts/OpenSans700-Regular.ttf) format('truetype'), url(../fonts/OpenSans700-Regular.svg) format('svg'), url(../fonts/OpenSans700-Regular.svg#OpenSans700-Regular) format('svg');
   font-weight: 700;
   font-style: normal;
 }
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
 .type-face-OpenSans-700-normal {
   font-family: "Open Sans";
   font-style: normal;
@@ -606,7 +603,6 @@ ul.social-links li.facebook a, ul.social-links a.facebook {
   font-weight: 800;
   font-style: italic;
 }
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
 .type-face-OpenSans-800-italic {
   font-family: "Open Sans";
   font-style: italic;
@@ -619,26 +615,12 @@ ul.social-links li.facebook a, ul.social-links a.facebook {
   font-weight: 800;
   font-style: normal;
 }
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
 .type-face-OpenSans-800-normal {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 800;
 }
 
-/**
- * Foundation for Sites by ZURB
- * Version 6.2.0
- * foundation.zurb.com
- * Licensed under MIT Open Source
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS and IE text size adjust after device orientation change,
- *    without disabling user zoom.
- */
-/* line 220, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/_global.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -648,23 +630,10 @@ html {
   /* 2 */
 }
 
-/**
- * Remove default margin.
- */
-/* line 230, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/_global.scss */
 body {
   margin: 0;
 }
 
-/* HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
-/* line 244, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/_global.scss */
 article,
 aside,
 details,
@@ -681,11 +650,6 @@ summary {
   display: block;
 }
 
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
-/* line 265, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/_global.scss */
 audio,
 canvas,
 progress,
@@ -8733,7 +8697,7 @@ ul.numbers li:not(.header).three::before {
 .irs-bar,
 .irs-bar-edge,
 .irs-slider {
-  background: url(../img/sprite-skin-simple.png) repeat-x;
+  /*background: url(../img/sprite-skin-simple.png) repeat-x;*/
 }
 
 /* line 18, /Users/ryan/Documents/acquisition/node_modules/ion-rangeslider/css/ion.rangeSlider.skinSimple.css */
