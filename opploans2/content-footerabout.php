@@ -1,5 +1,5 @@
       <a class='hide' href='#footer' id='footer'></a>
-      <br>
+      <br />
       <div class='row bg-gray'>
         <div class='small-12 columns text-center'>
           <div class='menu-centered footerNavMenu'>
