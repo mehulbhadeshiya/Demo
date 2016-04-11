@@ -1452,18 +1452,43 @@ window.padLeft = function(str, max, prefix) {
   }
 };
 
+var setMastheadOverlayByScrollPosition = function() {
+  var scrollPosition = parseInt($('.position-sticky').offset().top)
+  var $sticky = $('.position-sticky')
+  var $masthead = $('.masthead')
+
+  if (!$masthead.hasClass('masthead--overlay--persist')) {
+    if (scrollPosition < 1) {
+      $masthead.removeClass('masthead--overlay')
+    } else {
+      $masthead.addClass('masthead--overlay')
+    }
+  }
+}
+
 $(window).on('load', function() {
   new Placeholder('img.placeholder');
+
   $('.position-sticky').Stickyfill();
+
+  // Toggle the shading behind the masthead based on scroll position.
+  // Make sure the correct class is assigned if the page is not at the top.
+  setMastheadOverlayByScrollPosition()
+
   $(window).on('scroll', function(evt) {
-    var className;
-    className = 'position-sticky--scroll';
-    $('.position-sticky').addClass(className);
+    var className = 'position-sticky--scroll';
+    var $sticky = $('.position-sticky')
+
+    // Toggle the shading behind the masthead based on scroll position
+    setMastheadOverlayByScrollPosition()
+
+    $sticky.addClass(className);
     clearTimeout($.data(this, 'scrollTimer'));
     return $.data(this, 'scrollTimer', setTimeout((function() {
-      return $('.position-sticky').removeClass(className);
+      return $sticky.removeClass(className);
     }), 250));
   });
+
   if (typeof Raven !== "undefined" && Raven !== null) {
     return Raven.config('https://39e079442ca343a4b7a9b8da304fc499@app.getsentry.com/66615').install();
   }
