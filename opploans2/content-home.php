@@ -1,3 +1,4 @@
+  <div class=page--wrap>
     <a class='hide' href='#header' id='header'></a>
       <div class='row background-float'>
         <div class='small-12 medium-12 small-centered columns text-center'>
@@ -25,7 +26,9 @@
           </div>
         </div>
       </div>
-      <div class='bg-gray'>
+    </div>
+    <div class='bg-gray'>
+      <div class=page--wrap>
         <div class='customer-rating weight-400' data-alt-display='true' data-rating='4.9'>
           <span>
             <strong>
@@ -35,6 +38,8 @@
           </span>
         </div>
       </div>
+    </div>
+    <div class=page--wrap>
       <div class='row collapse'>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
@@ -85,9 +90,6 @@
           </div>
         </div>
       </div>
-
-      <br>
-
       <div class='grid'>
         <div class='grid__item'>
           <div class='flex-image' style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/manlookingup.png')"></div>
@@ -153,3 +155,4 @@
           affect your credit score!
         </h6>
       </div>
+    </div>

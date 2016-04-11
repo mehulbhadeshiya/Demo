@@ -5,6 +5,11 @@ html, html body {
   backface-visibility: hidden;
 }
 
+.page--wrap {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 .notification, form small.error, form small.valid {
   -webkit-animation: bounce 1s ease 0.1s 1 both;
   animation: bounce 1s ease 0.1s 1 both;
