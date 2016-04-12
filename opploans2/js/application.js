@@ -16122,7 +16122,8 @@ initializeToggleButton = function(fieldSelector) {
     return;
   }
   $toggleButtons = $(fieldSelector);
-  return $toggleButtons.on('click', function() {
+  return $toggleButtons.on('click', function(evt) {
+    evt.preventDefault()
     var $target, $this;
     $this = $(this);
     $target = $($this.data('target'));
