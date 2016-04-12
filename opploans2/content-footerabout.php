@@ -65,7 +65,7 @@
           </p>
           <p>
             <small>
-              *Approval may take longer if additional verification documents are requested. Not all loan requests are approved. Approval and loan terms based on credit determination and state law.
+              *Approval may take longer if additional verification documents are requested. Not all loan requests are approved. Approval and loan terms vary based on credit determination and state law. Applications processed and approved before 7:30 p.m. ET Monday—Friday are typically funded the next business day.
             </small>
           </p>
           <p>
