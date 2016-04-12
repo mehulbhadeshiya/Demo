@@ -10,6 +10,7 @@
   # need to split content/styles by homepage or all other pages
   $homepage_id = 2;
   $about_id = 17;
+  $faq_id = 8;
 ?>
 <html>
   <head>
@@ -58,6 +59,8 @@
       echo "<body data-context='engines#locomotive_index'>";
     } else if (get_the_ID() == $about_id) {
       echo "<body data-context='engines#locomotive_pages' class=about-us>";
+    } else if (get_the_ID() == $faq_id) {
+      echo "<body data-context='engines#locomotive_pages' class=faq>";
     } else {
       echo "<body data-context='engines#locomotive_pages'>";
     }
@@ -75,6 +78,10 @@
       get_template_part('content', 'headerabout');
       get_template_part('content', 'about');
       get_template_part('content', 'footerabout');
+    } elseif (get_the_ID() == $faq_id) {
+      get_template_part('content', 'headerfaq');
+      get_template_part('content', 'faq');
+      get_template_part('content', 'footerfaq');
     } else {
       if (have_posts()) : while (have_posts()) : the_post();
         get_template_part('content', 'header');
