@@ -8,7 +8,7 @@ $pagePath = substr($pagePath, 1, -1);//remove slashes
   <?php if ($pagePath == '') { ?>
   <div class="masthead">
   <?php } else { ?>
-  <div class="masthead masthead--overlay">
+  <div class="masthead masthead--overlay masthead--overlay--persist">
   <?php } ?>
     <div class="masthead-left">
       <a alt-text="Opportunity Loans: A better personal loan" class="logo" href="/">

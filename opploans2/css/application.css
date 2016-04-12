@@ -9482,16 +9482,10 @@ body #main {
 
 /* line 152, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
 .position-sticky {
-  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
   z-index: 6;
-}
-
-@media screen and (max-width: 47.4375em) {
-  /* line 162, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
-  .position-sticky--scroll {
-    opacity: 0 !important;
-  }
 }
 
 /* line 169, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
@@ -10649,14 +10643,19 @@ body.about-us[data-context*=locomotive] .grid__item {
   height: 5rem;
   padding: 0.71429rem 0.42857rem 0px 0;
   z-index: 10;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
 }
 
-/* line 8, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
 .masthead--overlay {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
-  opacity: 0.85;
-  background-color: #151e34;
+  background-color: rgba(21, 30, 52, 0.85);
   z-index: 6;
+}
+
+@media screen and (max-width: 47.4375em) {
+  .position-sticky--scroll .masthead {
+    opacity: 0 !important;
+  }
 }
 
 /* line 14, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
