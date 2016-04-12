@@ -11,6 +11,7 @@
   $homepage_id = 2;
   $about_id = 17;
   $blog_id = 10;
+  $faq_id = 8;
 ?>
 <html>
   <head>
@@ -61,6 +62,8 @@
       echo "<body data-context='engines#locomotive_pages' class=about-us>";
     } else if (get_the_ID() == $blog_id) {
       echo "<body data-context='engines#locomotive_pages' class=blog>";
+    } else if (get_the_ID() == $faq_id) {
+      echo "<body data-context='engines#locomotive_pages' class=faq>";
     } else {
       echo "<body data-context='engines#locomotive_pages'>";
     }
@@ -78,10 +81,17 @@
       get_template_part('content', 'headerabout');
       get_template_part('content', 'about');
       get_template_part('content', 'footerabout');
+
     } elseif (get_the_ID() == $blog_id) {
       get_template_part('content', 'headerblog');
       get_template_part('content', 'blog');
       get_template_part('content', 'footerblog');
+
+    } elseif (get_the_ID() == $faq_id) {
+      get_template_part('content', 'headerfaq');
+      get_template_part('content', 'faq');
+      get_template_part('content', 'footerfaq');
+
     } else {
       if (have_posts()) : while (have_posts()) : the_post();
         get_template_part('content', 'header');
