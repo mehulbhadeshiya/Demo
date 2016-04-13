@@ -23,15 +23,15 @@
     <div class='menu-centered footer-nav'>
       <ul class='menu'>
         <li class='contact-us'>
-          <a href="/licenses"><h6>Rates & Terms</h6>
+          <a href="/licenses/"><h6>Rates & Terms</h6>
           </a>
         </li>
         <li class='about-us'>
-          <a href="/rates-terms"><h6>State Guides</h6>
+          <a href="/rates-terms/"><h6>State Guides</h6>
           </a>
         </li>
         <li class='contact-us'>
-          <a href="/contact-us"><h6>Contact Us</h6>
+          <a href="/contact-us/"><h6>Contact Us</h6>
           </a>
         </li>
       </ul>
