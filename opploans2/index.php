@@ -10,8 +10,8 @@
   # need to split content/styles by homepage or all other pages
   $homepage_id = 2;
   $about_id = 17;
-  $blog_id = 10;
-  $faq_id = 8;
+  $blog_id = 5;
+  $faq_id = 19;
 ?>
 <html>
   <head>
