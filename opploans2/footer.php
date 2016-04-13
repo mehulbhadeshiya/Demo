@@ -25,15 +25,15 @@
             <div class='menu-centered footer-nav'>
               <ul class='menu'>
                 <li class='contact-us'>
-                  <a href="/licenses"><h6>Rates & Terms</h6>
+                  <a href="/licenses/"><h6>Rates & Terms</h6>
                   </a>
                 </li>
                 <li class='about-us'>
-                  <a href="/rates-terms"><h6>State Guides</h6>
+                  <a href="/rates-terms/"><h6>State Guides</h6>
                   </a>
                 </li>
                 <li class='contact-us'>
-                  <a href="/contact-us"><h6>Contact Us</h6>
+                  <a href="/contact-us/"><h6>Contact Us</h6>
                   </a>
                 </li>
               </ul>
@@ -62,10 +62,10 @@
                 &copy; 2016 Opportunity Financial, LLC.
                 All Rights Reserved.
                 Use of Opportunity Financial, LLC is subject to our
-                <a href='/licenses/terms-of-use'>Terms of Use,</a>
-                <a href='/privacy-policy'>Privacy Policy,</a>
+                <a href='/licenses/terms-of-use/'>Terms of Use,</a>
+                <a href='/privacy-policy/'>Privacy Policy,</a>
                 and
-                <a href='/licenses'>Licenses.</a>
+                <a href='/licenses/'>Licenses.</a>
               </small>
             </p>
             <p>
