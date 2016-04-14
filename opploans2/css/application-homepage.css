@@ -6131,16 +6131,20 @@ code.language-coffeescript::after {
           flex-grow: 1;
   /* This is purely to accomodate the hero images on the home page */
 }
-@media screen and (min-width: 47.5em) {
-  /* line 17, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_grid.scss */
-  .grid__item {
-    min-height: 450px;
-  }
-}
-@media screen and (max-width: 47.4375em) {
+@media screen and (max-width: 26em) {
   /* line 17, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_grid.scss */
   .grid__item {
     min-height: 17.85714286rem;
+  }
+}
+
+/*
+ * Account for landscaped iPhone
+ */
+@media screen and (min-width: 26em) and (max-width: 47.4375em) {
+  /* line 17, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_grid.scss */
+  .grid__item {
+    min-height: 28rem;
   }
 }
 
