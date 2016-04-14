@@ -8511,6 +8511,17 @@ body #main {
   }
 }
 
+@media screen and (min-width: 110em) {
+  [data-context$=locomotive_index] body.loaded #main-bg {
+    background-color: #343741;
+    background-size: 75%;
+  }
+
+  [data-context$=locomotive_index] body.loaded #main-bg .bureau-badge {
+    right: 13%;
+  }
+}
+
 :not([data-context*='engines#']) body.loaded {
   background: #ebebeb;
 }
