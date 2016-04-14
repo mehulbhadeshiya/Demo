@@ -24,26 +24,7 @@
       ob_end_clean();
 
       echo substr($head, 0, strpos($head, "<script"));
-    ?>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery_ujs.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/foundation.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/underscore.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/async.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/raphael.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/raphael-svg-import.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/holder.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/stickyfill.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bounce.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-slimscroll.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/icheck.min.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/imagesloaded.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/hideShowPassword.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-inputmask.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-verticalcenter.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-overlaps.js"></script>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/application.js"></script>
-    <?php
+
       echo '<link rel="stylesheet" type="text/css" href="' . get_stylesheet_uri() . '" />';
 
       if (get_the_ID() == $homepage_id) {
@@ -52,7 +33,6 @@
         echo '<link rel="stylesheet" type="text/css" href="' . get_template_directory_uri() . '/css/application.css" />';
       }
     ?>
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-validate.js"></script>
   </head>
 
   <?php
@@ -108,5 +88,11 @@
     <div id='main-bg'>
       <img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png'>
     </div>
+
+  <?php
+    show_admin_bar(false);
+    wp_enqueue_script('application_runner');
+    wp_footer();
+  ?>
   </body>
 </html>
