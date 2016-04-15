@@ -16,8 +16,7 @@ function register_opploans_scripts() {
     $all_scripts = array(
         'my-jquery', 'foundation','underscore', 'stickyfill',
         'jquery-verticalcenter', 'jquery-overlaps', 'jquery-slimscroll',
-        'jquery-ion.rangeslider', 'camelize', 'slider', 'shims',
-        'imagesloaded', 'raphael', 'raphael-svg-import',
+        'jquery-ion.rangeslider', 'camelize', 'slider', 'shims', 'imagesloaded',
         'collision_detector', 'background_floater', 'customer_rating'
     );
 
