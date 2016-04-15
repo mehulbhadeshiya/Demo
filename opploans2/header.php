@@ -32,7 +32,7 @@ $pagePath = substr($pagePath, 1, -1);//remove slashes
               <a href="/blog/">Blog</a>
             </li>
             <li class="navigation__item">
-              <a href="https://www.opploans-app.com/MemberPage.aspx?subpage=customerLogin">Sign In</a>
+              <a href="https://www.opploans-app.com/myaccount.aspx?">Sign In</a>
             </li>
             <li class="navigation__item button hollow apply-now">
               <a href="/registrations/step1">Apply Now</a>
