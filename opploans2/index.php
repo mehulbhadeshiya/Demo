@@ -25,13 +25,7 @@
 
       echo substr($head, 0, strpos($head, "<script"));
 
-      echo '<link rel="stylesheet" type="text/css" href="' . get_stylesheet_uri() . '" />';
-
-      if (get_the_ID() == $homepage_id) {
-        echo '<link rel="stylesheet" type="text/css" href="' . get_template_directory_uri() . '/css/application-homepage.css" />';
-      } else {
-        echo '<link rel="stylesheet" type="text/css" href="' . get_template_directory_uri() . '/css/application.css" />';
-      }
+      wp_print_styles('masthead');
     ?>
   </head>
 
@@ -49,7 +43,11 @@
     }
   ?>
 
-    <div id='main'>
+    <div id='main-bg' class='fade-in-on-load'>
+      <img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png'>
+    </div>
+
+    <div id='main' class='fade-in-on-load'>
 
   <?php
     get_header();
@@ -83,13 +81,17 @@
       endwhile; endif;
     }
   ?>
-
-    </div>
-    <div id='main-bg'>
-      <img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png'>
     </div>
 
   <?php
+    if (get_the_ID() == $homepage_id) {
+        wp_print_styles('application-homepage');
+    } else {
+        wp_print_styles('application');
+    }
+
+    echo '<link rel="stylesheet" type="text/css" href="' . get_stylesheet_uri() . '" />';
+
     show_admin_bar(false);
     wp_enqueue_script('application_runner');
     wp_footer();

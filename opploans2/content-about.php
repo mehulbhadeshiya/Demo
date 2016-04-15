@@ -3,27 +3,27 @@
     <div class='about-us__highlight mt pt'>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_FastFunding.svg" />
     </div>
-    <h5 class=mt>Faster Funding</h5>
-    <h6>Get approved today and receive money in your bank accout as soon as the next business day!*</h6>
+    <h5 class=mt>Fast funding.</h5>
+    <h6>Get approved today and receive money in your bank account as soon as the next business day!*</h6>
   </div>
   <div class='grid__item small-block text-center'>
     <div class='about-us__highlight mt'>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_LowInterest.svg" />
     </div>
-    <h5 class=mt>Lower Interest.</h5>
+    <h5 class=mt>Lower interest.</h5>
     <h6>Never be subject to payday fees, low loan amounts and rigid deadlines. OppLoans offers longer terms, higher loan amounts and APRs as much as 125% lower than payday lenders.</h6>
   </div>
   <div class='grid__item small-block text-center'>
     <div class='about-us__highlight mt pt'>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_CaringService.svg" />
     </div>
-    <h5 class=mt>More Personal.</h5>
+    <h5 class=mt>More personal.</h5>
     <h6>OppLoans' highly-trained Loan Advocates combine amazing <em>human</em> customer service with our easy online application to deliver the money you need now!</h6>
   </div>
 </div>
 
 <div class=about-us__compare>
-  <h5 class="text-center">Just Right Rates.</h5>
+  <h5 class="text-center">Just right rates.</h5>
   <div class="grid grid--transparent">
     <div class="grid__item text-center">
       <h5 class='mb0 bold'>Credit Cards</h5>
@@ -161,7 +161,7 @@
 </div>
 
 <div class='box text-center'>
-  <h5 class='weight-300'>You Deserve Better than a Payday Loan.</h5>
+  <h5 class='weight-300'>You deserve better than a payday loan.</h5>
   <div class=mh>
     <a class='apply-now button' href='/registrations/step1'>Apply Online</a>
    </div>
