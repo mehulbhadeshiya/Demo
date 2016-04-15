@@ -9411,7 +9411,7 @@ body #main {
 
 /* line 85, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
 [data-context*=locomotive]:not([data-context$=locomotive_index]) #main-bg {
-  height: 360px !important;
+  height: 390px !important;
   left: 0;
   position: absolute;
   top: 0;
