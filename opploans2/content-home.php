@@ -51,8 +51,14 @@
                 <div class='review-header'>
                   <strong>"I used my personal loan to get my rent in on time." - Mel</strong>
                 </div>
-                <div class='review-footer'>LOS ANGELES, CA | $1,000 OPPLOAN</div>
-                <div class='customer-rating google' data-alt-display='true' data-rating='4.9'></div>
+                <div class='review-footer'>
+                  <p class=mb0>LOS ANGELES, CA | $1,000 OPPLOAN</p>
+                  <div class=stars>
+                    <div></div>
+                    <div style='width: 96%'></div>
+                  </div>
+                  <img src='<?php echo get_template_directory_uri(); ?>/images/google.png' alt='Google Customer Review' width=45 height=16 />
+                </div>
               </div>
             </a>
           </div>
@@ -67,8 +73,14 @@
                 <div class='review-header'>
                   <strong>"I was able to use my installment loan to fix my car!" - Jose</strong>
                 </div>
-                <div class='review-footer'>CHICAGO, IL | $2,000 OPPLOAN</div>
-                <div class='customer-rating facebook' data-alt-display='true' data-rating='4.9'></div>
+                <div class='review-footer'>
+                  <p class=mb0>CHICAGO, IL | $2,000 OPPLOAN</p>
+                  <div class=stars>
+                    <div></div>
+                    <div style='width: 96%'></div>
+                  </div>
+                  <img src='<?php echo get_template_directory_uri(); ?>/images/facebook.png' alt='Facebook Customer Review' width=58 height=12 />
+                </div>
               </div>
             </a>
           </div>
@@ -83,8 +95,14 @@
                 <div class='review-header'>
                   <strong>"My loan helped me cover an unforeseen medical emergency!" - Julie</strong>
                 </div>
-                <div class='review-footer'>MADISON, WI | $1,600 OPPLOAN</div>
-                <div class='customer-rating google' data-alt-display='true' data-rating='4.9'></div>
+                <div class='review-footer'>
+                  <p class=mb0>MADISON, WI | $1,600 OPPLOAN</p>
+                  <div class=stars>
+                    <div></div>
+                    <div style='width: 96%'></div>
+                  </div>
+                  <img src='<?php echo get_template_directory_uri(); ?>/images/google.png' alt='Google Customer Review' width=45 height=16 />
+                </div>
               </a>
             </div>
           </div>
