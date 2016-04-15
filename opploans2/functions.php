@@ -39,6 +39,7 @@ function register_opploans_styles() {
         'application',
         'boostrap',
         'font-awesome',
+        'icons',
         'modern-business'
     );
 

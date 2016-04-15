@@ -3,11 +3,14 @@
     <a class='hide' href='#header' id='header'></a>
       <div class='row background-float'>
         <div class='small-12 medium-12 small-centered columns text-center'>
-          <h3 class='main-copy-1 weight-400'>You deserve better than a payday loan.</h3>
-          <h4 class='main-copy-2 weight-400'>
-            <span class='wrap'>Fast funding. Lower interest.</span>
-            <span class='wrap'>More personal.</span>
-          </h4>
+          <div class='slide-down-on-load'>
+            <h3 class='main-copy-1 weight-400'>You deserve better than a payday loan.</h3>
+            <h4 class='main-copy-2 weight-400'>
+              <span class='wrap'>Fast funding. Lower interest.</span>
+              <span class='wrap'>More personal.</span>
+            </h4>
+          </div>
+
           <div class='box text-center'>
             <div class='slider'>
               <input data-options='
@@ -178,4 +181,3 @@
       </div>
     </div>
 </div>
-

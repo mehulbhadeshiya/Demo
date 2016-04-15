@@ -90,6 +90,7 @@
         wp_print_styles('application');
     }
 
+    wp_print_styles('icons');
     echo '<link rel="stylesheet" type="text/css" href="' . get_stylesheet_uri() . '" />';
 
     show_admin_bar(false);
