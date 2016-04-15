@@ -29,7 +29,7 @@
                 </a>
               </li>
               <li>
-                <a href="/faqs/"><h6>FAQ</h6>
+                <a href="/faq/"><h6>FAQ</h6>
                 </a>
               </li>
               <li>

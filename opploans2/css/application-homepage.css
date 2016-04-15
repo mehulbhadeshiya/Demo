@@ -10,72 +10,6 @@ html, html body {
   max-width: 1200px;
 }
 
-.notification, form small.error, form small.valid {
-  -webkit-animation: bounce 1s ease 0.1s 1 both;
-  animation: bounce 1s ease 0.1s 1 both;
-}
-@-webkit-keyframes bounce {
-  0%, 5% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    visibility: hidden;
-  }
-  15%, 40%, 70%, 90%, 97%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  30% {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  50% {
-    -webkit-transform: translateY(-30%);
-    transform: translateY(-30%);
-  }
-  80% {
-    -webkit-transform: translateY(-15%);
-    transform: translateY(-15%);
-  }
-  95% {
-    -webkit-transform: translateY(-10%);
-    transform: translateY(-10%);
-  }
-  99% {
-    -webkit-transform: translateY(-5%);
-    transform: translateY(-5%);
-  }
-}
-@keyframes bounce {
-  0%, 5% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    visibility: hidden;
-  }
-  15%, 40%, 70%, 90%, 97%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  30% {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  50% {
-    -webkit-transform: translateY(-30%);
-    transform: translateY(-30%);
-  }
-  80% {
-    -webkit-transform: translateY(-15%);
-    transform: translateY(-15%);
-  }
-  95% {
-    -webkit-transform: translateY(-10%);
-    transform: translateY(-10%);
-  }
-  99% {
-    -webkit-transform: translateY(-5%);
-    transform: translateY(-5%);
-  }
-}
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
@@ -194,102 +128,12 @@ html, html body {
   font-weight: normal; font-weight: 400;
   font-style: normal;
 }
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-IndieFlower-400-normal {
-  font-family: "Indie Flower";
-  font-style: normal;
-  font-weight: 400;
-}
 
 @font-face {
   font-family: "Museo";
   src: url(../fonts/Museo300-Regular.eot) format('embedded-opentype'), url(../fonts/Museo300-Regular.eot?#Museo300-Regular) format('embedded-opentype'), url(../fonts/Museo300-Regular.woff) format('woff'), url(../fonts/Museo300-Regular.woff2) format('woff2'), url(../fonts/Museo300-Regular.ttf) format('truetype'), url(../fonts/Museo300-Regular.svg) format('svg'), url(../fonts/Museo300-Regular.svg#Museo300-Regular) format('svg');
   font-weight: 300;
   font-style: normal;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-Museo-300-normal {
-  font-family: "Museo";
-  font-style: normal;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Museo";
-  src: url(/assets/Museo500-Regular-e6e5c7c9b430acce533972140999378a6633f994a803576968800c26a770956f.eot) format('embedded-opentype'), url(/assets/Museo500-Regular-e6e5c7c9b430acce533972140999378a6633f994a803576968800c26a770956f.eot?#Museo500-Regular) format('embedded-opentype'), url(/assets/Museo500-Regular-9a948973f0de10056b4882c07bc43e55c6eadc222772cb402928be629702e236.woff) format('woff'), url(/assets/Museo500-Regular-42b4138be5434839c1316e4d27bcaeaeb103542086959746934cd971d0647326.woff2) format('woff2'), url(/assets/Museo500-Regular-3b3cb3ec7e895ff397f93e14b11b68bb512ce1878c2176ca69d66a89c3a1c87a.ttf) format('truetype'), url(/assets/Museo500-Regular-374b8e301ff3949405ed550b8777f8b01bdabc83d8ed1d46c828b1ce76626dfb.svg) format('svg'), url(/assets/Museo500-Regular-374b8e301ff3949405ed550b8777f8b01bdabc83d8ed1d46c828b1ce76626dfb.svg#Museo500-Regular) format('svg');
-  font-weight: 500;
-  font-style: normal;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-Museo-500-normal {
-  font-family: "Museo";
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Museo";
-  src: url(/assets/Museo700-Regular-8d0b0695951b3e31b144d21656cb64b0a6761a102a3eaadca13aa93b26e15d87.eot) format('embedded-opentype'), url(/assets/Museo700-Regular-8d0b0695951b3e31b144d21656cb64b0a6761a102a3eaadca13aa93b26e15d87.eot?#Museo700-Regular) format('embedded-opentype'), url(/assets/Museo700-Regular-2704a01f20ed6fe631b5aa4baaa5300823bcddbe7d8f35c43edad1f86aff05db.woff) format('woff'), url(/assets/Museo700-Regular-aaa00f4a0c847adfc87f8b3e59fc6ea8cf8faacd9d8c56ee5a689593faaf9414.woff2) format('woff2'), url(/assets/Museo700-Regular-5e242d6933eb8c111ec28fb70863ff6888cc1d3a2fd92afe4d58395781ac0457.ttf) format('truetype'), url(/assets/Museo700-Regular-f61025e0b200e8c2f74517479230ed58d81533c6b32b3b7151f0c6c82f976063.svg) format('svg'), url(/assets/Museo700-Regular-f61025e0b200e8c2f74517479230ed58d81533c6b32b3b7151f0c6c82f976063.svg#Museo700-Regular) format('svg');
-  font-weight: 700;
-  font-style: normal;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-Museo-700-normal {
-  font-family: "Museo";
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Open Sans Condensed";
-  src: url(/assets/OpenSansCondensed300-Italic-48b5a0680ee781d668462dc63afe3228781871303917506bbe3a07406e3142a0.eot) format('embedded-opentype'), url(/assets/OpenSansCondensed300-Italic-48b5a0680ee781d668462dc63afe3228781871303917506bbe3a07406e3142a0.eot?#OpenSansCondensed300-Italic) format('embedded-opentype'), url(/assets/OpenSansCondensed300-Italic-cc18daca339b4531d5e7f7d1ccc69d1f620187aaadadca186d63e7076337e0de.woff) format('woff'), url(/assets/OpenSansCondensed300-Italic-fc65e4610836688bd7cf49b9d7fb49243ee6e2f90e7b07e72dc9047bc6f590d5.woff2) format('woff2'), url(/assets/OpenSansCondensed300-Italic-61a8b83ab05126025819251bd6a83bfd609f0cc3ccab8f2c0dec493bd85912a2.ttf) format('truetype'), url(/assets/OpenSansCondensed300-Italic-f545e321125f4770e17091edd3f4b297d7a47c5537347e01e58c673908f43cf1.svg) format('svg'), url(/assets/OpenSansCondensed300-Italic-f545e321125f4770e17091edd3f4b297d7a47c5537347e01e58c673908f43cf1.svg#OpenSansCondensed300-Italic) format('svg');
-  font-weight: 300;
-  font-style: italic;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSansCondensed-300-italic {
-  font-family: "Open Sans Condensed";
-  font-style: italic;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Open Sans Condensed";
-  src: url(/assets/OpenSansCondensed300-Regular-ff850a28fe0606ad1f992ef948790d2bfa7673fd429437831908d80bc0a29973.eot) format('embedded-opentype'), url(/assets/OpenSansCondensed300-Regular-ff850a28fe0606ad1f992ef948790d2bfa7673fd429437831908d80bc0a29973.eot?#OpenSansCondensed300-Regular) format('embedded-opentype'), url(/assets/OpenSansCondensed300-Regular-9483c21f75f1191fb66c15d0a6ee3d8876a38b182a0b70f7a4bc86e11440553f.woff) format('woff'), url(/assets/OpenSansCondensed300-Regular-309dacd97f44247c2a91eacd40a15e47b87316dd4cf73dc34e8a23cce4bc54ad.woff2) format('woff2'), url(/assets/OpenSansCondensed300-Regular-15217a0ed363f176fba38bd4cab68b801f013cbf20bdb6f0a1889b361a580f3f.ttf) format('truetype'), url(/assets/OpenSansCondensed300-Regular-d82d9b436bd070dbb413f360fbc062bc34062307ed2541149707cd913a3eb751.svg) format('svg'), url(/assets/OpenSansCondensed300-Regular-d82d9b436bd070dbb413f360fbc062bc34062307ed2541149707cd913a3eb751.svg#OpenSansCondensed300-Regular) format('svg');
-  font-weight: 300;
-  font-style: normal;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSansCondensed-300-normal {
-  font-family: "Open Sans Condensed";
-  font-style: normal;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Open Sans Condensed";
-  src: url(/assets/OpenSansCondensed700-Regular-79f68c6b690513dab9dd635c645f93388bbe53149e60e8e1ba65197cb6fe9280.eot) format('embedded-opentype'), url(/assets/OpenSansCondensed700-Regular-79f68c6b690513dab9dd635c645f93388bbe53149e60e8e1ba65197cb6fe9280.eot?#OpenSansCondensed700-Regular) format('embedded-opentype'), url(/assets/OpenSansCondensed700-Regular-eb9e9c0ba5c260485ef34d3a1e7136671c60143acecb6208bb2e22b39ebfb5e9.woff) format('woff'), url(/assets/OpenSansCondensed700-Regular-e2fb6f1c77e1c0ff17daf486eb1416c67c33d1afc73e0916dd714e71ed3569f6.woff2) format('woff2'), url(/assets/OpenSansCondensed700-Regular-ba5e86b0674812e8ebc50041cee24e902373e8e0b5e9f917e69b89718e3b302e.ttf) format('truetype'), url(/assets/OpenSansCondensed700-Regular-767b20ff1c6156110c56c61b4fa05bd0bf1e38ac22b87a7bde63ffe3b5300847.svg) format('svg'), url(/assets/OpenSansCondensed700-Regular-767b20ff1c6156110c56c61b4fa05bd0bf1e38ac22b87a7bde63ffe3b5300847.svg#OpenSansCondensed700-Regular) format('svg');
-  font-weight: 700;
-  font-style: normal;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSansCondensed-700-normal {
-  font-family: "Open Sans Condensed";
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src: url(/assets/OpenSans300-Italic-a2f7c64eb66eae43e23685d54b11a0504e3e03df44e942b5b49a9f8e6d38a935.eot) format('embedded-opentype'), url(/assets/OpenSans300-Italic-a2f7c64eb66eae43e23685d54b11a0504e3e03df44e942b5b49a9f8e6d38a935.eot?#OpenSans300-Italic) format('embedded-opentype'), url(/assets/OpenSans300-Italic-b862025a53e46f6d19d54b6c97a14f80735df1b4bd35a7dbc6cc5e5ddc597175.woff) format('woff'), url(/assets/OpenSans300-Italic-7afc5c64c1da1ef0089b4736df083a58961a907693ebfa7e7d2949b8c9b104f8.woff2) format('woff2'), url(/assets/OpenSans300-Italic-6f4203c7bdc47b73c534580ec7ead6502d9ad145eb48d015969df40a0898a91e.ttf) format('truetype'), url(/assets/OpenSans300-Italic-7b5713d967fb9f6c81932804c482afc9ac0f7fa5dbe0bdc78cc933be70bcb43e.svg) format('svg'), url(/assets/OpenSans300-Italic-7b5713d967fb9f6c81932804c482afc9ac0f7fa5dbe0bdc78cc933be70bcb43e.svg#OpenSans300-Italic) format('svg');
-  font-weight: 300;
-  font-style: italic;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSans-300-italic {
-  font-family: "Open Sans";
-  font-style: italic;
-  font-weight: 300;
 }
 
 @font-face {
@@ -298,50 +142,12 @@ html, html body {
   font-weight: 300;
   font-style: normal;
 }
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSans-300-normal {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src: url(/assets/OpenSans400-Italic-f9664b87541a003580035c187f49c3d9dc46c421608d1d060e8f76d8212e5b7a.eot) format('embedded-opentype'), url(/assets/OpenSans400-Italic-f9664b87541a003580035c187f49c3d9dc46c421608d1d060e8f76d8212e5b7a.eot?#OpenSans400-Italic) format('embedded-opentype'), url(/assets/OpenSans400-Italic-ee33c10eb9eb2f970891df183eb36f6400fadbbbfa49d70313096a233f144a92.woff) format('woff'), url(/assets/OpenSans400-Italic-9675578cba5db16c88cb90ddacf322b68cfabc949433e6edac21954de396788c.woff2) format('woff2'), url(/assets/OpenSans400-Italic-7df9c1434189c8ee06c5a01299b59bd44b2b8439b32ffcb80494984c5d8fa6a7.ttf) format('truetype'), url(/assets/OpenSans400-Italic-7c9bb9f9c0aa78d9d3b99eaaac298e559afce91b0225f948003a6106f810d782.svg) format('svg'), url(/assets/OpenSans400-Italic-7c9bb9f9c0aa78d9d3b99eaaac298e559afce91b0225f948003a6106f810d782.svg#OpenSans400-Italic) format('svg');
-  font-weight: normal; font-weight: 400;
-  font-style: italic;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSans-400-italic {
-  font-family: "Open Sans";
-  font-style: italic;
-  font-weight: 400;
-}
 
 @font-face {
   font-family: "Open Sans";
   src: url(../fonts/OpenSans400-Regular.eot) format('embedded-opentype'), url(../fonts/OpenSans400-Regular.eot?#OpenSans400-Regular) format('embedded-opentype'), url(../fonts/OpenSans400-Regular.woff) format('woff'), url(../fonts/OpenSans400-Regular.woff2) format('woff2'), url(../fonts/OpenSans400-Regular.ttf) format('truetype'), url(../fonts/OpenSans400-Regular.svg) format('svg'), url(../fonts/OpenSans400-Regular.svg#OpenSans400-Regular) format('svg');
   font-weight: normal; font-weight: 400;
   font-style: normal;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSans-400-normal {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src: url(/assets/OpenSans600-Italic-31e2607cec57dc83c264c3a60711a5aa65656cca99783e7b4cee207347e38822.eot) format('embedded-opentype'), url(/assets/OpenSans600-Italic-31e2607cec57dc83c264c3a60711a5aa65656cca99783e7b4cee207347e38822.eot?#OpenSans600-Italic) format('embedded-opentype'), url(/assets/OpenSans600-Italic-57edb542af8434d4634b35f8cfc1f71f8631653d1f2bbaf5b6ba75d6ae5c3a62.woff) format('woff'), url(/assets/OpenSans600-Italic-50660d22f19e2eae8c5829b7952e6825c0e7bee8a772abab34ba60e8cb345591.woff2) format('woff2'), url(/assets/OpenSans600-Italic-cec9499d2702af207339635e5aa3ef3092d2c5420ec1b36ddab52f853c39b79b.ttf) format('truetype'), url(/assets/OpenSans600-Italic-8d7fd3261c4806d69c4a2ef8bdbdc393e8aaacfae531541d36897d6a43dce1da.svg) format('svg'), url(/assets/OpenSans600-Italic-8d7fd3261c4806d69c4a2ef8bdbdc393e8aaacfae531541d36897d6a43dce1da.svg#OpenSans600-Italic) format('svg');
-  font-weight: 600;
-  font-style: italic;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSans-600-italic {
-  font-family: "Open Sans";
-  font-style: italic;
-  font-weight: 600;
 }
 
 @font-face {
@@ -350,54 +156,12 @@ html, html body {
   font-weight: 600;
   font-style: normal;
 }
-.type-face-OpenSans-600-normal {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url(/assets/OpenSans700-Italic-e52e053f4261180c9ab66ed5a92251cac5322ae49bbb6acfdcca092dbf4bdc36.eot) format('embedded-opentype'), url(/assets/OpenSans700-Italic-e52e053f4261180c9ab66ed5a92251cac5322ae49bbb6acfdcca092dbf4bdc36.eot?#OpenSans700-Italic) format('embedded-opentype'), url(/assets/OpenSans700-Italic-6ff603250f1a902de54c938ba0b13e653f4bdfbf723982f788a6d9a3bc259384.woff) format('woff'), url(/assets/OpenSans700-Italic-4bfd49aaff3609a6143d8605d0e437dfff2809cd44f9f551529f0d7c9b0c3862.woff2) format('woff2'), url(/assets/OpenSans700-Italic-b727e73e0d99a7960583b67bd497e3e21363868f946a6f55c9dd4e9ccf307b1b.ttf) format('truetype'), url(/assets/OpenSans700-Italic-9924ae52490b1e3a5748e32a95184fb0f36d1ee7949afc8a982306900686c545.svg) format('svg'), url(/assets/OpenSans700-Italic-9924ae52490b1e3a5748e32a95184fb0f36d1ee7949afc8a982306900686c545.svg#OpenSans700-Italic) format('svg');
-  font-weight: 700;
-  font-style: italic;
-}
-.type-face-OpenSans-700-italic {
-  font-family: "Open Sans";
-  font-style: italic;
-  font-weight: 700;
-}
+
 @font-face {
   font-family: "Open Sans";
   src: url(../fonts/OpenSans700-Regular.eot) format('embedded-opentype'), url(../fonts/OpenSans700-Regular.eot?#OpenSans700-Regular) format('embedded-opentype'), url(../fonts/OpenSans700-Regular.woff) format('woff'), url(../fonts/OpenSans700-Regular.woff2) format('woff2'), url(../fonts/OpenSans700-Regular.ttf) format('truetype'), url(../fonts/OpenSans700-Regular.svg) format('svg'), url(../fonts/OpenSans700-Regular.svg#OpenSans700-Regular) format('svg');
   font-weight: 700;
   font-style: normal;
-}
-.type-face-OpenSans-700-normal {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url(/assets/OpenSans800-Italic-0c98964ae5a35f84cfb3a65f8d0e83919c3aeaaa2824e6c7c675343f7afa9bef.eot) format('embedded-opentype'), url(/assets/OpenSans800-Italic-0c98964ae5a35f84cfb3a65f8d0e83919c3aeaaa2824e6c7c675343f7afa9bef.eot?#OpenSans800-Italic) format('embedded-opentype'), url(/assets/OpenSans800-Italic-f11df83b5f0acafcdb6d785237ec40e906c561d162ce84eb61eeb0d4f2c1f4c6.woff) format('woff'), url(/assets/OpenSans800-Italic-2d7052febc812429d9bb803356f9c1e68ae72a97f60f434d0eaa7278cf8a2029.woff2) format('woff2'), url(/assets/OpenSans800-Italic-acc1564600669030cea5e0466600d6f495a66b16a8b9f56af8a8b178c512239b.ttf) format('truetype'), url(/assets/OpenSans800-Italic-5cb8853a2aae48795fe55497f1f2bd1d6eb14462c96a09f4a591945ccee7755a.svg) format('svg'), url(/assets/OpenSans800-Italic-5cb8853a2aae48795fe55497f1f2bd1d6eb14462c96a09f4a591945ccee7755a.svg#OpenSans800-Italic) format('svg');
-  font-weight: 800;
-  font-style: italic;
-}
-.type-face-OpenSans-800-italic {
-  font-family: "Open Sans";
-  font-style: italic;
-  font-weight: 800;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url(/assets/OpenSans800-Regular-2fe5373a368b34c7e44e7b45ac573156ac82815c912047e556030ab7d4f0d70b.eot) format('embedded-opentype'), url(/assets/OpenSans800-Regular-2fe5373a368b34c7e44e7b45ac573156ac82815c912047e556030ab7d4f0d70b.eot?#OpenSans800-Regular) format('embedded-opentype'), url(/assets/OpenSans800-Regular-e092cf739302b96202303334306e173387b47f006909e4098b6562e6ab81f094.woff) format('woff'), url(/assets/OpenSans800-Regular-18ca22c6ce14624b216bbbce07d7d9c5708a993d265fc628b0a4dcaf2049c354.woff2) format('woff2'), url(/assets/OpenSans800-Regular-98cedb6137397de527e0307781e3e834870019ddf6feae219945e38ad592fa4e.ttf) format('truetype'), url(/assets/OpenSans800-Regular-4b38860443d43045a26707dc4b8bb9602c192c021978095d8d26ffb69351d0b1.svg) format('svg'), url(/assets/OpenSans800-Regular-4b38860443d43045a26707dc4b8bb9602c192c021978095d8d26ffb69351d0b1.svg#OpenSans800-Regular) format('svg');
-  font-weight: 800;
-  font-style: normal;
-}
-.type-face-OpenSans-800-normal {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 800;
 }
 
 html {
@@ -2562,162 +2326,6 @@ select[multiple] {
   top: -0.1em;
 }
 
-/* line 94, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion.scss */
-.accordion {
-  list-style-type: none;
-  background: #fefefe;
-  border: 1px solid #ebebeb;
-  border-bottom: 0;
-  border-radius: 0.14285714rem;
-  margin-left: 0;
-}
-
-/* line 102, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion.scss */
-.accordion-title {
-  display: block;
-  padding: 1.25rem 1rem;
-  line-height: 1;
-  font-size: 0.85714286rem;
-  color: #5d9cec;
-  position: relative;
-  border-bottom: 1px solid #ebebeb;
-}
-/* line 65, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion.scss */
-.accordion-title:hover, .accordion-title:focus {
-  background-color: #ebebeb;
-}
-/* line 71, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion.scss */
-.accordion-title::before {
-  content: '+';
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  margin-top: -0.5rem;
-}
-/* line 79, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion.scss */
-.is-active > .accordion-title::before {
-  content: '–';
-}
-
-/* line 106, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion.scss */
-.accordion-content {
-  padding: 1rem;
-  display: none;
-  border-bottom: 1px solid #ebebeb;
-  background-color: #fefefe;
-}
-
-/* line 15, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion-menu.scss */
-.is-accordion-submenu-parent > a {
-  position: relative;
-}
-/* line 18, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion-menu.scss */
-.is-accordion-submenu-parent > a::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border: inset 6px;
-  border-color: #2199e8 transparent transparent;
-  border-top-style: solid;
-  border-bottom-width: 0;
-  position: absolute;
-  top: 50%;
-  margin-top: -4px;
-  right: 1rem;
-}
-
-/* line 27, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion-menu.scss */
-.is-accordion-submenu-parent[aria-expanded='true'] > a::after {
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
-  -webkit-transform: scaleY(-1);
-          transform: scaleY(-1);
-}
-
-/* line 40, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_badge.scss */
-.badge {
-  display: inline-block;
-  padding: 0.3em;
-  min-width: 2.1em;
-  font-size: 0.6rem;
-  text-align: center;
-  border-radius: 50%;
-  background: #5d9cec;
-  color: #0a0a0a;
-}
-/* line 48, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_badge.scss */
-.badge.secondary {
-  background: #777;
-  color: #fefefe;
-}
-/* line 48, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_badge.scss */
-.badge.success {
-  background: #3adb76;
-  color: #fefefe;
-}
-/* line 48, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_badge.scss */
-.badge.warning {
-  background: #ffae00;
-  color: #fefefe;
-}
-/* line 48, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_badge.scss */
-.badge.alert {
-  background: #ec5840;
-  color: #fefefe;
-}
-
-/* line 87, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
-.breadcrumbs {
-  list-style: none;
-  margin: 0 0 1rem 0;
-}
-/* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.breadcrumbs::before, .breadcrumbs::after {
-  content: ' ';
-  display: table;
-  -webkit-flex-basis: 0;
-      -ms-flex-preferred-size: 0;
-          flex-basis: 0;
-  -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
-}
-/* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.breadcrumbs::after {
-  clear: both;
-}
-/* line 48, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
-.breadcrumbs li {
-  float: left;
-  color: #0a0a0a;
-  font-size: 0.78571429rem;
-  cursor: default;
-  text-transform: uppercase;
-}
-/* line 62, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
-.breadcrumbs li:not(:last-child)::after {
-  color: #aeaeae;
-  content: "/";
-  margin: 0 0.75rem;
-  position: relative;
-  top: 1px;
-  opacity: 1;
-}
-/* line 77, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
-.breadcrumbs a {
-  color: #5d9cec;
-}
-/* line 80, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
-.breadcrumbs a:hover {
-  text-decoration: underline;
-}
-/* line 90, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
-.breadcrumbs .disabled {
-  color: #aeaeae;
-}
-
 /* line 140, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_button-group.scss */
 .button-group {
   margin-bottom: 1rem;
@@ -4787,183 +4395,6 @@ table.hover tr:nth-of-type(even):hover {
   box-shadow: 0 7px 0 #8a8a8a, 0 14px 0 #8a8a8a;
 }
 
-/* line 97, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_tooltip.scss */
-.has-tip {
-  border-bottom: dotted 1px #8a8a8a;
-  font-weight: 600;
-  position: relative;
-  display: inline-block;
-  cursor: help;
-}
-
-/* line 101, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_tooltip.scss */
-.tooltip {
-  background-color: #0a0a0a;
-  color: #fefefe;
-  font-size: 80%;
-  padding: 0.75rem;
-  position: absolute;
-  z-index: 10;
-  top: calc(100% + 0.6495rem);
-  max-width: 10rem !important;
-  border-radius: 0.14285714rem;
-}
-/* line 64, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_tooltip.scss */
-.tooltip::before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border: inset 0.75rem;
-  border-color: transparent transparent #0a0a0a;
-  border-bottom-style: solid;
-  border-top-width: 0;
-  bottom: 100%;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-/* line 72, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_tooltip.scss */
-.tooltip.top::before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border: inset 0.75rem;
-  border-color: #0a0a0a transparent transparent;
-  border-top-style: solid;
-  border-bottom-width: 0;
-  top: 100%;
-  bottom: auto;
-}
-/* line 78, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_tooltip.scss */
-.tooltip.left::before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border: inset 0.75rem;
-  border-color: transparent transparent transparent #0a0a0a;
-  border-left-style: solid;
-  border-right-width: 0;
-  bottom: auto;
-  left: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-/* line 86, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_tooltip.scss */
-.tooltip.right::before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border: inset 0.75rem;
-  border-color: transparent #0a0a0a transparent transparent;
-  border-right-style: solid;
-  border-left-width: 0;
-  bottom: auto;
-  left: auto;
-  right: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-/* line 119, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar {
-  padding: 0.5rem;
-}
-/* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.top-bar::before, .top-bar::after {
-  content: ' ';
-  display: table;
-  -webkit-flex-basis: 0;
-      -ms-flex-preferred-size: 0;
-          flex-basis: 0;
-  -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
-}
-/* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.top-bar::after {
-  clear: both;
-}
-/* line 47, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar,
-.top-bar ul {
-  background-color: transparent;
-}
-/* line 60, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar input, .top-bar .input.approximate_length label.collapse-left, .input.approximate_length .top-bar label.collapse-left {
-  width: 14.28571429rem;
-  margin-right: 1rem;
-}
-/* line 66, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar .input-group-field {
-  width: 100%;
-  margin-right: 0;
-}
-/* line 72, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar input.button, .top-bar .input.approximate_length label.button.collapse-left, .input.approximate_length .top-bar label.button.collapse-left {
-  width: auto;
-}
-
-@media screen and (max-width: 47.4375em) {
-  /* line 91, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-  .stacked-for-small .top-bar-left,
-  .stacked-for-small .top-bar-right {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 66.1875em) {
-  /* line 91, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-  .stacked-for-medium .top-bar-left,
-  .stacked-for-medium .top-bar-right {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 74.9375em) {
-  /* line 91, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-  .stacked-for-large .top-bar-left,
-  .stacked-for-large .top-bar-right {
-    width: 100%;
-  }
-}
-
-/* line 91, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar-left,
-.top-bar-right {
-  width: 100%;
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 110, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-  .top-bar-left,
-  .top-bar-right {
-    width: auto;
-  }
-}
-/* line 152, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar-title {
-  float: left;
-  margin-right: 1rem;
-}
-
-/* line 158, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar-left {
-  float: left;
-}
-
-/* line 162, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar-right {
-  float: right;
-}
-
 /* line 61, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
 .hide {
   display: none !important;
@@ -4972,135 +4403,6 @@ table.hover tr:nth-of-type(even):hover {
 /* line 65, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
 .invisible {
   visibility: hidden;
-}
-
-@media screen and (max-width: 47.4375em) {
-  /* line 81, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-small-only {
-    display: none !important;
-  }
-}
-
-@media screen and (max-width: 0em), screen and (min-width: 47.5em) {
-  /* line 85, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-small-only {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 72, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-medium {
-    display: none !important;
-  }
-}
-
-@media screen and (max-width: 47.4375em) {
-  /* line 76, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-medium {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 47.5em) and (max-width: 66.1875em) {
-  /* line 81, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-medium-only {
-    display: none !important;
-  }
-}
-
-@media screen and (max-width: 47.4375em), screen and (min-width: 66.25em) {
-  /* line 85, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-medium-only {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 66.25em) {
-  /* line 72, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-large {
-    display: none !important;
-  }
-}
-
-@media screen and (max-width: 66.1875em) {
-  /* line 76, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-large {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 66.25em) and (max-width: 74.9375em) {
-  /* line 81, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-large-only {
-    display: none !important;
-  }
-}
-
-@media screen and (max-width: 66.1875em), screen and (min-width: 75em) {
-  /* line 85, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-large-only {
-    display: none !important;
-  }
-}
-
-/* line 92, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-.show-for-sr,
-.show-on-focus {
-  position: absolute !important;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-}
-
-/* line 99, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-.show-on-focus:active, .show-on-focus:focus {
-  position: static !important;
-  height: auto;
-  width: auto;
-  overflow: visible;
-  clip: auto;
-}
-
-/* line 106, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-.show-for-landscape,
-.hide-for-portrait {
-  display: block !important;
-}
-@media screen and (orientation: landscape) {
-  /* line 106, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-landscape,
-  .hide-for-portrait {
-    display: block !important;
-  }
-}
-@media screen and (orientation: portrait) {
-  /* line 106, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-landscape,
-  .hide-for-portrait {
-    display: none !important;
-  }
-}
-
-/* line 119, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-.hide-for-landscape,
-.show-for-portrait {
-  display: none !important;
-}
-@media screen and (orientation: landscape) {
-  /* line 119, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-landscape,
-  .show-for-portrait {
-    display: none !important;
-  }
-}
-@media screen and (orientation: portrait) {
-  /* line 119, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-landscape,
-  .show-for-portrait {
-    display: block !important;
-  }
 }
 
 /* line 10, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_float.scss */
@@ -5143,73 +4445,6 @@ html, html body {
   backface-visibility: hidden;
 }
 
-/* line 147, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_animations.scss */
-.notification, form small.error, form small.valid {
-  -webkit-animation: bounce 1s ease 0.1s 1 both;
-  animation: bounce 1s ease 0.1s 1 both;
-}
-@-webkit-keyframes bounce {
-  0%, 5% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    visibility: hidden;
-  }
-  15%, 40%, 70%, 90%, 97%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  30% {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  50% {
-    -webkit-transform: translateY(-30%);
-    transform: translateY(-30%);
-  }
-  80% {
-    -webkit-transform: translateY(-15%);
-    transform: translateY(-15%);
-  }
-  95% {
-    -webkit-transform: translateY(-10%);
-    transform: translateY(-10%);
-  }
-  99% {
-    -webkit-transform: translateY(-5%);
-    transform: translateY(-5%);
-  }
-}
-@keyframes bounce {
-  0%, 5% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    visibility: hidden;
-  }
-  15%, 40%, 70%, 90%, 97%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  30% {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  50% {
-    -webkit-transform: translateY(-30%);
-    transform: translateY(-30%);
-  }
-  80% {
-    -webkit-transform: translateY(-15%);
-    transform: translateY(-15%);
-  }
-  95% {
-    -webkit-transform: translateY(-10%);
-    transform: translateY(-10%);
-  }
-  99% {
-    -webkit-transform: translateY(-5%);
-    transform: translateY(-5%);
-  }
-}
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
@@ -5305,35 +4540,6 @@ html, html body {
     position: relative;
     z-index: 3;
   }
-}
-
-/* line 1, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_blocks.scss */
-code {
-  display: inline-block;
-  margin: 0.57142857rem 0;
-  overflow: auto;
-  padding: 0 0.28571429rem;
-  position: relative;
-  white-space: pre;
-  width: 100%;
-  word-break: normal;
-  word-wrap: normal;
-}
-/* line 13, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_blocks.scss */
-code.language-haml::after {
-  bottom: 0.28571429rem;
-  color: #ebebeb;
-  position: absolute;
-  right: 0.57142857rem;
-  content: 'HAML';
-}
-/* line 13, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_blocks.scss */
-code.language-coffeescript::after {
-  bottom: 0.28571429rem;
-  color: #ebebeb;
-  position: absolute;
-  right: 0.57142857rem;
-  content: 'COFFEE';
 }
 
 /* line 1, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_box.scss */
@@ -5735,53 +4941,15 @@ code.language-coffeescript::after {
   }
 }
 
-@media screen and (max-width: 47.4375em) {
-  /* line 4, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  [data-context*=registrations] .nav-bar-left {
-    position: relative;
-    top: -1.07142857rem;
-  }
-  /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  [data-context*=registrations] .nav-bar-left a:first-child::before {
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    content: "";
-    font-size: 16px;
-    color: #fefefe;
-    margin: 0;
-    padding: 0;
-    left: 6px;
-    position: absolute;
-    top: 48px;
-  }
-  /* line 16, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  [data-context*=registrations] .nav-bar-left a:first-child::after {
-    color: #fefefe;
-    content: 'Secure Form';
-    font-size: 12px;
-    left: 26px;
-    position: absolute;
-    speak: none;
-    top: 24px;
-    word-spacing: normal;
-  }
-}
-
 /* line 47, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar {
+.nav-bar {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
 /* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-body.loaded .nav-bar::before, body.loaded .nav-bar::after {
+.nav-bar::before, .nav-bar::after {
   content: ' ';
   display: table;
   -webkit-flex-basis: 0;
@@ -5793,93 +4961,93 @@ body.loaded .nav-bar::before, body.loaded .nav-bar::after {
           order: 1;
 }
 /* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-body.loaded .nav-bar::after {
+.nav-bar::after {
   clear: both;
 }
 @media screen and (max-width: 47.4375em) {
   /* line 47, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar {
+  .nav-bar {
     height: 4rem;
     min-height: 4rem;
   }
 }
 @media screen and (min-width: 47.5em) {
   /* line 47, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar {
+  .nav-bar {
     height: 5.14285714rem;
     min-height: 5.14285714rem;
   }
   /* line 61, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right {
+  .nav-bar .nav-bar-right {
     padding-top: 10px;
   }
 }
 /* line 64, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar.is-overlay {
+.nav-bar.is-overlay {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
   opacity: 0.85;
   background: #151e34;
   z-index: 9999 !important;
 }
 /* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-left, body.loaded .nav-bar .nav-bar-right {
+.nav-bar .nav-bar-left, .nav-bar .nav-bar-right {
   height: 100%;
   position: absolute;
 }
 /* line 78, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar a:focus, body.loaded .nav-bar a:focus h6::before, body.loaded .nav-bar a:focus h6::after, body.loaded .nav-bar a:hover, body.loaded .nav-bar a:hover h6::before, body.loaded .nav-bar a:hover h6::after {
+.nav-bar a:focus, .nav-bar a:focus h6::before, .nav-bar a:focus h6::after, .nav-bar a:hover, .nav-bar a:hover h6::before, .nav-bar a:hover h6::after {
   border-bottom: 0;
   color: #e98319 !important;
 }
 /* line 86, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar a:not(.logo):not(.tagline):active:empty {
+.nav-bar a:not(.logo):not(.tagline):active:empty {
   text-decoration: underline;
 }
 /* line 87, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar a:not(.logo):not(.tagline):active:not(:empty) {
+.nav-bar a:not(.logo):not(.tagline):active:not(:empty) {
   border-bottom: 1px solid #e98319;
 }
 /* line 91, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-left {
+.nav-bar .nav-bar-left {
   padding-left: 0.53571429rem;
   left: 0;
 }
 @media screen and (min-width: 66.25em) {
   /* line 91, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-left {
+  .nav-bar .nav-bar-left {
     padding-left: 1.07142857rem;
   }
 }
 @media screen and (min-width: 47.5em) {
   /* line 91, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-left {
+  .nav-bar .nav-bar-left {
     padding-left: 2.00892857rem;
   }
 }
 @media screen and (min-width: 66.25em) {
   /* line 91, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-left {
+  .nav-bar .nav-bar-left {
     padding-left: 2.67857143rem;
   }
 }
 @media screen and (max-width: 47.4375em) {
   /* line 95, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-left a {
+  .nav-bar .nav-bar-left a {
     line-height: 4.57142857rem;
   }
 }
 @media screen and (min-width: 47.5em) and (max-width: 66.1875em) {
   /* line 99, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-left a.logo {
+  .nav-bar .nav-bar-left a.logo {
     position: relative;
   }
 }
 /* line 102, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-left a.logo, body.loaded .nav-bar .nav-bar-left a.tagline {
+.nav-bar .nav-bar-left a.logo, .nav-bar .nav-bar-left a.tagline {
   z-index: 10000;
 }
 /* line 105, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right {
+.nav-bar .nav-bar-right {
   padding-right: 0.53571429rem;
   right: 0;
   right: 0;
@@ -5887,111 +5055,111 @@ body.loaded .nav-bar .nav-bar-right {
 }
 @media screen and (min-width: 66.25em) {
   /* line 105, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right {
+  .nav-bar .nav-bar-right {
     padding-right: 1.07142857rem;
   }
 }
 @media screen and (min-width: 47.5em) {
   /* line 105, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right {
+  .nav-bar .nav-bar-right {
     padding-right: 2.00892857rem;
   }
 }
 @media screen and (min-width: 66.25em) {
   /* line 105, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right {
+  .nav-bar .nav-bar-right {
     padding-right: 2.67857143rem;
   }
 }
 @media screen and (min-width: 47.5em) {
   /* line 113, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li {
+  .nav-bar .nav-bar-right ul.menu li {
     margin-right: 0.53571429rem;
     padding: 0;
   }
   /* line 117, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li:last-child {
+  .nav-bar .nav-bar-right ul.menu li:last-child {
     margin-right: 0;
   }
   /* line 121, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li a {
+  .nav-bar .nav-bar-right ul.menu li a {
     display: inline-block;
   }
 }
 @media screen and (min-width: 66.25em) {
   /* line 127, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li {
+  .nav-bar .nav-bar-right ul.menu li {
     margin-right: 0 !important;
   }
 }
 /* line 133, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right .only-mobile {
+.nav-bar .nav-bar-right .only-mobile {
   display: none;
 }
 /* line 137, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu.only-mobile li.contact-us {
+.nav-bar .nav-bar-right ul.menu.only-mobile li.contact-us {
   padding: 0;
 }
 /* line 140, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu.only-mobile li.contact-us a {
+.nav-bar .nav-bar-right ul.menu.only-mobile li.contact-us a {
   padding: 0.21428571rem 0;
 }
 /* line 145, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu {
+.nav-bar .nav-bar-right ul.menu {
   font-size: 1rem;
 }
 @media screen and (max-width: 47.4375em) {
   /* line 158, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li {
+  .nav-bar .nav-bar-right ul.menu li {
     display: block;
   }
 }
 @media screen and (max-width: 47.4375em) {
   /* line 166, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu {
+  .nav-bar .nav-bar-right ul.menu li.toggle-menu {
     display: inline-block;
   }
 }
 @media screen and (min-width: 47.5em) {
   /* line 164, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li {
+  .nav-bar .nav-bar-right ul.menu li {
     display: inline-block;
     float: left;
   }
   /* line 174, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu {
+  .nav-bar .nav-bar-right ul.menu li.toggle-menu {
     display: none;
   }
 }
 /* line 180, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.apply-now:hover {
+.nav-bar .nav-bar-right ul.menu li.apply-now:hover {
   border: 0.14285714rem ridge #e98319 !important;
 }
 /* line 184, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.apply-now a:hover {
+.nav-bar .nav-bar-right ul.menu li.apply-now a:hover {
   border-bottom: 1px solid transparent;
 }
 /* line 189, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li:not(.button) a {
+.nav-bar .nav-bar-right ul.menu li:not(.button) a {
   margin-top: 0.14285714rem;
 }
 /* line 191, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.button.hollow {
+.nav-bar .nav-bar-right ul.menu li.button.hollow {
   border: 0.14285714rem ridge #fefefe;
   color: #e98319;
 }
 /* line 196, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu {
+.nav-bar .nav-bar-right ul.menu li.toggle-menu {
   float: right;
   margin: 0;
   padding: 0;
 }
 /* line 201, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu a {
+.nav-bar .nav-bar-right ul.menu li.toggle-menu a {
   padding-right: 0;
 }
 /* line 204, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu a > :first-child {
+.nav-bar .nav-bar-right ul.menu li.toggle-menu a > :first-child {
   display: table;
   outline: none;
   padding: 0;
@@ -5999,7 +5167,7 @@ body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu a > :first-child {
   text-indent: -1428.57142857rem;
 }
 /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu a > :first-child::before {
+.nav-bar .nav-bar-right ul.menu li.toggle-menu a > :first-child::before {
   font-family: "icomoon";
   -webkit-font-smoothing: antialiased;
   font-style: normal;
@@ -6018,23 +5186,23 @@ body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu a > :first-child::bef
   text-indent: 0;
 }
 /* line 221, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us {
+.nav-bar .nav-bar-right ul.menu li.contact-us {
   margin: 0;
   padding: 0 1.71428571rem 0 0;
 }
 @media screen and (max-width: 47.4375em) {
   /* line 221, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us {
+  .nav-bar .nav-bar-right ul.menu li.contact-us {
     float: right;
   }
 }
 /* line 229, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us a {
+.nav-bar .nav-bar-right ul.menu li.contact-us a {
   font-weight: 400;
   padding-right: 0;
 }
 /* line 233, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child {
+.nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child {
   display: table;
   left: 0;
   outline: none;
@@ -6043,12 +5211,12 @@ body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child {
 }
 @media screen and (max-width: 47.4375em) {
   /* line 233, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child {
+  .nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child {
     line-height: 3.42857143rem;
   }
 }
 /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child::before {
+.nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child::before {
   font-family: "icomoon";
   -webkit-font-smoothing: antialiased;
   font-style: normal;
@@ -6081,461 +5249,6 @@ body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child::befo
   /* line 267, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
   .footer-nav .menu > li > a {
     padding: 0;
-  }
-}
-
-/* line 1, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification {
-  line-height: 1.14285714rem;
-  padding-top: 0.57142857rem;
-}
-/* line 8, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification.alert, .notification.error, .notification.info, .notification .close-button {
-  color: #fefefe;
-}
-/* line 12, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification .close-button {
-  font-size: 1.71428571rem;
-  right: 0.42857143rem;
-  top: 0;
-}
-/* line 17, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification .close-button:focus {
-  outline: none;
-}
-/* line 20, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification.alert {
-  background-color: #ec5840;
-}
-/* line 26, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification.error {
-  background-color: #da4453;
-}
-/* line 32, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification.info {
-  background-color: #2199e8;
-}
-
-/* line 5, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator {
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
-  margin-top: 2.14285714rem;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 5, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator {
-    max-width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 0.85714286rem;
-  }
-  /* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-  .progress-indicator::before, .progress-indicator::after {
-    content: ' ';
-    display: table;
-    -webkit-flex-basis: 0;
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-    -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1;
-  }
-  /* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-  .progress-indicator::after {
-    clear: both;
-  }
-  /* line 15, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator hr {
-    display: none;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 5, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 4.57142857rem;
-  }
-  /* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-  .progress-indicator::before, .progress-indicator::after {
-    content: ' ';
-    display: table;
-    -webkit-flex-basis: 0;
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-    -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1;
-  }
-  /* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-  .progress-indicator::after {
-    clear: both;
-  }
-  /* line 23, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator hr {
-    display: block;
-    left: 12.5%;
-    position: absolute;
-    right: 12.5%;
-    top: 2.28571429rem;
-  }
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 5, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator {
-    margin-top: 1.42857143rem;
-    margin-bottom: 1.42857143rem;
-  }
-}
-
-/* line 50, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-] {
-  width: 25%;
-  float: left;
-  padding-left: 0;
-  padding-right: 0;
-  position: relative;
-}
-/* line 82, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/grid/_column.scss */
-.progress-indicator.acquisition-application [class*=step-]:last-child:not(:first-child) {
-  float: right;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-]::before, .progress-indicator.acquisition-application [class*=step-]::after {
-  display: block;
-}
-/* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-]::after {
-  content: ' ';
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-]::before, .progress-indicator.acquisition-application [class*=step-]::after {
-  margin: 0 auto !important;
-}
-/* line 41, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-]::before {
-  font-family: "Museo";
-  font-style: normal;
-  font-weight: 300;
-  color: #aeaeae;
-  top: -0.57142857rem;
-}
-/* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-]::after {
-  border-radius: 71.42857143rem;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-]::after {
-    background: #aeaeae;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-]::after {
-    background: #fefefe;
-    border: 0.07142857rem solid #aeaeae;
-  }
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-].step-1::before, .progress-indicator.acquisition-application [class*=step-].step-1::after {
-  position: relative;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-1::after {
-    height: 0.85714286rem;
-    width: 0.85714286rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-1::after {
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    content: "";
-    font-size: 2rem;
-    color: #aeaeae;
-    margin: 0;
-    padding: 0;
-    height: 4.57142857rem;
-    line-height: 4.57142857rem;
-    text-align: center;
-    width: 4.57142857rem;
-  }
-  /* line 41, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-1::before {
-    content: "Get started";
-    text-transform: capitalize;
-  }
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-].step-2::before, .progress-indicator.acquisition-application [class*=step-].step-2::after {
-  position: relative;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-2::after {
-    height: 0.85714286rem;
-    width: 0.85714286rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-2::after {
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    content: "";
-    font-size: 2.57142857rem;
-    color: #aeaeae;
-    margin: 0;
-    padding: 0;
-    height: 4.57142857rem;
-    line-height: 4.57142857rem;
-    text-align: center;
-    width: 4.57142857rem;
-  }
-  /* line 41, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-2::before {
-    content: "About me";
-    text-transform: capitalize;
-  }
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-].step-3::before, .progress-indicator.acquisition-application [class*=step-].step-3::after {
-  position: relative;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-3::after {
-    height: 0.85714286rem;
-    width: 0.85714286rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-3::after {
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    content: "";
-    font-size: 2.28571429rem;
-    color: #aeaeae;
-    margin: 0;
-    padding: 0;
-    height: 4.57142857rem;
-    line-height: 4.57142857rem;
-    text-align: center;
-    width: 4.57142857rem;
-  }
-  /* line 41, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-3::before {
-    content: "My work";
-    text-transform: capitalize;
-  }
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-].step-4::before, .progress-indicator.acquisition-application [class*=step-].step-4::after {
-  position: relative;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-4::after {
-    height: 0.85714286rem;
-    width: 0.85714286rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-4::after {
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    content: "";
-    font-size: 2.57142857rem;
-    color: #aeaeae;
-    margin: 0;
-    padding: 0;
-    height: 4.57142857rem;
-    line-height: 4.57142857rem;
-    text-align: center;
-    width: 4.57142857rem;
-  }
-  /* line 41, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-4::before {
-    content: "My finances";
-    text-transform: capitalize;
-  }
-}
-
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application.step-1 .step-1::before, .progress-indicator.acquisition-application.step-1 .step-1::after,
-.step-1 .progress-indicator.acquisition-application .step-1::before,
-.step-1 .progress-indicator.acquisition-application .step-1::after {
-  color: #2199e8;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-1 .step-1::after,
-  .step-1 .progress-indicator.acquisition-application .step-1::after {
-    background: #2199e8;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-1 .step-1::after,
-  .step-1 .progress-indicator.acquisition-application .step-1::after {
-    border: 0.07142857rem solid #2199e8;
-  }
-}
-
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application.step-2 .step-2::before, .progress-indicator.acquisition-application.step-2 .step-2::after,
-.step-2 .progress-indicator.acquisition-application .step-2::before,
-.step-2 .progress-indicator.acquisition-application .step-2::after {
-  color: #2199e8;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-2 .step-2::after,
-  .step-2 .progress-indicator.acquisition-application .step-2::after {
-    background: #2199e8;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-2 .step-2::after,
-  .step-2 .progress-indicator.acquisition-application .step-2::after {
-    border: 0.07142857rem solid #2199e8;
-  }
-}
-
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application.step-3 .step-3::before, .progress-indicator.acquisition-application.step-3 .step-3::after,
-.step-3 .progress-indicator.acquisition-application .step-3::before,
-.step-3 .progress-indicator.acquisition-application .step-3::after {
-  color: #2199e8;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-3 .step-3::after,
-  .step-3 .progress-indicator.acquisition-application .step-3::after {
-    background: #2199e8;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-3 .step-3::after,
-  .step-3 .progress-indicator.acquisition-application .step-3::after {
-    border: 0.07142857rem solid #2199e8;
-  }
-}
-
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application.step-4 .step-4::before, .progress-indicator.acquisition-application.step-4 .step-4::after,
-.step-4 .progress-indicator.acquisition-application .step-4::before,
-.step-4 .progress-indicator.acquisition-application .step-4::after {
-  color: #2199e8;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-4 .step-4::after,
-  .step-4 .progress-indicator.acquisition-application .step-4::after {
-    background: #2199e8;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-4 .step-4::after,
-  .step-4 .progress-indicator.acquisition-application .step-4::after {
-    border: 0.07142857rem solid #2199e8;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-2 .step-1::after,
-  .step-2 .progress-indicator.acquisition-application .step-1::after {
-    background: #2199e8;
-    border: 0.07142857rem solid #2199e8;
-    color: #fefefe;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-3 .step-1::after,
-  .step-3 .progress-indicator.acquisition-application .step-1::after {
-    background: #2199e8;
-    border: 0.07142857rem solid #2199e8;
-    color: #fefefe;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-3 .step-2::after,
-  .step-3 .progress-indicator.acquisition-application .step-2::after {
-    background: #2199e8;
-    border: 0.07142857rem solid #2199e8;
-    color: #fefefe;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-4 .step-1::after,
-  .step-4 .progress-indicator.acquisition-application .step-1::after {
-    background: #2199e8;
-    border: 0.07142857rem solid #2199e8;
-    color: #fefefe;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-4 .step-2::after,
-  .step-4 .progress-indicator.acquisition-application .step-2::after {
-    background: #2199e8;
-    border: 0.07142857rem solid #2199e8;
-    color: #fefefe;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-4 .step-3::after,
-  .step-4 .progress-indicator.acquisition-application .step-3::after {
-    background: #2199e8;
-    border: 0.07142857rem solid #2199e8;
-    color: #fefefe;
   }
 }
 
@@ -6953,212 +5666,8 @@ ul.numbers li:not(.header).three::before {
   border-width: 1.71428571rem 1.71428571rem 0;
 }
 
-
-@media screen and (min-width: 47.5em) {
-  [data-context*=registrations] body #main > .row {
-    padding-left: 1.60714286rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  [data-context*=registrations] body #main > .row {
-    padding-right: 1.60714286rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context*=registrations] body #main > .row {
-    padding-left: 2.14285714rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context*=registrations] body #main > .row {
-    padding-right: 2.14285714rem;
-  }
-}
-[data-context*=registrations] body #main > .row > .row .row {
-  margin-left: 0;
-  margin-right: 0;
-}
-[data-context*=registrations] body #main > .row .panel.acquisition {
-  border-radius: 0.28571429rem;
-  padding-left: 1.07142857rem;
-  background: #fefefe;
-  margin-top: 2.28571429rem;
-  padding-top: 1.71428571rem;
-}
-@media screen and (min-width: 47.5em) {
-  [data-context*=registrations] body #main > .row .panel.acquisition {
-    padding-left: 1.60714286rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context*=registrations] body #main > .row .panel.acquisition {
-    padding-left: 2.14285714rem;
-  }
-}
-@media screen and (max-width: 47.4375em) {
-  [data-context*=registrations] body #main > .row .panel.acquisition {
-    margin-top: 0px;
-    padding-top: 0.42857143rem;
-  }
-}
-[data-context*=registrations] body #main > .row .panel.sidebar {
-  padding-left: 1.14285714rem;
-  padding-right: 1.07142857rem;
-  text-align: center;
-}
-@media screen and (min-width: 47.5em) {
-  [data-context*=registrations] body #main > .row .panel.sidebar {
-    padding-left: 1.67857143rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context*=registrations] body #main > .row .panel.sidebar {
-    padding-left: 2.21428571rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context*=registrations] body #main > .row .panel.sidebar {
-    padding-right: 2.14285714rem;
-  }
-}
-@media screen and (max-width: 47.4375em) {
-  [data-context*=registrations] body #main > .row .panel.sidebar {
-    padding-top: 3.42857143rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  [data-context*=registrations] body #main > .row .panel.sidebar {
-    padding-top: 10.14285714rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context*=registrations] body #main > .row .panel.sidebar {
-    padding-top: 12rem;
-  }
-}
-[data-context*=registrations] body #main > .row .panel.sidebar .subpanel {
-  border-radius: 0.28571429rem;
-  background: #f9f9f9;
-  height: 11.42857143rem;
-  margin-top: 2.14285714rem;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar ul.checkboxes {
-  list-style: none;
-  margin-left: 0;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar ul.checkboxes li.checkbox {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  width: 12.71428571rem;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar ul.checkboxes li.checkbox::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  color: #3adb76;
-  margin: 0;
-  padding: 0;
-  margin-right: 0.42857143rem;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar ul.checkboxes li:not(:last-child) {
-  margin-bottom: 1.07142857rem;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar .contact-us a::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  color: #2199e8;
-  margin: 0;
-  padding: 0;
-  -webkit-transform: scale(1.25, 1.25);
-  transform: scale(1.25, 1.25);
-  display: inline;
-  padding-right: 0.57142857rem;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar .contact-us a h6 {
-  display: inline;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar .friendly-hero-copy, [data-context*=registrations] body #main > .row .panel.sidebar .customer-rating, [data-context*=registrations] body #main > .row .panel.sidebar .customer-quote-name {
-  font-family: "Museo";
-  font-style: normal;
-  font-weight: 300;
-  color: #0a0a0a;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar .customer-rating {
-  margin-top: 2.14285714rem;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar .customer-quote-name {
-  color: #aeaeae;
-}
-
 .position-relative {
   position: relative !important;
-}
-
-.step-header {
-  border-bottom: 1px solid #ebebeb;
-}
-@media screen and (min-width: 47.5em) {
-  .step-header {
-    margin-bottom: 3.21428571rem;
-    position: relative;
-  }
-  .step-header::before {
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    content: "";
-    font-size: 16px;
-    color: #aeaeae;
-    margin: 0;
-    padding: 0;
-    left: -25px;
-    position: absolute;
-    top: -15px;
-  }
-  .step-header::after {
-    color: #aeaeae;
-    content: 'Secure Form';
-    font-size: 12px;
-    left: -4px;
-    position: absolute;
-    speak: none;
-    top: -14px;
-  }
-  .step-header h2 {
-    padding: 1.07142857rem;
-  }
-}
-
-.with-divider.columns {
-  border-left: 2px solid #ebebeb;
-}
-.with-divider.row {
-  border-top: 2px solid #ebebeb;
-}
-
-.divider {
-  margin-bottom: 0.71428571rem;
-  border-bottom: 1px solid #ebebeb;
 }
 
 span.underline {
@@ -7172,173 +5681,6 @@ span.underline {
 
 .bold {
   font-weight: bold;
-}
-
-.same_address,
-.married_flg {
-  -webkit-transition: none;
-  transition: none;
-}
-.same_address .radio-wrapper,
-.married_flg .radio-wrapper {
-  position: relative;
-  padding: 0.5rem 0;
-  border: 1px solid #ebebeb;
-}
-.same_address .radio-wrapper.active,
-.married_flg .radio-wrapper.active {
-  border: 1px solid #2199e8;
-}
-.same_address .radio-wrapper.active h4,
-.married_flg .radio-wrapper.active h4 {
-  color: #2199e8;
-}
-.same_address .input-wrapper:first-of-type .radio-wrapper,
-.married_flg .input-wrapper:first-of-type .radio-wrapper {
-  margin-right: 5px;
-}
-.same_address .input-wrapper:last-of-type .radio-wrapper,
-.married_flg .input-wrapper:last-of-type .radio-wrapper {
-  margin-left: 5px;
-}
-.same_address .iradio_flat-blue,
-.married_flg .iradio_flat-blue {
-  position: absolute !important;
-  top: 15%;
-  left: 10px;
-}
-.same_address h4,
-.married_flg h4 {
-  margin: 0 0 0 25%;
-  font-size: 14px;
-}
-
-.military_status .option {
-  position: relative;
-  padding: 0.5rem 1.5rem 0.5rem 2.5rem;
-  margin-top: 10px;
-  border: 1px solid #ebebeb;
-  max-height: 140px;
-  overflow: scroll;
-  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
-}
-.military_status .option .additional-copy {
-  display: none;
-  margin-left: -0.25em;
-}
-.military_status .option.active {
-  background-color: #fafafa;
-}
-.military_status .option.active .additional-copy {
-  display: inline;
-}
-.military_status .option:last-of-type {
-  margin-bottom: 10px;
-}
-.military_status .iradio_flat-blue {
-  position: absolute !important;
-  left: 0.5rem;
-}
-.military_status .bold {
-  margin: 1em 0;
-}
-
-.state_id_number .input-wrapper:first-of-type {
-  padding-right: 5px;
-}
-.state_id_number .input-wrapper:last-of-type {
-  padding-left: 5px;
-}
-
-.display-copy-group .display-copy {
-  margin-bottom: 10px;
-  padding: 1rem;
-}
-.display-copy-group .display-copy.scroll {
-  max-height: 10rem;
-  border: 1px solid #ebebeb;
-  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
-  overflow: scroll;
-}
-.display-copy-group .display-copy:last-of-type {
-  margin-bottom: 0;
-}
-.display-copy-group .display-copy.highlight {
-  border: 1px solid #2199e8;
-}
-.display-copy-group .display-copy ul {
-  margin-left: 2rem;
-  margin-bottom: 0;
-}
-.display-copy-group .display-copy li {
-  margin-bottom: 0.5rem;
-}
-.display-copy-group .display-copy li:last-of-type {
-  margin-bottom: 0;
-}
-
-.modal-block {
-  position: fixed;
-  padding: 0 10px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(255, 255, 255, 0.95);
-  z-index: 10;
-  -webkit-transition: none;
-  transition: none;
-}
-.modal-block .modal-container {
-  max-width: 720px;
-  margin: 0 auto;
-  margin-top: 80px;
-  border-radius: 0.28571429rem;
-  border: 1px solid #ebebeb;
-  background-color: #ffffff;
-  box-shadow: 1px 1px 4px rgba(10, 10, 10, 0.1);
-  overflow: hidden;
-  -webkit-transition: none;
-  transition: none;
-}
-@media (max-width: 760px) {
-  .modal-block .modal-container {
-    margin-top: 25px;
-  }
-}
-.modal-block .title,
-.modal-block .copy {
-  padding: 0.5rem 1.5rem;
-  overflow: scroll;
-  -webkit-transition: none;
-  transition: none;
-}
-.modal-block .title {
-  position: relative;
-  color: #ffffff;
-  text-align: center;
-  background-color: #2199e8;
-}
-.modal-block .title .close-btn {
-  position: absolute;
-  top: 50%;
-  right: 1rem;
-  margin-top: -0.75rem;
-  width: 1.5rem;
-  height: 1.5rem;
-  text-align: center;
-  line-height: 1.4rem;
-  border-radius: 50%;
-  border: 1px solid #ffffff;
-  cursor: pointer;
-  -webkit-transition: none;
-  transition: none;
-}
-.modal-block .title h4 {
-  padding: 0 2rem;
-  margin: 0;
-  -webkit-transition: none;
-  transition: none;
 }
 
 @media (max-width: 760px) {
@@ -7364,10 +5706,6 @@ span.underline {
     display: none;
   }
 }
-.iradio_flat-blue .radio_button,
-.iradio_flat-blue .checkbox {
-  visibility: visible !important;
-}
 
 .wrap {
   display: inline;
@@ -7384,10 +5722,6 @@ span.underline {
 }
 .button--no-transition:hover {
   background-color: #e98319;
-}
-
-#sep-footer {
-  padding-top: 360px !important;
 }
 
 body.ready, body.ready :not([class*=noUi-]), body.ready :not(input:focus),

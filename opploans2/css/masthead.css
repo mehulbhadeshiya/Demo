@@ -16,29 +16,14 @@ body #main {
   display: none;
 }
 
-[data-context$=locomotive_index] .slide-down-on-load,
 [data-context$=locomotive_index] .fade-in-on-load {
   opacity: 0;
   visibility: hidden;
 }
 
-[data-context$=locomotive_index] .slide-down-on-load {
-  transform: translateY(-1.5rem);
-}
-
-[data-context$=locomotive_index] body.loaded .slide-down-on-load,
 [data-context$=locomotive_index] body.loaded .fade-in-on-load {
   opacity: 1;
   visibility: visible;
-}
-
-[data-context$=locomotive_index] body.loaded .slide-down-on-load {
-  transition: opacity 0.5s ease-out, transform 1s ease-out;
-  transition-delay: 1s;
-  transform: translateY(0);
-}
-
-[data-context$=locomotive_index] body.loaded .fade-in-on-load {
   transition: opacity 0.3s ease-out 0.1s;
 }
 
