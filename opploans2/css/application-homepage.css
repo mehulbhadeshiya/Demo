@@ -5833,6 +5833,10 @@ code.language-coffeescript::after {
 }
 @media screen and (max-width: 47.4375em) {
   /* line 24, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_customer_rating.scss */
+  .customer-rating[data-alt-display] {
+    padding: 0.5rem 0;
+  }
+
   .customer-rating[data-alt-display] span {
     letter-spacing: 0.01785714rem;
   }
@@ -5846,7 +5850,7 @@ code.language-coffeescript::after {
   /* line 34, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_customer_rating.scss */
   .customer-rating strong {
     display: block;
-    margin: 1rem 0;
+    margin: 0.25rem 0;
   }
 }
 @media screen and (min-width: 47.5em) {
