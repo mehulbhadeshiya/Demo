@@ -10787,11 +10787,6 @@ body.about-us[data-context*=locomotive] .grid__item {
 .masthead .navigation .navigation__item {
   display: inline-block;
   margin: 0px 0.71429rem;
-  vertical-align: middle;
-}
-/* line 113, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead .navigation .navigation__item:first-child {
-  margin-left: 1.42857rem;
 }
 
 /* line 121, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
