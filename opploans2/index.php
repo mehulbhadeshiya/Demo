@@ -95,6 +95,7 @@
   ?>
     </div>
 
+  <!-- W3TC-include-css -->
   <?php
     wp_print_styles('icons');
     wp_print_styles('masthead');
