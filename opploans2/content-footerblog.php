@@ -73,7 +73,7 @@
               <a href="/licenses/communication-policy/">Communication Policy</a>, 
               <a href="/licenses/policy-on-responsible-lending/">Policy on Responsible Lending</a>, 
               <a href="/licenses/">Rates, Terms &amp; Licenses</a>, 
-              and <a href="/additional-disclosures/">Additional Disclosures</a>.
+              and <a href="/licenses/additional-disclosures/">Additional Disclosures</a>.
             </small>
           </p>
           <p>
