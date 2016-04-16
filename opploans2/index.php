@@ -25,9 +25,21 @@
       ob_end_clean();
 
       echo substr($head, 0, strpos($head, "<script"));
-
-      wp_print_styles('masthead');
     ?>
+
+    <style rel='stylesheet'>
+      [data-context$=locomotive_index] .fade-in-on-load {
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      [data-context$=locomotive_index] body.loaded .fade-in-on-load {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: opacity 0.3s ease-out 0.1s;
+        transition: opacity 0.3s ease-out 0.1s;
+      }
+    </style>
   </head>
 
   <?php
@@ -85,13 +97,15 @@
     </div>
 
   <?php
+    wp_print_styles('icons');
+    wp_print_styles('masthead');
+
     if (get_the_ID() == $homepage_id) {
         wp_print_styles('application-homepage');
     } else {
         wp_print_styles('application');
     }
 
-    wp_print_styles('icons');
     echo '<link rel="stylesheet" type="text/css" href="' . get_stylesheet_uri() . '" />';
 
     show_admin_bar(false);

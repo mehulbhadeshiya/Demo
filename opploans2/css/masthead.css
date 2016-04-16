@@ -16,17 +16,6 @@ body #main {
   display: none;
 }
 
-[data-context$=locomotive_index] .fade-in-on-load {
-  opacity: 0;
-  visibility: hidden;
-}
-
-[data-context$=locomotive_index] body.loaded .fade-in-on-load {
-  opacity: 1;
-  visibility: visible;
-  transition: opacity 0.3s ease-out 0.1s;
-}
-
 .applyOnlineH5 {
   margin-bottom: 0px !important;
 }
