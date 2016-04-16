@@ -117,7 +117,6 @@
       <div class='grid'>
         <div class='grid__item'>
           <div id='man-looking-up' class='flex-image'></div>
-          <style> #man-looking-up { background-image: url('<?php echo get_template_directory_uri(); ?>/images/manlookingup.png');</style>
         </div>
         <div class='grid__item'>
           <ul class='checkmarks menu vertical menu-centered text-center flexVerticalCenter'>
@@ -163,7 +162,6 @@
         </div>
         <div class='grid__item'>
           <div id='woman-with-child' class='flex-image flex-image--centered'></div>
-          <style> #woman-with-child { background-image: url('<?php echo get_template_directory_uri(); ?>/images/womanwithchild.png');</style>
         </div>
       </div>
       <br>

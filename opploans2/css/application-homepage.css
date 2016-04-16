@@ -122,6 +122,14 @@ html, html body {
   background: #ebebeb;
 }
 
+#man-looking-up {
+  background-image: url('../images/manlookingup.png');
+}
+
+#woman-with-child {
+  background-image: url('../images/womanwithchild.png');
+}
+
 @font-face {
   font-family: "Indie Flower";
   src: url(../fonts/IndieFlower400-Regular.eot) format('embedded-opentype'), url(../fonts/IndieFlower400-Regular.eot?#IndieFlower400-Regular) format('embedded-opentype'), url(../fonts/IndieFlower400-Regular.woff) format('woff'), url(../fonts/IndieFlower400-Regular.woff2) format('woff2'), url(../fonts/IndieFlower400-Regular.ttf) format('truetype'), url(../fonts/IndieFlower400-Regular.svg) format('svg'), url(../fonts/IndieFlower400-Regular.svg#IndieFlower400-Regular) format('svg');
