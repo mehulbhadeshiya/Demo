@@ -26,6 +26,20 @@
 
       echo substr($head, 0, strpos($head, "<script"));
     ?>
+
+    <style rel='stylesheet' type='text/css'>
+      [data-context$=locomotive_index] .fade-in-on-load {
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      [data-context$=locomotive_index] body.loaded .fade-in-on-load {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: opacity 0.3s ease-out 0.1s;
+        transition: opacity 0.3s ease-out 0.1s;
+      }
+    </style>
   </head>
 
   <?php
@@ -41,20 +55,6 @@
       echo "<body data-context='engines#locomotive_pages'>";
     }
   ?>
-    <style rel='stylesheet' type='text/css'>
-      [data-context$=locomotive_index] .fade-in-on-load {
-        opacity: 0;
-        visibility: hidden;
-      }
-
-      [data-context$=locomotive_index] body.loaded .fade-in-on-load {
-        opacity: 1;
-        visibility: visible;
-        -webkit-transition: opacity 0.3s ease-out 0.1s;
-        transition: opacity 0.3s ease-out 0.1s;
-      }
-    </style>
-
     <div id='main-bg' class='fade-in-on-load'>
       <img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png'>
     </div>
