@@ -6227,7 +6227,7 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
 
 .stars {
   position: relative;
-  display: block;
+  display: inline-block;
   width: 121px;
   height: 16px;
   margin: 0 auto;

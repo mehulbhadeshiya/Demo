@@ -33,6 +33,10 @@
       <div class=page--wrap>
         <div class='customer-rating weight-400' data-alt-display='true' data-rating='4.9'>
           <span>
+            <div class=stars>
+              <div></div>
+              <div style='width: 96%'></div>
+            </div>
             <strong>
               <span class='wrap'>Become one of our 20,000+</span>
               <span class='wrap'>happy customers today.</span>
