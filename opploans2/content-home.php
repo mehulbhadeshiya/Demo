@@ -1,12 +1,14 @@
+<div class='fade-in-on-load load-delay-long'>
   <div class=page--wrap>
     <a class='hide' href='#header' id='header'></a>
       <div class='row background-float'>
         <div class='small-12 medium-12 small-centered columns text-center'>
-          <h3 class='main-copy-1 weight-400'>You Deserve Better than a Payday Loan.</h3>
+          <h3 class='main-copy-1 weight-400'>You deserve better than a payday loan.</h3>
           <h4 class='main-copy-2 weight-400'>
-            <span class='wrap'>Faster Funding. Lower Interest.</span>
-            <span class='wrap'>More Personal.</span>
+            <span class='wrap'>Fast funding. Lower interest.</span>
+            <span class='wrap'>More personal.</span>
           </h4>
+
           <div class='box text-center'>
             <div class='slider'>
               <input data-options='
@@ -31,6 +33,10 @@
       <div class=page--wrap>
         <div class='customer-rating weight-400' data-alt-display='true' data-rating='4.9'>
           <span>
+            <div class=stars>
+              <div></div>
+              <div style='width: 96%'></div>
+            </div>
             <strong>
               <span class='wrap'>Become one of our 20,000+</span>
               <span class='wrap'>happy customers today.</span>
@@ -49,7 +55,7 @@
               </div>
               <div class='review-panel'>
                 <div class='review-header'>
-                  <strong>"I used my personal loan to get my rent in on time." - Mel</strong>
+                  <strong>"I used my personal loan to get my rent in on time." - Mel*</strong>
                 </div>
                 <div class='review-footer'>
                   <p class=mb0>LOS ANGELES, CA | $1,000 OPPLOAN</p>
@@ -71,7 +77,7 @@
               </div>
               <div class='review-panel'>
                 <div class='review-header'>
-                  <strong>"I was able to use my installment loan to fix my car!" - Jose</strong>
+                  <strong>"I was able to use my installment loan to fix my car!" - Jose*</strong>
                 </div>
                 <div class='review-footer'>
                   <p class=mb0>CHICAGO, IL | $2,000 OPPLOAN</p>
@@ -93,7 +99,7 @@
               </div>
               <div class='review-panel'>
                 <div class='review-header'>
-                  <strong>"My loan helped me cover an unforeseen medical emergency!" - Julie</strong>
+                  <strong>"My loan helped me cover an unforeseen medical emergency!" - Julie*</strong>
                 </div>
                 <div class='review-footer'>
                   <p class=mb0>MADISON, WI | $1,600 OPPLOAN</p>
@@ -110,7 +116,7 @@
       </div>
       <div class='grid'>
         <div class='grid__item'>
-          <div class='flex-image' style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/manlookingup.png')"></div>
+          <div id='man-looking-up' class='flex-image'></div>
         </div>
         <div class='grid__item'>
           <ul class='checkmarks menu vertical menu-centered text-center flexVerticalCenter'>
@@ -118,7 +124,7 @@
               <h4>Personal. Not Payday.</h4>
             </li>
             <li class='checkmark'>
-              <h5>Faster Funding.</h5>
+              <h5>Fast Funding.</h5>
               <h6>Get approved today and receive money in your account as soon as the next business day.**</h6>
             </li>
             <li class='checkmark'>
@@ -127,7 +133,7 @@
             </li>
             <li class='checkmark'>
               <h5>More Personal.</h5>
-              <h6>OppLoans treats customers like family. Our 20,000+ customers rate us 4.9 out of 5 stars.</h6>
+              <h6>OppLoans treats customers like family. Our 20,000+ customers rate us 4.9 out of 5 stars.*</h6>
             </li>
           </ul>
         </div>
@@ -155,14 +161,14 @@
           </ul>
         </div>
         <div class='grid__item'>
-          <div class='flex-image flex-image--centered' style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/womanwithchild.png')"></div>
+          <div id='woman-with-child' class='flex-image flex-image--centered'></div>
         </div>
       </div>
       <br>
       <div class='box text-center'>
         <h4 class='weight-300'>
           Get approved today. Receive your money as soon as
-          <strong>tomorrow!</strong>***
+          <strong>tomorrow!</strong>**
         </h4>
         <a class='apply-now button' href='/registrations/step1'>
           Apply Online
@@ -174,3 +180,4 @@
         </h6>
       </div>
     </div>
+</div>

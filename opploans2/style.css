@@ -13,18 +13,16 @@
   }
 }
 
-.accordion-title {
+div.accordion-title {
   font-size:1.5rem;
 }
 .accordion-title::before {
-  font-weight:900;
   font-family:'Arial Black','Impact';
-  font-size:3rem;
+  font-size:1.5rem;
   top:20%;
 }
 .is-active > .accordion-title::before {
-  font-weight:900;
   font-family:'Arial Black','Impact';
-  font-size:3rem;
+  font-size:1.5rem;
   top:20%;
 }

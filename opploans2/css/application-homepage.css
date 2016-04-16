@@ -10,72 +10,6 @@ html, html body {
   max-width: 1200px;
 }
 
-.notification, form small.error, form small.valid {
-  -webkit-animation: bounce 1s ease 0.1s 1 both;
-  animation: bounce 1s ease 0.1s 1 both;
-}
-@-webkit-keyframes bounce {
-  0%, 5% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    visibility: hidden;
-  }
-  15%, 40%, 70%, 90%, 97%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  30% {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  50% {
-    -webkit-transform: translateY(-30%);
-    transform: translateY(-30%);
-  }
-  80% {
-    -webkit-transform: translateY(-15%);
-    transform: translateY(-15%);
-  }
-  95% {
-    -webkit-transform: translateY(-10%);
-    transform: translateY(-10%);
-  }
-  99% {
-    -webkit-transform: translateY(-5%);
-    transform: translateY(-5%);
-  }
-}
-@keyframes bounce {
-  0%, 5% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    visibility: hidden;
-  }
-  15%, 40%, 70%, 90%, 97%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  30% {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  50% {
-    -webkit-transform: translateY(-30%);
-    transform: translateY(-30%);
-  }
-  80% {
-    -webkit-transform: translateY(-15%);
-    transform: translateY(-15%);
-  }
-  95% {
-    -webkit-transform: translateY(-10%);
-    transform: translateY(-10%);
-  }
-  99% {
-    -webkit-transform: translateY(-5%);
-    transform: translateY(-5%);
-  }
-}
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
@@ -172,229 +106,6 @@ html, html body {
     z-index: 37;
   }
 }
-@font-face {
-  font-family: "icomoon";
-  src: url(../fonts/icomoon.eot) format('embedded-opentype'), url(../fonts/icomoon.eot?#iefix) format('embedded-opentype'), url(../fonts/icomoon.woff) format('woff'), url(../fonts/icomoon.woff2) format('woff2'), url(../fonts/icomoon.ttf) format('truetype'), url(../fonts/icomoon.svg) format('svg'), url(../fonts/icomoon.svg#icomoon) format('svg');
-}
-/* line 57, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-[data-icon]::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: attr(data-icon);
-}
-
-/* line 62, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.button > [class*="icon-"] {
-  margin-right: 0.3125rem;
-}
-
-/* line 64, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-[class*="icon--"] {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  background: none;
-}
-/* line 67, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-[class*="icon--"]:active {
-  text-decoration: none;
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--eye::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--eye-blocked::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--stack::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--envelope::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--cog::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--menu::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--cross::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--checkmark::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--phone::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--star-empty::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--star-half::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--star-full::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--lock-closed::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--home::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--pencil::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--briefcase::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--light-bulb::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--wallet::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--arrow-down::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon--warning::before {
-  content: "";
-}
-
-/* line 99, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-li.prl a, a.prl {
-  background: url(../icons/prl.png);
-  height: 1.6875rem;
-  width: 6.3125rem;
-}
-
-/* line 105, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-li.fisca a, a.fisca {
-  background: url(../icons/fisca.png);
-  height: 1.75rem;
-  margin-left: 1rem;
-  width: 3.1875rem;
-}
-
-/* line 112, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-li.godaddy a, a.godaddy {
-  background: url(../icons/godaddy.png);
-  height: 1.625rem;
-  margin-left: 1rem;
-  width: 8.5rem;
-}
-
-@media screen and (max-width: 39.9375em) {
-  /* line 119, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  li.prl, li.fisca, li.godaddy {
-    display: block;
-    width: 100%;
-    margin: 0.75rem 0px;
-  }
-  /* line 125, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  li.prl:first-child, li.fisca:first-child, li.godaddy:first-child {
-    margin-top: 0px;
-  }
-  /* line 129, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  li.prl:last-child, li.fisca:last-child, li.godaddy:last-child {
-    margin-bottom: 0px;
-  }
-}
-
-@media screen and (max-width: 39.9375em) {
-  /* line 135, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  li.prl a, li.fisca a, li.godaddy a {
-    display: block;
-    margin-left: 0px;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}
-
-/* NOTE: Only addressing with width of the .prl and .fisca classes (and not
- * .godaddy) since .godaddy is the widest of the three and forces the container
- * to be the desired width. */
-@media screen and (max-width: 39.9375em) {
-  /* line 147, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  li.prl a, li.fisca a {
-    width: 100%;
-  }
-}
-
-/* line 155, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-ul.social-links li a {
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-  background-size: contain !important;
-  height: 1rem;
-  width: 1rem;
-}
-/* line 163, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-ul.social-links li:not(:first-child) {
-  margin-left: 24px;
-}
-/* line 166, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-ul.social-links li.google a, ul.social-links a.google {
-  background: url(../icons/google.svg);
-}
-/* line 167, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-ul.social-links li.twitter a, ul.social-links a.twitter {
-  background: url(../icons/twitter.svg);
-}
-/* line 168, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-ul.social-links li.facebook a, ul.social-links a.facebook {
-  background: url(../icons/facebook.svg);
-}
 
 /* line 35, /Users/ryan/Documents/acquisition/app/assets/stylesheets/config/_colors.scss */
 .color-black {
@@ -411,17 +122,19 @@ ul.social-links li.facebook a, ul.social-links a.facebook {
   background: #ebebeb;
 }
 
+#man-looking-up {
+  background-image: url('../images/manlookingup.png');
+}
+
+#woman-with-child {
+  background-image: url('../images/womanwithchild.png');
+}
+
 @font-face {
   font-family: "Indie Flower";
   src: url(../fonts/IndieFlower400-Regular.eot) format('embedded-opentype'), url(../fonts/IndieFlower400-Regular.eot?#IndieFlower400-Regular) format('embedded-opentype'), url(../fonts/IndieFlower400-Regular.woff) format('woff'), url(../fonts/IndieFlower400-Regular.woff2) format('woff2'), url(../fonts/IndieFlower400-Regular.ttf) format('truetype'), url(../fonts/IndieFlower400-Regular.svg) format('svg'), url(../fonts/IndieFlower400-Regular.svg#IndieFlower400-Regular) format('svg');
   font-weight: normal; font-weight: 400;
   font-style: normal;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-IndieFlower-400-normal {
-  font-family: "Indie Flower";
-  font-style: normal;
-  font-weight: 400;
 }
 
 @font-face {
@@ -430,115 +143,12 @@ ul.social-links li.facebook a, ul.social-links a.facebook {
   font-weight: 300;
   font-style: normal;
 }
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-Museo-300-normal {
-  font-family: "Museo";
-  font-style: normal;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Museo";
-  src: url(/assets/Museo500-Regular-e6e5c7c9b430acce533972140999378a6633f994a803576968800c26a770956f.eot) format('embedded-opentype'), url(/assets/Museo500-Regular-e6e5c7c9b430acce533972140999378a6633f994a803576968800c26a770956f.eot?#Museo500-Regular) format('embedded-opentype'), url(/assets/Museo500-Regular-9a948973f0de10056b4882c07bc43e55c6eadc222772cb402928be629702e236.woff) format('woff'), url(/assets/Museo500-Regular-42b4138be5434839c1316e4d27bcaeaeb103542086959746934cd971d0647326.woff2) format('woff2'), url(/assets/Museo500-Regular-3b3cb3ec7e895ff397f93e14b11b68bb512ce1878c2176ca69d66a89c3a1c87a.ttf) format('truetype'), url(/assets/Museo500-Regular-374b8e301ff3949405ed550b8777f8b01bdabc83d8ed1d46c828b1ce76626dfb.svg) format('svg'), url(/assets/Museo500-Regular-374b8e301ff3949405ed550b8777f8b01bdabc83d8ed1d46c828b1ce76626dfb.svg#Museo500-Regular) format('svg');
-  font-weight: 500;
-  font-style: normal;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-Museo-500-normal {
-  font-family: "Museo";
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Museo";
-  src: url(/assets/Museo700-Regular-8d0b0695951b3e31b144d21656cb64b0a6761a102a3eaadca13aa93b26e15d87.eot) format('embedded-opentype'), url(/assets/Museo700-Regular-8d0b0695951b3e31b144d21656cb64b0a6761a102a3eaadca13aa93b26e15d87.eot?#Museo700-Regular) format('embedded-opentype'), url(/assets/Museo700-Regular-2704a01f20ed6fe631b5aa4baaa5300823bcddbe7d8f35c43edad1f86aff05db.woff) format('woff'), url(/assets/Museo700-Regular-aaa00f4a0c847adfc87f8b3e59fc6ea8cf8faacd9d8c56ee5a689593faaf9414.woff2) format('woff2'), url(/assets/Museo700-Regular-5e242d6933eb8c111ec28fb70863ff6888cc1d3a2fd92afe4d58395781ac0457.ttf) format('truetype'), url(/assets/Museo700-Regular-f61025e0b200e8c2f74517479230ed58d81533c6b32b3b7151f0c6c82f976063.svg) format('svg'), url(/assets/Museo700-Regular-f61025e0b200e8c2f74517479230ed58d81533c6b32b3b7151f0c6c82f976063.svg#Museo700-Regular) format('svg');
-  font-weight: 700;
-  font-style: normal;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-Museo-700-normal {
-  font-family: "Museo";
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Open Sans Condensed";
-  src: url(/assets/OpenSansCondensed300-Italic-48b5a0680ee781d668462dc63afe3228781871303917506bbe3a07406e3142a0.eot) format('embedded-opentype'), url(/assets/OpenSansCondensed300-Italic-48b5a0680ee781d668462dc63afe3228781871303917506bbe3a07406e3142a0.eot?#OpenSansCondensed300-Italic) format('embedded-opentype'), url(/assets/OpenSansCondensed300-Italic-cc18daca339b4531d5e7f7d1ccc69d1f620187aaadadca186d63e7076337e0de.woff) format('woff'), url(/assets/OpenSansCondensed300-Italic-fc65e4610836688bd7cf49b9d7fb49243ee6e2f90e7b07e72dc9047bc6f590d5.woff2) format('woff2'), url(/assets/OpenSansCondensed300-Italic-61a8b83ab05126025819251bd6a83bfd609f0cc3ccab8f2c0dec493bd85912a2.ttf) format('truetype'), url(/assets/OpenSansCondensed300-Italic-f545e321125f4770e17091edd3f4b297d7a47c5537347e01e58c673908f43cf1.svg) format('svg'), url(/assets/OpenSansCondensed300-Italic-f545e321125f4770e17091edd3f4b297d7a47c5537347e01e58c673908f43cf1.svg#OpenSansCondensed300-Italic) format('svg');
-  font-weight: 300;
-  font-style: italic;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSansCondensed-300-italic {
-  font-family: "Open Sans Condensed";
-  font-style: italic;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Open Sans Condensed";
-  src: url(/assets/OpenSansCondensed300-Regular-ff850a28fe0606ad1f992ef948790d2bfa7673fd429437831908d80bc0a29973.eot) format('embedded-opentype'), url(/assets/OpenSansCondensed300-Regular-ff850a28fe0606ad1f992ef948790d2bfa7673fd429437831908d80bc0a29973.eot?#OpenSansCondensed300-Regular) format('embedded-opentype'), url(/assets/OpenSansCondensed300-Regular-9483c21f75f1191fb66c15d0a6ee3d8876a38b182a0b70f7a4bc86e11440553f.woff) format('woff'), url(/assets/OpenSansCondensed300-Regular-309dacd97f44247c2a91eacd40a15e47b87316dd4cf73dc34e8a23cce4bc54ad.woff2) format('woff2'), url(/assets/OpenSansCondensed300-Regular-15217a0ed363f176fba38bd4cab68b801f013cbf20bdb6f0a1889b361a580f3f.ttf) format('truetype'), url(/assets/OpenSansCondensed300-Regular-d82d9b436bd070dbb413f360fbc062bc34062307ed2541149707cd913a3eb751.svg) format('svg'), url(/assets/OpenSansCondensed300-Regular-d82d9b436bd070dbb413f360fbc062bc34062307ed2541149707cd913a3eb751.svg#OpenSansCondensed300-Regular) format('svg');
-  font-weight: 300;
-  font-style: normal;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSansCondensed-300-normal {
-  font-family: "Open Sans Condensed";
-  font-style: normal;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Open Sans Condensed";
-  src: url(/assets/OpenSansCondensed700-Regular-79f68c6b690513dab9dd635c645f93388bbe53149e60e8e1ba65197cb6fe9280.eot) format('embedded-opentype'), url(/assets/OpenSansCondensed700-Regular-79f68c6b690513dab9dd635c645f93388bbe53149e60e8e1ba65197cb6fe9280.eot?#OpenSansCondensed700-Regular) format('embedded-opentype'), url(/assets/OpenSansCondensed700-Regular-eb9e9c0ba5c260485ef34d3a1e7136671c60143acecb6208bb2e22b39ebfb5e9.woff) format('woff'), url(/assets/OpenSansCondensed700-Regular-e2fb6f1c77e1c0ff17daf486eb1416c67c33d1afc73e0916dd714e71ed3569f6.woff2) format('woff2'), url(/assets/OpenSansCondensed700-Regular-ba5e86b0674812e8ebc50041cee24e902373e8e0b5e9f917e69b89718e3b302e.ttf) format('truetype'), url(/assets/OpenSansCondensed700-Regular-767b20ff1c6156110c56c61b4fa05bd0bf1e38ac22b87a7bde63ffe3b5300847.svg) format('svg'), url(/assets/OpenSansCondensed700-Regular-767b20ff1c6156110c56c61b4fa05bd0bf1e38ac22b87a7bde63ffe3b5300847.svg#OpenSansCondensed700-Regular) format('svg');
-  font-weight: 700;
-  font-style: normal;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSansCondensed-700-normal {
-  font-family: "Open Sans Condensed";
-  font-style: normal;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src: url(/assets/OpenSans300-Italic-a2f7c64eb66eae43e23685d54b11a0504e3e03df44e942b5b49a9f8e6d38a935.eot) format('embedded-opentype'), url(/assets/OpenSans300-Italic-a2f7c64eb66eae43e23685d54b11a0504e3e03df44e942b5b49a9f8e6d38a935.eot?#OpenSans300-Italic) format('embedded-opentype'), url(/assets/OpenSans300-Italic-b862025a53e46f6d19d54b6c97a14f80735df1b4bd35a7dbc6cc5e5ddc597175.woff) format('woff'), url(/assets/OpenSans300-Italic-7afc5c64c1da1ef0089b4736df083a58961a907693ebfa7e7d2949b8c9b104f8.woff2) format('woff2'), url(/assets/OpenSans300-Italic-6f4203c7bdc47b73c534580ec7ead6502d9ad145eb48d015969df40a0898a91e.ttf) format('truetype'), url(/assets/OpenSans300-Italic-7b5713d967fb9f6c81932804c482afc9ac0f7fa5dbe0bdc78cc933be70bcb43e.svg) format('svg'), url(/assets/OpenSans300-Italic-7b5713d967fb9f6c81932804c482afc9ac0f7fa5dbe0bdc78cc933be70bcb43e.svg#OpenSans300-Italic) format('svg');
-  font-weight: 300;
-  font-style: italic;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSans-300-italic {
-  font-family: "Open Sans";
-  font-style: italic;
-  font-weight: 300;
-}
 
 @font-face {
   font-family: "Open Sans";
   src: url(../fonts/OpenSans300-Regular.eot) format('embedded-opentype'), url(../fonts/OpenSans300-Regular.eot?#OpenSans300-Regular) format('embedded-opentype'), url(../fonts/OpenSans300-Regular.woff) format('woff'), url(../fonts/OpenSans300-Regular.woff2) format('woff2'), url(../fonts/OpenSans300-Regular.ttf) format('truetype'), url(../fonts/OpenSans300-Regular.svg) format('svg'), url(../fonts/OpenSans300-Regular.svg#OpenSans300-Regular) format('svg');
   font-weight: 300;
   font-style: normal;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSans-300-normal {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src: url(/assets/OpenSans400-Italic-f9664b87541a003580035c187f49c3d9dc46c421608d1d060e8f76d8212e5b7a.eot) format('embedded-opentype'), url(/assets/OpenSans400-Italic-f9664b87541a003580035c187f49c3d9dc46c421608d1d060e8f76d8212e5b7a.eot?#OpenSans400-Italic) format('embedded-opentype'), url(/assets/OpenSans400-Italic-ee33c10eb9eb2f970891df183eb36f6400fadbbbfa49d70313096a233f144a92.woff) format('woff'), url(/assets/OpenSans400-Italic-9675578cba5db16c88cb90ddacf322b68cfabc949433e6edac21954de396788c.woff2) format('woff2'), url(/assets/OpenSans400-Italic-7df9c1434189c8ee06c5a01299b59bd44b2b8439b32ffcb80494984c5d8fa6a7.ttf) format('truetype'), url(/assets/OpenSans400-Italic-7c9bb9f9c0aa78d9d3b99eaaac298e559afce91b0225f948003a6106f810d782.svg) format('svg'), url(/assets/OpenSans400-Italic-7c9bb9f9c0aa78d9d3b99eaaac298e559afce91b0225f948003a6106f810d782.svg#OpenSans400-Italic) format('svg');
-  font-weight: normal; font-weight: 400;
-  font-style: italic;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSans-400-italic {
-  font-family: "Open Sans";
-  font-style: italic;
-  font-weight: 400;
 }
 
 @font-face {
@@ -547,25 +157,6 @@ ul.social-links li.facebook a, ul.social-links a.facebook {
   font-weight: normal; font-weight: 400;
   font-style: normal;
 }
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSans-400-normal {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src: url(/assets/OpenSans600-Italic-31e2607cec57dc83c264c3a60711a5aa65656cca99783e7b4cee207347e38822.eot) format('embedded-opentype'), url(/assets/OpenSans600-Italic-31e2607cec57dc83c264c3a60711a5aa65656cca99783e7b4cee207347e38822.eot?#OpenSans600-Italic) format('embedded-opentype'), url(/assets/OpenSans600-Italic-57edb542af8434d4634b35f8cfc1f71f8631653d1f2bbaf5b6ba75d6ae5c3a62.woff) format('woff'), url(/assets/OpenSans600-Italic-50660d22f19e2eae8c5829b7952e6825c0e7bee8a772abab34ba60e8cb345591.woff2) format('woff2'), url(/assets/OpenSans600-Italic-cec9499d2702af207339635e5aa3ef3092d2c5420ec1b36ddab52f853c39b79b.ttf) format('truetype'), url(/assets/OpenSans600-Italic-8d7fd3261c4806d69c4a2ef8bdbdc393e8aaacfae531541d36897d6a43dce1da.svg) format('svg'), url(/assets/OpenSans600-Italic-8d7fd3261c4806d69c4a2ef8bdbdc393e8aaacfae531541d36897d6a43dce1da.svg#OpenSans600-Italic) format('svg');
-  font-weight: 600;
-  font-style: italic;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-.type-face-OpenSans-600-italic {
-  font-family: "Open Sans";
-  font-style: italic;
-  font-weight: 600;
-}
 
 @font-face {
   font-family: "Open Sans";
@@ -573,54 +164,12 @@ ul.social-links li.facebook a, ul.social-links a.facebook {
   font-weight: 600;
   font-style: normal;
 }
-.type-face-OpenSans-600-normal {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url(/assets/OpenSans700-Italic-e52e053f4261180c9ab66ed5a92251cac5322ae49bbb6acfdcca092dbf4bdc36.eot) format('embedded-opentype'), url(/assets/OpenSans700-Italic-e52e053f4261180c9ab66ed5a92251cac5322ae49bbb6acfdcca092dbf4bdc36.eot?#OpenSans700-Italic) format('embedded-opentype'), url(/assets/OpenSans700-Italic-6ff603250f1a902de54c938ba0b13e653f4bdfbf723982f788a6d9a3bc259384.woff) format('woff'), url(/assets/OpenSans700-Italic-4bfd49aaff3609a6143d8605d0e437dfff2809cd44f9f551529f0d7c9b0c3862.woff2) format('woff2'), url(/assets/OpenSans700-Italic-b727e73e0d99a7960583b67bd497e3e21363868f946a6f55c9dd4e9ccf307b1b.ttf) format('truetype'), url(/assets/OpenSans700-Italic-9924ae52490b1e3a5748e32a95184fb0f36d1ee7949afc8a982306900686c545.svg) format('svg'), url(/assets/OpenSans700-Italic-9924ae52490b1e3a5748e32a95184fb0f36d1ee7949afc8a982306900686c545.svg#OpenSans700-Italic) format('svg');
-  font-weight: 700;
-  font-style: italic;
-}
-.type-face-OpenSans-700-italic {
-  font-family: "Open Sans";
-  font-style: italic;
-  font-weight: 700;
-}
+
 @font-face {
   font-family: "Open Sans";
   src: url(../fonts/OpenSans700-Regular.eot) format('embedded-opentype'), url(../fonts/OpenSans700-Regular.eot?#OpenSans700-Regular) format('embedded-opentype'), url(../fonts/OpenSans700-Regular.woff) format('woff'), url(../fonts/OpenSans700-Regular.woff2) format('woff2'), url(../fonts/OpenSans700-Regular.ttf) format('truetype'), url(../fonts/OpenSans700-Regular.svg) format('svg'), url(../fonts/OpenSans700-Regular.svg#OpenSans700-Regular) format('svg');
   font-weight: 700;
   font-style: normal;
-}
-.type-face-OpenSans-700-normal {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url(/assets/OpenSans800-Italic-0c98964ae5a35f84cfb3a65f8d0e83919c3aeaaa2824e6c7c675343f7afa9bef.eot) format('embedded-opentype'), url(/assets/OpenSans800-Italic-0c98964ae5a35f84cfb3a65f8d0e83919c3aeaaa2824e6c7c675343f7afa9bef.eot?#OpenSans800-Italic) format('embedded-opentype'), url(/assets/OpenSans800-Italic-f11df83b5f0acafcdb6d785237ec40e906c561d162ce84eb61eeb0d4f2c1f4c6.woff) format('woff'), url(/assets/OpenSans800-Italic-2d7052febc812429d9bb803356f9c1e68ae72a97f60f434d0eaa7278cf8a2029.woff2) format('woff2'), url(/assets/OpenSans800-Italic-acc1564600669030cea5e0466600d6f495a66b16a8b9f56af8a8b178c512239b.ttf) format('truetype'), url(/assets/OpenSans800-Italic-5cb8853a2aae48795fe55497f1f2bd1d6eb14462c96a09f4a591945ccee7755a.svg) format('svg'), url(/assets/OpenSans800-Italic-5cb8853a2aae48795fe55497f1f2bd1d6eb14462c96a09f4a591945ccee7755a.svg#OpenSans800-Italic) format('svg');
-  font-weight: 800;
-  font-style: italic;
-}
-.type-face-OpenSans-800-italic {
-  font-family: "Open Sans";
-  font-style: italic;
-  font-weight: 800;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url(/assets/OpenSans800-Regular-2fe5373a368b34c7e44e7b45ac573156ac82815c912047e556030ab7d4f0d70b.eot) format('embedded-opentype'), url(/assets/OpenSans800-Regular-2fe5373a368b34c7e44e7b45ac573156ac82815c912047e556030ab7d4f0d70b.eot?#OpenSans800-Regular) format('embedded-opentype'), url(/assets/OpenSans800-Regular-e092cf739302b96202303334306e173387b47f006909e4098b6562e6ab81f094.woff) format('woff'), url(/assets/OpenSans800-Regular-18ca22c6ce14624b216bbbce07d7d9c5708a993d265fc628b0a4dcaf2049c354.woff2) format('woff2'), url(/assets/OpenSans800-Regular-98cedb6137397de527e0307781e3e834870019ddf6feae219945e38ad592fa4e.ttf) format('truetype'), url(/assets/OpenSans800-Regular-4b38860443d43045a26707dc4b8bb9602c192c021978095d8d26ffb69351d0b1.svg) format('svg'), url(/assets/OpenSans800-Regular-4b38860443d43045a26707dc4b8bb9602c192c021978095d8d26ffb69351d0b1.svg#OpenSans800-Regular) format('svg');
-  font-weight: 800;
-  font-style: normal;
-}
-.type-face-OpenSans-800-normal {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 800;
 }
 
 html {
@@ -2785,162 +2334,6 @@ select[multiple] {
   top: -0.1em;
 }
 
-/* line 94, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion.scss */
-.accordion {
-  list-style-type: none;
-  background: #fefefe;
-  border: 1px solid #ebebeb;
-  border-bottom: 0;
-  border-radius: 0.14285714rem;
-  margin-left: 0;
-}
-
-/* line 102, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion.scss */
-.accordion-title {
-  display: block;
-  padding: 1.25rem 1rem;
-  line-height: 1;
-  font-size: 0.85714286rem;
-  color: #5d9cec;
-  position: relative;
-  border-bottom: 1px solid #ebebeb;
-}
-/* line 65, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion.scss */
-.accordion-title:hover, .accordion-title:focus {
-  background-color: #ebebeb;
-}
-/* line 71, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion.scss */
-.accordion-title::before {
-  content: '+';
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  margin-top: -0.5rem;
-}
-/* line 79, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion.scss */
-.is-active > .accordion-title::before {
-  content: '–';
-}
-
-/* line 106, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion.scss */
-.accordion-content {
-  padding: 1rem;
-  display: none;
-  border-bottom: 1px solid #ebebeb;
-  background-color: #fefefe;
-}
-
-/* line 15, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion-menu.scss */
-.is-accordion-submenu-parent > a {
-  position: relative;
-}
-/* line 18, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion-menu.scss */
-.is-accordion-submenu-parent > a::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border: inset 6px;
-  border-color: #2199e8 transparent transparent;
-  border-top-style: solid;
-  border-bottom-width: 0;
-  position: absolute;
-  top: 50%;
-  margin-top: -4px;
-  right: 1rem;
-}
-
-/* line 27, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_accordion-menu.scss */
-.is-accordion-submenu-parent[aria-expanded='true'] > a::after {
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
-  -webkit-transform: scaleY(-1);
-          transform: scaleY(-1);
-}
-
-/* line 40, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_badge.scss */
-.badge {
-  display: inline-block;
-  padding: 0.3em;
-  min-width: 2.1em;
-  font-size: 0.6rem;
-  text-align: center;
-  border-radius: 50%;
-  background: #5d9cec;
-  color: #0a0a0a;
-}
-/* line 48, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_badge.scss */
-.badge.secondary {
-  background: #777;
-  color: #fefefe;
-}
-/* line 48, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_badge.scss */
-.badge.success {
-  background: #3adb76;
-  color: #fefefe;
-}
-/* line 48, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_badge.scss */
-.badge.warning {
-  background: #ffae00;
-  color: #fefefe;
-}
-/* line 48, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_badge.scss */
-.badge.alert {
-  background: #ec5840;
-  color: #fefefe;
-}
-
-/* line 87, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
-.breadcrumbs {
-  list-style: none;
-  margin: 0 0 1rem 0;
-}
-/* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.breadcrumbs::before, .breadcrumbs::after {
-  content: ' ';
-  display: table;
-  -webkit-flex-basis: 0;
-      -ms-flex-preferred-size: 0;
-          flex-basis: 0;
-  -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
-}
-/* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.breadcrumbs::after {
-  clear: both;
-}
-/* line 48, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
-.breadcrumbs li {
-  float: left;
-  color: #0a0a0a;
-  font-size: 0.78571429rem;
-  cursor: default;
-  text-transform: uppercase;
-}
-/* line 62, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
-.breadcrumbs li:not(:last-child)::after {
-  color: #aeaeae;
-  content: "/";
-  margin: 0 0.75rem;
-  position: relative;
-  top: 1px;
-  opacity: 1;
-}
-/* line 77, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
-.breadcrumbs a {
-  color: #5d9cec;
-}
-/* line 80, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
-.breadcrumbs a:hover {
-  text-decoration: underline;
-}
-/* line 90, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_breadcrumbs.scss */
-.breadcrumbs .disabled {
-  color: #aeaeae;
-}
-
 /* line 140, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_button-group.scss */
 .button-group {
   margin-bottom: 1rem;
@@ -5010,183 +4403,6 @@ table.hover tr:nth-of-type(even):hover {
   box-shadow: 0 7px 0 #8a8a8a, 0 14px 0 #8a8a8a;
 }
 
-/* line 97, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_tooltip.scss */
-.has-tip {
-  border-bottom: dotted 1px #8a8a8a;
-  font-weight: 600;
-  position: relative;
-  display: inline-block;
-  cursor: help;
-}
-
-/* line 101, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_tooltip.scss */
-.tooltip {
-  background-color: #0a0a0a;
-  color: #fefefe;
-  font-size: 80%;
-  padding: 0.75rem;
-  position: absolute;
-  z-index: 10;
-  top: calc(100% + 0.6495rem);
-  max-width: 10rem !important;
-  border-radius: 0.14285714rem;
-}
-/* line 64, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_tooltip.scss */
-.tooltip::before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border: inset 0.75rem;
-  border-color: transparent transparent #0a0a0a;
-  border-bottom-style: solid;
-  border-top-width: 0;
-  bottom: 100%;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-/* line 72, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_tooltip.scss */
-.tooltip.top::before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border: inset 0.75rem;
-  border-color: #0a0a0a transparent transparent;
-  border-top-style: solid;
-  border-bottom-width: 0;
-  top: 100%;
-  bottom: auto;
-}
-/* line 78, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_tooltip.scss */
-.tooltip.left::before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border: inset 0.75rem;
-  border-color: transparent transparent transparent #0a0a0a;
-  border-left-style: solid;
-  border-right-width: 0;
-  bottom: auto;
-  left: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-/* line 86, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_tooltip.scss */
-.tooltip.right::before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border: inset 0.75rem;
-  border-color: transparent #0a0a0a transparent transparent;
-  border-right-style: solid;
-  border-left-width: 0;
-  bottom: auto;
-  left: auto;
-  right: 100%;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-
-/* line 119, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar {
-  padding: 0.5rem;
-}
-/* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.top-bar::before, .top-bar::after {
-  content: ' ';
-  display: table;
-  -webkit-flex-basis: 0;
-      -ms-flex-preferred-size: 0;
-          flex-basis: 0;
-  -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
-}
-/* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.top-bar::after {
-  clear: both;
-}
-/* line 47, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar,
-.top-bar ul {
-  background-color: transparent;
-}
-/* line 60, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar input, .top-bar .input.approximate_length label.collapse-left, .input.approximate_length .top-bar label.collapse-left {
-  width: 14.28571429rem;
-  margin-right: 1rem;
-}
-/* line 66, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar .input-group-field {
-  width: 100%;
-  margin-right: 0;
-}
-/* line 72, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar input.button, .top-bar .input.approximate_length label.button.collapse-left, .input.approximate_length .top-bar label.button.collapse-left {
-  width: auto;
-}
-
-@media screen and (max-width: 47.4375em) {
-  /* line 91, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-  .stacked-for-small .top-bar-left,
-  .stacked-for-small .top-bar-right {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 66.1875em) {
-  /* line 91, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-  .stacked-for-medium .top-bar-left,
-  .stacked-for-medium .top-bar-right {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 74.9375em) {
-  /* line 91, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-  .stacked-for-large .top-bar-left,
-  .stacked-for-large .top-bar-right {
-    width: 100%;
-  }
-}
-
-/* line 91, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar-left,
-.top-bar-right {
-  width: 100%;
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 110, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-  .top-bar-left,
-  .top-bar-right {
-    width: auto;
-  }
-}
-/* line 152, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar-title {
-  float: left;
-  margin-right: 1rem;
-}
-
-/* line 158, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar-left {
-  float: left;
-}
-
-/* line 162, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_top-bar.scss */
-.top-bar-right {
-  float: right;
-}
-
 /* line 61, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
 .hide {
   display: none !important;
@@ -5195,135 +4411,6 @@ table.hover tr:nth-of-type(even):hover {
 /* line 65, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
 .invisible {
   visibility: hidden;
-}
-
-@media screen and (max-width: 47.4375em) {
-  /* line 81, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-small-only {
-    display: none !important;
-  }
-}
-
-@media screen and (max-width: 0em), screen and (min-width: 47.5em) {
-  /* line 85, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-small-only {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 72, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-medium {
-    display: none !important;
-  }
-}
-
-@media screen and (max-width: 47.4375em) {
-  /* line 76, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-medium {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 47.5em) and (max-width: 66.1875em) {
-  /* line 81, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-medium-only {
-    display: none !important;
-  }
-}
-
-@media screen and (max-width: 47.4375em), screen and (min-width: 66.25em) {
-  /* line 85, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-medium-only {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 66.25em) {
-  /* line 72, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-large {
-    display: none !important;
-  }
-}
-
-@media screen and (max-width: 66.1875em) {
-  /* line 76, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-large {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 66.25em) and (max-width: 74.9375em) {
-  /* line 81, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-large-only {
-    display: none !important;
-  }
-}
-
-@media screen and (max-width: 66.1875em), screen and (min-width: 75em) {
-  /* line 85, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-large-only {
-    display: none !important;
-  }
-}
-
-/* line 92, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-.show-for-sr,
-.show-on-focus {
-  position: absolute !important;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-}
-
-/* line 99, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-.show-on-focus:active, .show-on-focus:focus {
-  position: static !important;
-  height: auto;
-  width: auto;
-  overflow: visible;
-  clip: auto;
-}
-
-/* line 106, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-.show-for-landscape,
-.hide-for-portrait {
-  display: block !important;
-}
-@media screen and (orientation: landscape) {
-  /* line 106, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-landscape,
-  .hide-for-portrait {
-    display: block !important;
-  }
-}
-@media screen and (orientation: portrait) {
-  /* line 106, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .show-for-landscape,
-  .hide-for-portrait {
-    display: none !important;
-  }
-}
-
-/* line 119, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-.hide-for-landscape,
-.show-for-portrait {
-  display: none !important;
-}
-@media screen and (orientation: landscape) {
-  /* line 119, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-landscape,
-  .show-for-portrait {
-    display: none !important;
-  }
-}
-@media screen and (orientation: portrait) {
-  /* line 119, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_visibility.scss */
-  .hide-for-landscape,
-  .show-for-portrait {
-    display: block !important;
-  }
 }
 
 /* line 10, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_float.scss */
@@ -5366,73 +4453,6 @@ html, html body {
   backface-visibility: hidden;
 }
 
-/* line 147, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_animations.scss */
-.notification, form small.error, form small.valid {
-  -webkit-animation: bounce 1s ease 0.1s 1 both;
-  animation: bounce 1s ease 0.1s 1 both;
-}
-@-webkit-keyframes bounce {
-  0%, 5% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    visibility: hidden;
-  }
-  15%, 40%, 70%, 90%, 97%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  30% {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  50% {
-    -webkit-transform: translateY(-30%);
-    transform: translateY(-30%);
-  }
-  80% {
-    -webkit-transform: translateY(-15%);
-    transform: translateY(-15%);
-  }
-  95% {
-    -webkit-transform: translateY(-10%);
-    transform: translateY(-10%);
-  }
-  99% {
-    -webkit-transform: translateY(-5%);
-    transform: translateY(-5%);
-  }
-}
-@keyframes bounce {
-  0%, 5% {
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    visibility: hidden;
-  }
-  15%, 40%, 70%, 90%, 97%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  30% {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  50% {
-    -webkit-transform: translateY(-30%);
-    transform: translateY(-30%);
-  }
-  80% {
-    -webkit-transform: translateY(-15%);
-    transform: translateY(-15%);
-  }
-  95% {
-    -webkit-transform: translateY(-10%);
-    transform: translateY(-10%);
-  }
-  99% {
-    -webkit-transform: translateY(-5%);
-    transform: translateY(-5%);
-  }
-}
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
@@ -5528,258 +4548,6 @@ html, html body {
     position: relative;
     z-index: 3;
   }
-}
-@font-face {
-  font-family: "icomoon";
-  src: url(../fonts/icomoon.eot) format('embedded-opentype'), url(../fonts/icomoon.eot?#iefix) format('embedded-opentype'), url(../fonts/icomoon.woff) format('woff'), url(../fonts/icomoon.woff2) format('woff2'), url(../fonts/icomoon.ttf) format('truetype'), url(../fonts/icomoon.svg) format('svg'), url(../fonts/icomoon.svg#icomoon) format('svg');
-}
-/* line 57, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-[data-icon]::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: attr(data-icon);
-}
-
-/* line 62, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.button > [class*="icon-"] {
-  margin-right: 0.35714286rem;
-}
-
-/* line 64, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-[class*="icon---"] {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  background: none;
-}
-/* line 67, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-[class*="icon---"]:active {
-  text-decoration: none;
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---eye::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---eye-blocked::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---stack::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---envelope::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---cog::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---menu::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---cross::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---checkmark::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---phone::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---star-empty::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---star-half::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---star-full::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---lock-closed::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---home::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---pencil::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---briefcase::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---light-bulb::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---wallet::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---arrow-down::before {
-  content: "";
-}
-
-/* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.icon---warning::before {
-  content: "";
-}
-
-/* line 99, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-li.prl a, a.prl {
-  background: url(../icons/prl.png);
-  height: 1.92857143rem;
-  width: 7.21428571rem;
-}
-
-/* line 105, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-li.fisca a, a.fisca {
-  background: url(../icons/fisca.png);
-  height: 2rem;
-  margin-left: 1.14285714rem;
-  width: 3.64285714rem;
-}
-
-/* line 112, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-li.godaddy a, a.godaddy {
-  background: url(../icons/godaddy.png);
-  height: 1.85714286rem;
-  margin-left: 1.14285714rem;
-  width: 9.71428571rem;
-}
-
-@media screen and (max-width: 47.4375em) {
-  /* line 119, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  li.prl, li.fisca, li.godaddy {
-    display: block;
-    width: 100%;
-    margin: 0.85714286rem 0px;
-  }
-  /* line 125, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  li.prl:first-child, li.fisca:first-child, li.godaddy:first-child {
-    margin-top: 0px;
-  }
-  /* line 129, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  li.prl:last-child, li.fisca:last-child, li.godaddy:last-child {
-    margin-bottom: 0px;
-  }
-}
-
-@media screen and (max-width: 47.4375em) {
-  /* line 135, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  li.prl a, li.fisca a, li.godaddy a {
-    display: block;
-    margin-left: 0px;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}
-
-/* NOTE: Only addressing with width of the .prl and .fisca classes (and not
- * .godaddy) since .godaddy is the widest of the three and forces the container
- * to be the desired width. */
-@media screen and (max-width: 47.4375em) {
-  /* line 147, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  li.prl a, li.fisca a {
-    width: 100%;
-  }
-}
-
-/* line 155, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-ul.social-links li a {
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-  background-size: contain !important;
-  height: 1.14285714rem;
-  width: 1.14285714rem;
-}
-/* line 163, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-ul.social-links li:not(:first-child) {
-  margin-left: 24px;
-}
-/* line 166, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-ul.social-links li.google a, ul.social-links a.google {
-  background: url(../icons/google.svg);
-}
-/* line 167, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-ul.social-links li.twitter a, ul.social-links a.twitter {
-  background: url(../icons/twitter.svg);
-}
-/* line 168, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-ul.social-links li.facebook a, ul.social-links a.facebook {
-  background: url(../icons/facebook.svg);
-}
-
-/* line 1, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_blocks.scss */
-code {
-  display: inline-block;
-  margin: 0.57142857rem 0;
-  overflow: auto;
-  padding: 0 0.28571429rem;
-  position: relative;
-  white-space: pre;
-  width: 100%;
-  word-break: normal;
-  word-wrap: normal;
-}
-/* line 13, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_blocks.scss */
-code.language-haml::after {
-  bottom: 0.28571429rem;
-  color: #ebebeb;
-  position: absolute;
-  right: 0.57142857rem;
-  content: 'HAML';
-}
-/* line 13, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_blocks.scss */
-code.language-coffeescript::after {
-  bottom: 0.28571429rem;
-  color: #ebebeb;
-  position: absolute;
-  right: 0.57142857rem;
-  content: 'COFFEE';
 }
 
 /* line 1, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_box.scss */
@@ -6181,716 +4949,15 @@ code.language-coffeescript::after {
   }
 }
 
-/* line 4, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.field_with_hint .hint, .hint .microcopy .hint {
-  font-size: 0.71428571rem;
-  margin-left: 0.14285714rem;
-  margin-top: 0.14285714rem;
-}
-
-@media screen and (max-width: 47.4375em) {
-  /* line 12, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-  [class*=-form] small.go-back, [class*=-form] small.sign-in {
-    padding-bottom: 1.07142857rem;
-    text-align: center;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 19, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-  [class*=-form] small.go-back, [class*=-form] small.sign-in {
-    text-align: left;
-  }
-}
-/* line 22, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=-form] small.go-back {
-  line-height: 2.57142857rem;
-}
-/* line 24, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=-form] small.go-back, [class*=-form] small.sign-in {
-  display: block;
-}
-/* line 26, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=-form] label.required::after {
-  content: '*';
-}
-/* line 27, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=-form] .sizeLarge {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-}
-
-/* line 30, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.bank-information-display {
-  box-shadow: 1px 1px 2px 2px #aeaeae;
-}
-
-/* line 34, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input {
-  padding-bottom: 0.71428571rem;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input .collapse-left {
-  padding-left: 0;
-}
-/* line 38, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input .collapse-right {
-  padding-right: 0;
-}
-/* line 40, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.date {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.input.date::before, .input.date::after {
-  content: ' ';
-  display: table;
-  -webkit-flex-basis: 0;
-      -ms-flex-preferred-size: 0;
-          flex-basis: 0;
-  -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
-}
-/* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.input.date::after {
-  clear: both;
-}
-/* line 43, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.date select {
-  width: 33.33333333%;
-  float: left;
-  padding-left: 0.53571429rem;
-  padding-right: 0.53571429rem;
-  padding-left: 0;
-  padding-right: 0;
-  padding: 0.57142857rem;
-}
-@media screen and (min-width: 47.5em) {
-  /* line 43, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-  .input.date select {
-    padding-left: 0.80357143rem;
-    padding-right: 0.80357143rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  /* line 43, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-  .input.date select {
-    padding-left: 1.07142857rem;
-    padding-right: 1.07142857rem;
-  }
-}
-/* line 82, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/grid/_column.scss */
-.input.date select:last-child:not(:first-child) {
-  float: right;
-}
-/* line 52, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.inline .row > .columns > input, .input.inline .input.approximate_length .row > .columns > label.collapse-left, .input.approximate_length .input.inline .row > .columns > label.collapse-left, .input.inline .row > .columns > select {
-  margin-bottom: 0.35714286rem;
-}
-/* line 56, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.inline .row > .columns > label {
-  margin-top: 0.5rem;
-}
-/* line 65, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.name_with_suffix > .row .columns:nth-of-type(2) .columns:nth-of-type(1), .input.street_address > .row .columns:nth-of-type(2) .columns:nth-of-type(1), .input.city_state > .row .columns:nth-of-type(2) .columns:nth-of-type(1), .input.state_id > .row .columns:nth-of-type(2) .columns:nth-of-type(1) {
-  padding-right: 0.53571429rem;
-}
-/* line 69, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.name_with_suffix > .row .columns:nth-of-type(2) .columns:nth-of-type(2), .input.street_address > .row .columns:nth-of-type(2) .columns:nth-of-type(2), .input.city_state > .row .columns:nth-of-type(2) .columns:nth-of-type(2), .input.state_id > .row .columns:nth-of-type(2) .columns:nth-of-type(2) {
-  padding-left: 0.53571429rem;
-}
-/* line 75, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.approximate_length label[class*=collapse]::after {
-  content: '';
-}
-/* line 79, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.approximate_length label.collapse-left, .input.approximate_length input.collapse-right, .input.approximate_length label.collapse-right.collapse-left, .input.approximate_length input, .input.approximate_length label.collapse-left {
-  text-align: center;
-}
-/* line 83, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.approximate_length label.collapse-left, .input.approximate_length input.collapse-right, .input.approximate_length label.collapse-right.collapse-left {
-  width: 50%;
-}
-/* line 87, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.approximate_length label.collapse-left {
-  border-bottom-left-radius: 0 !important;
-  border-top-left-radius: 0 !important;
-  background-color: #f5f7fa;
-  margin-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
-/* line 99, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.approximate_length input.collapse-right, .input.approximate_length label.collapse-right.collapse-left {
-  border-bottom-right-radius: 0 !important;
-  border-top-right-radius: 0 !important;
-}
-/* line 103, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.approximate_length input.collapse-right:not(:focus), .input.approximate_length label.collapse-right.collapse-left:not(:focus), .input.approximate_length input.collapse-right:not(:hover), .input.approximate_length label.collapse-right.collapse-left:not(:hover) {
-  border-right: 0;
-}
-/* line 108, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.approximate_length .row > .columns:first-child > .input {
-  margin-right: 0.53571429rem;
-}
-/* line 112, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.approximate_length .row > .columns:last-child > .input {
-  margin-left: 0.53571429rem;
-}
-/* line 117, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input label {
-  text-transform: capitalize;
-  padding: 0;
-}
-@media screen and (min-width: 47.5em) {
-  /* line 117, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-  .input label {
-    padding: 0 0.14285714rem;
-  }
-}
-/* line 129, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input label.error {
-  text-transform: none;
-}
-/* line 133, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.select .input-wrapper, .input.side_by_side .input-wrapper .select {
-  position: relative;
-}
-/* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.input.select .input-wrapper::before, .input.side_by_side .input-wrapper .select::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  color: inherit;
-  margin: 0;
-  padding: 0;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
-  font-size: 0.71428571rem;
-  position: absolute;
-  right: 0.85714286rem;
-  top: 1.07142857rem;
-  z-index: 4;
-}
-/* line 146, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.select .input-wrapper select, .input.side_by_side .input-wrapper .select select {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  background: #fefefe;
-}
-/* line 149, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input input, .input.approximate_length label.collapse-left, .input select {
-  border-radius: 0.14285714rem;
-  background-color: #fefefe;
-  border: 0.07142857rem solid #aeaeae;
-  margin-bottom: 0;
-}
-@media screen and (min-width: 47.5em) {
-  /* line 67, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-  .input input[type=number], .input.approximate_length label[type=number].collapse-left, .input select[type=number] {
-    -moz-appearance: textfield;
-  }
-  /* line 70, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_mixins.scss */
-  .input input[type=number]::-webkit-inner-spin-button, .input.approximate_length label[type=number].collapse-left::-webkit-inner-spin-button, .input input[type=number]::-webkit-outer-spin-button, .input.approximate_length label[type=number].collapse-left::-webkit-outer-spin-button, .input select[type=number]::-webkit-inner-spin-button, .input select[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
-}
-/* line 160, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input input:hover, .input.approximate_length label.collapse-left:hover, .input input:focus, .input.approximate_length label.collapse-left:focus, .input select:hover, .input select:focus {
-  border: 0.07142857rem solid #5d9cec;
-  outline: none;
-}
-/* line 165, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input input[disabled], .input.approximate_length label.collapse-left, .input input[disabled]:hover, .input.approximate_length label.collapse-left:hover, .input input[disabled]:focus, .input.approximate_length label.collapse-left:focus, .input select[disabled], .input select[disabled]:hover, .input select[disabled]:focus {
-  background-color: #f5f7fa;
-  border: 0.07142857rem solid #aeaeae;
-  outline: none;
-}
-/* line 173, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input .hideShowPassword-wrapper ::-ms-reveal,
-.input .hideShowPassword-wrapper ::-ms-clear {
-  display: none !important;
-}
-/* line 178, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input .hideShowPassword-wrapper .hideShowPassword-toggle {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
-  font-size: 1.28571429rem;
-  height: 18px;
-  margin-right: 0.85714286rem;
-  outline: none;
-  overflow: hidden;
-  width: 18px;
-}
-/* line 188, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input .hideShowPassword-wrapper .hideShowPassword-toggle::before {
-  margin-top: 0.07142857rem;
-}
-/* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.input .hideShowPassword-wrapper .hideShowPassword-toggle.hideShowPassword-toggle-hide::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  color: inherit;
-  margin: 0;
-  padding: 0;
-}
-/* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.input .hideShowPassword-wrapper .hideShowPassword-toggle.hideShowPassword-toggle-show::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  color: inherit;
-  margin: 0;
-  padding: 0;
-}
-/* line 202, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders, .input.radio_button_expanders {
-  margin-left: -0.53571429rem;
-  margin-right: -0.53571429rem;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-@media screen and (min-width: 47.5em) {
-  /* line 202, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-  .input.check_box_expanders, .input.radio_button_expanders {
-    margin-left: -0.80357143rem;
-    margin-right: -0.80357143rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  /* line 202, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-  .input.check_box_expanders, .input.radio_button_expanders {
-    margin-left: -1.07142857rem;
-    margin-right: -1.07142857rem;
-  }
-}
-/* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.input.check_box_expanders::before, .input.check_box_expanders::after, .input.radio_button_expanders::before, .input.radio_button_expanders::after {
-  content: ' ';
-  display: table;
-  -webkit-flex-basis: 0;
-      -ms-flex-preferred-size: 0;
-          flex-basis: 0;
-  -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
-}
-/* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.input.check_box_expanders::after, .input.radio_button_expanders::after {
-  clear: both;
-}
-/* line 209, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders label.check_box_expanders, .input.check_box_expanders label.radio_button_expanders, .input.radio_button_expanders label.check_box_expanders, .input.radio_button_expanders label.radio_button_expanders {
-  padding-left: 0;
-  padding-right: 0;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 209, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-  .input.check_box_expanders label.check_box_expanders, .input.check_box_expanders label.radio_button_expanders, .input.radio_button_expanders label.check_box_expanders, .input.radio_button_expanders label.radio_button_expanders {
-    width: 100%;
-    float: left;
-  }
-  /* line 82, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/grid/_column.scss */
-  .input.check_box_expanders label.check_box_expanders:last-child:not(:first-child), .input.check_box_expanders label.radio_button_expanders:last-child:not(:first-child), .input.radio_button_expanders label.check_box_expanders:last-child:not(:first-child), .input.radio_button_expanders label.radio_button_expanders:last-child:not(:first-child) {
-    float: right;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 209, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-  .input.check_box_expanders label.check_box_expanders, .input.check_box_expanders label.radio_button_expanders, .input.radio_button_expanders label.check_box_expanders, .input.radio_button_expanders label.radio_button_expanders {
-    width: 33.33333333%;
-    float: left;
-    padding-left: 0.14285714rem;
-    padding-top: 0.14285714rem;
-  }
-  /* line 82, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/grid/_column.scss */
-  .input.check_box_expanders label.check_box_expanders:last-child:not(:first-child), .input.check_box_expanders label.radio_button_expanders:last-child:not(:first-child), .input.radio_button_expanders label.check_box_expanders:last-child:not(:first-child), .input.radio_button_expanders label.radio_button_expanders:last-child:not(:first-child) {
-    float: right;
-  }
-}
-/* line 224, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders ul.expander, .input.radio_button_expanders ul.expander {
-  padding-left: 0;
-  padding-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  width: 100%;
-  float: left;
-}
-/* line 46, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/grid/_position.scss */
-.input.check_box_expanders ul.expander:last-child:last-child, .input.radio_button_expanders ul.expander:last-child:last-child {
-  float: left;
-}
-/* line 82, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/grid/_column.scss */
-.input.check_box_expanders ul.expander:last-child:not(:first-child), .input.radio_button_expanders ul.expander:last-child:not(:first-child) {
-  float: right;
-}
-@media screen and (min-width: 47.5em) {
-  /* line 224, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-  .input.check_box_expanders ul.expander, .input.radio_button_expanders ul.expander {
-    width: 66.66666667%;
-    float: left;
-  }
-  /* line 82, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/grid/_column.scss */
-  .input.check_box_expanders ul.expander:last-child:not(:first-child), .input.radio_button_expanders ul.expander:last-child:not(:first-child) {
-    float: right;
-  }
-}
-/* line 239, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders ul.expander li.expander-group, .input.check_box_expanders ul.expander .expander-group > label, .input.check_box_expanders ul.expander .expander-group-header, .input.radio_button_expanders ul.expander li.expander-group, .input.radio_button_expanders ul.expander .expander-group > label, .input.radio_button_expanders ul.expander .expander-group-header {
-  min-height: 2rem;
-}
-/* line 245, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders ul.expander li.expander-group, .input.radio_button_expanders ul.expander li.expander-group {
-  border-radius: 0.14285714rem;
-  background: #fefefe;
-  border: 0.07142857rem solid #aeaeae;
-  list-style: none;
-  margin: 1rem 0;
-}
-/* line 253, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders ul.expander li.expander-group:first-child, .input.radio_button_expanders ul.expander li.expander-group:first-child {
-  margin-top: 0;
-}
-/* line 257, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders ul.expander li.expander-group.active, .input.radio_button_expanders ul.expander li.expander-group.active {
-  background: #ebebeb;
-  border: 0.07142857rem solid #2199e8;
-}
-/* line 261, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders ul.expander li.expander-group.active .expander-group-content, .input.radio_button_expanders ul.expander li.expander-group.active .expander-group-content {
-  display: block;
-}
-/* line 266, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders ul.expander li.expander-group .expander-group-header, .input.radio_button_expanders ul.expander li.expander-group .expander-group-header {
-  margin-left: 0.57142857rem;
-  position: relative;
-}
-/* line 270, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders ul.expander li.expander-group .expander-group-header [class*=iradio], .input.check_box_expanders ul.expander li.expander-group .expander-group-header input[type=radio], .input.check_box_expanders ul.expander li.expander-group .expander-group-header .input.approximate_length label[type=radio].collapse-left, .input.approximate_length .input.check_box_expanders ul.expander li.expander-group .expander-group-header label[type=radio].collapse-left,
-.input.check_box_expanders ul.expander li.expander-group .expander-group-header [class*=icheckbox], .input.check_box_expanders ul.expander li.expander-group .expander-group-header input[type=checkbox], .input.check_box_expanders ul.expander li.expander-group .expander-group-header .input.approximate_length label[type=checkbox].collapse-left, .input.approximate_length .input.check_box_expanders ul.expander li.expander-group .expander-group-header label[type=checkbox].collapse-left, .input.radio_button_expanders ul.expander li.expander-group .expander-group-header [class*=iradio], .input.radio_button_expanders ul.expander li.expander-group .expander-group-header input[type=radio], .input.radio_button_expanders ul.expander li.expander-group .expander-group-header .input.approximate_length label[type=radio].collapse-left, .input.approximate_length .input.radio_button_expanders ul.expander li.expander-group .expander-group-header label[type=radio].collapse-left,
-.input.radio_button_expanders ul.expander li.expander-group .expander-group-header [class*=icheckbox], .input.radio_button_expanders ul.expander li.expander-group .expander-group-header input[type=checkbox], .input.radio_button_expanders ul.expander li.expander-group .expander-group-header .input.approximate_length label[type=checkbox].collapse-left, .input.approximate_length .input.radio_button_expanders ul.expander li.expander-group .expander-group-header label[type=checkbox].collapse-left {
-  position: absolute;
-  top: 0.85714286rem;
-}
-/* line 276, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders ul.expander li.expander-group .expander-group-header h4.title, .input.radio_button_expanders ul.expander li.expander-group .expander-group-header h4.title {
-  font-size: 1rem;
-  font-weight: 600;
-  padding-top: 0.85714286rem;
-}
-/* line 282, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders ul.expander li.expander-group .expander-group-header h5.description, .input.radio_button_expanders ul.expander li.expander-group .expander-group-header h5.description {
-  font-size: 0.85714286rem;
-}
-/* line 286, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders ul.expander li.expander-group .expander-group-header h4.title, .input.check_box_expanders ul.expander li.expander-group .expander-group-header h5.description, .input.radio_button_expanders ul.expander li.expander-group .expander-group-header h4.title, .input.radio_button_expanders ul.expander li.expander-group .expander-group-header h5.description {
-  padding-left: 2rem;
-  padding-right: 1rem;
-}
-/* line 292, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-.input.check_box_expanders ul.expander li.expander-group .expander-group-content, .input.radio_button_expanders ul.expander li.expander-group .expander-group-content {
-  display: none;
-  padding-bottom: 1rem;
-  padding-left: 2.57142857rem;
-  padding-right: 1rem;
-}
-
-/* line 303, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-label {
-  -moz-user-select: -moz-none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-/* line 310, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=radio_flat] input[type=radio], [class*=radio_flat] .input.approximate_length label[type=radio].collapse-left, .input.approximate_length [class*=radio_flat] label[type=radio].collapse-left, [class*=radio_flat] input[type=checkbox], [class*=radio_flat] .input.approximate_length label[type=checkbox].collapse-left, .input.approximate_length [class*=radio_flat] label[type=checkbox].collapse-left, [class*=checkbox_flat] input[type=radio], [class*=checkbox_flat] .input.approximate_length label[type=radio].collapse-left, .input.approximate_length [class*=checkbox_flat] label[type=radio].collapse-left, [class*=checkbox_flat] input[type=checkbox], [class*=checkbox_flat] .input.approximate_length label[type=checkbox].collapse-left, .input.approximate_length [class*=checkbox_flat] label[type=checkbox].collapse-left,
-[class*=radio_line] input[type=radio],
-[class*=radio_line] .input.approximate_length label[type=radio].collapse-left,
-.input.approximate_length [class*=radio_line] label[type=radio].collapse-left,
-[class*=radio_line] input[type=checkbox],
-[class*=radio_line] .input.approximate_length label[type=checkbox].collapse-left,
-.input.approximate_length [class*=radio_line] label[type=checkbox].collapse-left, [class*=checkbox_line] input[type=radio], [class*=checkbox_line] .input.approximate_length label[type=radio].collapse-left, .input.approximate_length [class*=checkbox_line] label[type=radio].collapse-left, [class*=checkbox_line] input[type=checkbox], [class*=checkbox_line] .input.approximate_length label[type=checkbox].collapse-left, .input.approximate_length [class*=checkbox_line] label[type=checkbox].collapse-left {
-  opacity: 1 !important;
-}
-/* line 314, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=radio_flat] input[type=radio], [class*=radio_flat] .input.approximate_length label[type=radio].collapse-left, .input.approximate_length [class*=radio_flat] label[type=radio].collapse-left, [class*=radio_flat] input[type=checkbox], [class*=radio_flat] .input.approximate_length label[type=checkbox].collapse-left, .input.approximate_length [class*=radio_flat] label[type=checkbox].collapse-left, [class*=radio_flat] ins, [class*=checkbox_flat] input[type=radio], [class*=checkbox_flat] .input.approximate_length label[type=radio].collapse-left, .input.approximate_length [class*=checkbox_flat] label[type=radio].collapse-left, [class*=checkbox_flat] input[type=checkbox], [class*=checkbox_flat] .input.approximate_length label[type=checkbox].collapse-left, .input.approximate_length [class*=checkbox_flat] label[type=checkbox].collapse-left, [class*=checkbox_flat] ins,
-[class*=radio_line] input[type=radio],
-[class*=radio_line] .input.approximate_length label[type=radio].collapse-left,
-.input.approximate_length [class*=radio_line] label[type=radio].collapse-left,
-[class*=radio_line] input[type=checkbox],
-[class*=radio_line] .input.approximate_length label[type=checkbox].collapse-left,
-.input.approximate_length [class*=radio_line] label[type=checkbox].collapse-left,
-[class*=radio_line] ins, [class*=checkbox_line] input[type=radio], [class*=checkbox_line] .input.approximate_length label[type=radio].collapse-left, .input.approximate_length [class*=checkbox_line] label[type=radio].collapse-left, [class*=checkbox_line] input[type=checkbox], [class*=checkbox_line] .input.approximate_length label[type=checkbox].collapse-left, .input.approximate_length [class*=checkbox_line] label[type=checkbox].collapse-left, [class*=checkbox_line] ins {
-  height: 22px !important;
-  width: 22px !important;
-}
-
-/* line 321, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio], [class*=flat-checkbox],
-[class*=line-radio], [class*=line-checkbox] {
-  margin-bottom: 1rem;
-  font-size: 0;
-  margin-right: -1px;
-}
-/* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-[class*=flat-radio]::before, [class*=flat-radio]::after, [class*=flat-checkbox]::before, [class*=flat-checkbox]::after,
-[class*=line-radio]::before,
-[class*=line-radio]::after, [class*=line-checkbox]::before, [class*=line-checkbox]::after {
-  content: ' ';
-  display: table;
-  -webkit-flex-basis: 0;
-      -ms-flex-preferred-size: 0;
-          flex-basis: 0;
-  -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
-}
-/* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-[class*=flat-radio]::after, [class*=flat-checkbox]::after,
-[class*=line-radio]::after, [class*=line-checkbox]::after {
-  clear: both;
-}
-/* line 40, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_button-group.scss */
-[class*=flat-radio] span, [class*=flat-checkbox] span,
-[class*=line-radio] span, [class*=line-checkbox] span {
-  margin: 0;
-  font-size: 0.9rem;
-  float: left;
-}
-/* line 51, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_button-group.scss */
-[class*=flat-radio] span:not(:last-child), [class*=flat-checkbox] span:not(:last-child),
-[class*=line-radio] span:not(:last-child), [class*=line-checkbox] span:not(:last-child) {
-  border-right: 1px solid #fefefe;
-}
-/* line 71, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_button-group.scss */
-[class*=flat-radio]::before, [class*=flat-radio]::after, [class*=flat-checkbox]::before, [class*=flat-checkbox]::after,
-[class*=line-radio]::before,
-[class*=line-radio]::after, [class*=line-checkbox]::before, [class*=line-checkbox]::after {
-  display: none;
-}
-/* line 85, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_button-group.scss */
-[class*=flat-radio] span:first-child:nth-last-child(2), [class*=flat-radio] span:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ span, [class*=flat-checkbox] span:first-child:nth-last-child(2), [class*=flat-checkbox] span:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ span,
-[class*=line-radio] span:first-child:nth-last-child(2),
-[class*=line-radio] span:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ span, [class*=line-checkbox] span:first-child:nth-last-child(2), [class*=line-checkbox] span:first-child:nth-last-child(2):first-child:nth-last-child(2) ~ span {
-  display: inline-block;
-  width: calc(50% - 1px);
-  margin-right: 1px;
-}
-/* line 85, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_button-group.scss */
-[class*=flat-radio] span:first-child:nth-last-child(3), [class*=flat-radio] span:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ span, [class*=flat-checkbox] span:first-child:nth-last-child(3), [class*=flat-checkbox] span:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ span,
-[class*=line-radio] span:first-child:nth-last-child(3),
-[class*=line-radio] span:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ span, [class*=line-checkbox] span:first-child:nth-last-child(3), [class*=line-checkbox] span:first-child:nth-last-child(3):first-child:nth-last-child(3) ~ span {
-  display: inline-block;
-  width: calc(33.33333333% - 1px);
-  margin-right: 1px;
-}
-/* line 85, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_button-group.scss */
-[class*=flat-radio] span:first-child:nth-last-child(4), [class*=flat-radio] span:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ span, [class*=flat-checkbox] span:first-child:nth-last-child(4), [class*=flat-checkbox] span:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ span,
-[class*=line-radio] span:first-child:nth-last-child(4),
-[class*=line-radio] span:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ span, [class*=line-checkbox] span:first-child:nth-last-child(4), [class*=line-checkbox] span:first-child:nth-last-child(4):first-child:nth-last-child(4) ~ span {
-  display: inline-block;
-  width: calc(25% - 1px);
-  margin-right: 1px;
-}
-/* line 85, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_button-group.scss */
-[class*=flat-radio] span:first-child:nth-last-child(5), [class*=flat-radio] span:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ span, [class*=flat-checkbox] span:first-child:nth-last-child(5), [class*=flat-checkbox] span:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ span,
-[class*=line-radio] span:first-child:nth-last-child(5),
-[class*=line-radio] span:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ span, [class*=line-checkbox] span:first-child:nth-last-child(5), [class*=line-checkbox] span:first-child:nth-last-child(5):first-child:nth-last-child(5) ~ span {
-  display: inline-block;
-  width: calc(20% - 1px);
-  margin-right: 1px;
-}
-/* line 85, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/components/_button-group.scss */
-[class*=flat-radio] span:first-child:nth-last-child(6), [class*=flat-radio] span:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ span, [class*=flat-checkbox] span:first-child:nth-last-child(6), [class*=flat-checkbox] span:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ span,
-[class*=line-radio] span:first-child:nth-last-child(6),
-[class*=line-radio] span:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ span, [class*=line-checkbox] span:first-child:nth-last-child(6), [class*=line-checkbox] span:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ span {
-  display: inline-block;
-  width: calc(16.66666667% - 1px);
-  margin-right: 1px;
-}
-/* line 326, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio] span, [class*=flat-checkbox] span,
-[class*=line-radio] span, [class*=line-checkbox] span {
-  display: inline-block;
-  text-align: center;
-  line-height: 1;
-  cursor: pointer;
-  -webkit-appearance: none;
-  -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
-  transition: background-color 0.25s ease-out, color 0.25s ease-out;
-  vertical-align: middle;
-  border: 1px solid transparent;
-  border-radius: 0.28571429rem;
-  padding: 1.0375em 1em;
-  margin: 0 1rem 1rem 0;
-  font-size: 0.9rem;
-  display: block;
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  position: relative;
-}
-/* line 167, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-[data-whatinput='mouse'] [class*=flat-radio] span, [data-whatinput='mouse'] [class*=flat-checkbox] span, [data-whatinput='mouse']
-[class*=line-radio] span, [data-whatinput='mouse'] [class*=line-checkbox] span {
-  outline: 0;
-}
-/* line 332, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio] span [class*=iradio], [class*=flat-radio] span [class*=icheckbox], [class*=flat-checkbox] span [class*=iradio], [class*=flat-checkbox] span [class*=icheckbox],
-[class*=line-radio] span [class*=iradio],
-[class*=line-radio] span [class*=icheckbox], [class*=line-checkbox] span [class*=iradio], [class*=line-checkbox] span [class*=icheckbox] {
-  display: inline-block;
-  margin: 0.28571429rem;
-}
-/* line 337, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio] span label, [class*=flat-checkbox] span label,
-[class*=line-radio] span label, [class*=line-checkbox] span label {
-  display: inline-block;
-  margin-top: 0.14285714rem;
-  width: 100%;
-}
-/* line 344, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio][class*=line-] span, [class*=flat-checkbox][class*=line-] span,
-[class*=line-radio][class*=line-] span, [class*=line-checkbox][class*=line-] span {
-  margin: 0;
-  padding: 0;
-}
-/* line 348, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio][class*=line-] span [class*=iradio], [class*=flat-radio][class*=line-] span [class*=icheckbox], [class*=flat-checkbox][class*=line-] span [class*=iradio], [class*=flat-checkbox][class*=line-] span [class*=icheckbox],
-[class*=line-radio][class*=line-] span [class*=iradio],
-[class*=line-radio][class*=line-] span [class*=icheckbox], [class*=line-checkbox][class*=line-] span [class*=iradio], [class*=line-checkbox][class*=line-] span [class*=icheckbox] {
-  background-color: #6bb7e4;
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
-}
-/* line 356, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio][class*=line-] span [class*=iradio].checked, [class*=flat-radio][class*=line-] span [class*=icheckbox].checked, [class*=flat-checkbox][class*=line-] span [class*=iradio].checked, [class*=flat-checkbox][class*=line-] span [class*=icheckbox].checked,
-[class*=line-radio][class*=line-] span [class*=iradio].checked,
-[class*=line-radio][class*=line-] span [class*=icheckbox].checked, [class*=line-checkbox][class*=line-] span [class*=iradio].checked, [class*=line-checkbox][class*=line-] span [class*=icheckbox].checked {
-  background-color: #2489c5;
-}
-/* line 360, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio][class*=line-] span [class*=iradio].toggle, [class*=flat-radio][class*=line-] span [class*=icheckbox].toggle, [class*=flat-checkbox][class*=line-] span [class*=iradio].toggle, [class*=flat-checkbox][class*=line-] span [class*=icheckbox].toggle,
-[class*=line-radio][class*=line-] span [class*=iradio].toggle,
-[class*=line-radio][class*=line-] span [class*=icheckbox].toggle, [class*=line-checkbox][class*=line-] span [class*=iradio].toggle, [class*=line-checkbox][class*=line-] span [class*=icheckbox].toggle {
-  padding-left: 1.28571429rem;
-}
-/* line 363, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio][class*=line-] span [class*=iradio].toggle .icheck_line-icon, [class*=flat-radio][class*=line-] span [class*=icheckbox].toggle .icheck_line-icon, [class*=flat-checkbox][class*=line-] span [class*=iradio].toggle .icheck_line-icon, [class*=flat-checkbox][class*=line-] span [class*=icheckbox].toggle .icheck_line-icon,
-[class*=line-radio][class*=line-] span [class*=iradio].toggle .icheck_line-icon,
-[class*=line-radio][class*=line-] span [class*=icheckbox].toggle .icheck_line-icon, [class*=line-checkbox][class*=line-] span [class*=iradio].toggle .icheck_line-icon, [class*=line-checkbox][class*=line-] span [class*=icheckbox].toggle .icheck_line-icon {
-  display: none;
-}
-/* line 368, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio][class*=line-] span [class*=iradio] label, [class*=flat-radio][class*=line-] span [class*=icheckbox] label, [class*=flat-checkbox][class*=line-] span [class*=iradio] label, [class*=flat-checkbox][class*=line-] span [class*=icheckbox] label,
-[class*=line-radio][class*=line-] span [class*=iradio] label,
-[class*=line-radio][class*=line-] span [class*=icheckbox] label, [class*=line-checkbox][class*=line-] span [class*=iradio] label, [class*=line-checkbox][class*=line-] span [class*=icheckbox] label {
-  color: #fefefe;
-  margin-left: -1.57142857rem;
-}
-/* line 375, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio][class*=flat-] span, [class*=flat-checkbox][class*=flat-] span,
-[class*=line-radio][class*=flat-] span, [class*=line-checkbox][class*=flat-] span {
-  box-shadow: inset 0 0 0 1px #aeaeae;
-  background-color: #ebebeb;
-  padding: 0.28571429rem;
-}
-/* line 381, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio][class*=flat-] span.active, [class*=flat-checkbox][class*=flat-] span.active,
-[class*=line-radio][class*=flat-] span.active, [class*=line-checkbox][class*=flat-] span.active {
-  box-shadow: inset 0 0 0 1px #2199e8;
-}
-/* line 384, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio][class*=flat-] span.active label, [class*=flat-checkbox][class*=flat-] span.active label,
-[class*=line-radio][class*=flat-] span.active label, [class*=line-checkbox][class*=flat-] span.active label {
-  color: #2199e8;
-}
-/* line 389, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_inputs.scss */
-[class*=flat-radio][class*=flat-] span [class*=iradio], [class*=flat-radio][class*=flat-] span [class*=icheckbox], [class*=flat-checkbox][class*=flat-] span [class*=iradio], [class*=flat-checkbox][class*=flat-] span [class*=icheckbox],
-[class*=line-radio][class*=flat-] span [class*=iradio],
-[class*=line-radio][class*=flat-] span [class*=icheckbox], [class*=line-checkbox][class*=flat-] span [class*=iradio], [class*=line-checkbox][class*=flat-] span [class*=icheckbox] {
-  left: 0.42857143rem;
-  position: absolute;
-}
-
-@media screen and (max-width: 47.4375em) {
-  /* line 4, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  [data-context*=registrations] .nav-bar-left {
-    position: relative;
-    top: -1.07142857rem;
-  }
-  /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  [data-context*=registrations] .nav-bar-left a:first-child::before {
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    content: "";
-    font-size: 16px;
-    color: #fefefe;
-    margin: 0;
-    padding: 0;
-    left: 6px;
-    position: absolute;
-    top: 48px;
-  }
-  /* line 16, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  [data-context*=registrations] .nav-bar-left a:first-child::after {
-    color: #fefefe;
-    content: 'Secure Form';
-    font-size: 12px;
-    left: 26px;
-    position: absolute;
-    speak: none;
-    top: 24px;
-    word-spacing: normal;
-  }
-}
-
 /* line 47, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar {
+.nav-bar {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
 /* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-body.loaded .nav-bar::before, body.loaded .nav-bar::after {
+.nav-bar::before, .nav-bar::after {
   content: ' ';
   display: table;
   -webkit-flex-basis: 0;
@@ -6902,93 +4969,93 @@ body.loaded .nav-bar::before, body.loaded .nav-bar::after {
           order: 1;
 }
 /* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-body.loaded .nav-bar::after {
+.nav-bar::after {
   clear: both;
 }
 @media screen and (max-width: 47.4375em) {
   /* line 47, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar {
+  .nav-bar {
     height: 4rem;
     min-height: 4rem;
   }
 }
 @media screen and (min-width: 47.5em) {
   /* line 47, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar {
+  .nav-bar {
     height: 5.14285714rem;
     min-height: 5.14285714rem;
   }
   /* line 61, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right {
+  .nav-bar .nav-bar-right {
     padding-top: 10px;
   }
 }
 /* line 64, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar.is-overlay {
+.nav-bar.is-overlay {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
   opacity: 0.85;
   background: #151e34;
   z-index: 9999 !important;
 }
 /* line 71, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-left, body.loaded .nav-bar .nav-bar-right {
+.nav-bar .nav-bar-left, .nav-bar .nav-bar-right {
   height: 100%;
   position: absolute;
 }
 /* line 78, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar a:focus, body.loaded .nav-bar a:focus h6::before, body.loaded .nav-bar a:focus h6::after, body.loaded .nav-bar a:hover, body.loaded .nav-bar a:hover h6::before, body.loaded .nav-bar a:hover h6::after {
+.nav-bar a:focus, .nav-bar a:focus h6::before, .nav-bar a:focus h6::after, .nav-bar a:hover, .nav-bar a:hover h6::before, .nav-bar a:hover h6::after {
   border-bottom: 0;
   color: #e98319 !important;
 }
 /* line 86, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar a:not(.logo):not(.tagline):active:empty {
+.nav-bar a:not(.logo):not(.tagline):active:empty {
   text-decoration: underline;
 }
 /* line 87, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar a:not(.logo):not(.tagline):active:not(:empty) {
+.nav-bar a:not(.logo):not(.tagline):active:not(:empty) {
   border-bottom: 1px solid #e98319;
 }
 /* line 91, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-left {
+.nav-bar .nav-bar-left {
   padding-left: 0.53571429rem;
   left: 0;
 }
 @media screen and (min-width: 66.25em) {
   /* line 91, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-left {
+  .nav-bar .nav-bar-left {
     padding-left: 1.07142857rem;
   }
 }
 @media screen and (min-width: 47.5em) {
   /* line 91, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-left {
+  .nav-bar .nav-bar-left {
     padding-left: 2.00892857rem;
   }
 }
 @media screen and (min-width: 66.25em) {
   /* line 91, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-left {
+  .nav-bar .nav-bar-left {
     padding-left: 2.67857143rem;
   }
 }
 @media screen and (max-width: 47.4375em) {
   /* line 95, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-left a {
+  .nav-bar .nav-bar-left a {
     line-height: 4.57142857rem;
   }
 }
 @media screen and (min-width: 47.5em) and (max-width: 66.1875em) {
   /* line 99, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-left a.logo {
+  .nav-bar .nav-bar-left a.logo {
     position: relative;
   }
 }
 /* line 102, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-left a.logo, body.loaded .nav-bar .nav-bar-left a.tagline {
+.nav-bar .nav-bar-left a.logo, .nav-bar .nav-bar-left a.tagline {
   z-index: 10000;
 }
 /* line 105, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right {
+.nav-bar .nav-bar-right {
   padding-right: 0.53571429rem;
   right: 0;
   right: 0;
@@ -6996,111 +5063,111 @@ body.loaded .nav-bar .nav-bar-right {
 }
 @media screen and (min-width: 66.25em) {
   /* line 105, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right {
+  .nav-bar .nav-bar-right {
     padding-right: 1.07142857rem;
   }
 }
 @media screen and (min-width: 47.5em) {
   /* line 105, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right {
+  .nav-bar .nav-bar-right {
     padding-right: 2.00892857rem;
   }
 }
 @media screen and (min-width: 66.25em) {
   /* line 105, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right {
+  .nav-bar .nav-bar-right {
     padding-right: 2.67857143rem;
   }
 }
 @media screen and (min-width: 47.5em) {
   /* line 113, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li {
+  .nav-bar .nav-bar-right ul.menu li {
     margin-right: 0.53571429rem;
     padding: 0;
   }
   /* line 117, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li:last-child {
+  .nav-bar .nav-bar-right ul.menu li:last-child {
     margin-right: 0;
   }
   /* line 121, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li a {
+  .nav-bar .nav-bar-right ul.menu li a {
     display: inline-block;
   }
 }
 @media screen and (min-width: 66.25em) {
   /* line 127, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li {
+  .nav-bar .nav-bar-right ul.menu li {
     margin-right: 0 !important;
   }
 }
 /* line 133, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right .only-mobile {
+.nav-bar .nav-bar-right .only-mobile {
   display: none;
 }
 /* line 137, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu.only-mobile li.contact-us {
+.nav-bar .nav-bar-right ul.menu.only-mobile li.contact-us {
   padding: 0;
 }
 /* line 140, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu.only-mobile li.contact-us a {
+.nav-bar .nav-bar-right ul.menu.only-mobile li.contact-us a {
   padding: 0.21428571rem 0;
 }
 /* line 145, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu {
+.nav-bar .nav-bar-right ul.menu {
   font-size: 1rem;
 }
 @media screen and (max-width: 47.4375em) {
   /* line 158, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li {
+  .nav-bar .nav-bar-right ul.menu li {
     display: block;
   }
 }
 @media screen and (max-width: 47.4375em) {
   /* line 166, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu {
+  .nav-bar .nav-bar-right ul.menu li.toggle-menu {
     display: inline-block;
   }
 }
 @media screen and (min-width: 47.5em) {
   /* line 164, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li {
+  .nav-bar .nav-bar-right ul.menu li {
     display: inline-block;
     float: left;
   }
   /* line 174, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu {
+  .nav-bar .nav-bar-right ul.menu li.toggle-menu {
     display: none;
   }
 }
 /* line 180, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.apply-now:hover {
+.nav-bar .nav-bar-right ul.menu li.apply-now:hover {
   border: 0.14285714rem ridge #e98319 !important;
 }
 /* line 184, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.apply-now a:hover {
+.nav-bar .nav-bar-right ul.menu li.apply-now a:hover {
   border-bottom: 1px solid transparent;
 }
 /* line 189, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li:not(.button) a {
+.nav-bar .nav-bar-right ul.menu li:not(.button) a {
   margin-top: 0.14285714rem;
 }
 /* line 191, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.button.hollow {
+.nav-bar .nav-bar-right ul.menu li.button.hollow {
   border: 0.14285714rem ridge #fefefe;
   color: #e98319;
 }
 /* line 196, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu {
+.nav-bar .nav-bar-right ul.menu li.toggle-menu {
   float: right;
   margin: 0;
   padding: 0;
 }
 /* line 201, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu a {
+.nav-bar .nav-bar-right ul.menu li.toggle-menu a {
   padding-right: 0;
 }
 /* line 204, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu a > :first-child {
+.nav-bar .nav-bar-right ul.menu li.toggle-menu a > :first-child {
   display: table;
   outline: none;
   padding: 0;
@@ -7108,7 +5175,7 @@ body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu a > :first-child {
   text-indent: -1428.57142857rem;
 }
 /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu a > :first-child::before {
+.nav-bar .nav-bar-right ul.menu li.toggle-menu a > :first-child::before {
   font-family: "icomoon";
   -webkit-font-smoothing: antialiased;
   font-style: normal;
@@ -7127,23 +5194,23 @@ body.loaded .nav-bar .nav-bar-right ul.menu li.toggle-menu a > :first-child::bef
   text-indent: 0;
 }
 /* line 221, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us {
+.nav-bar .nav-bar-right ul.menu li.contact-us {
   margin: 0;
   padding: 0 1.71428571rem 0 0;
 }
 @media screen and (max-width: 47.4375em) {
   /* line 221, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us {
+  .nav-bar .nav-bar-right ul.menu li.contact-us {
     float: right;
   }
 }
 /* line 229, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us a {
+.nav-bar .nav-bar-right ul.menu li.contact-us a {
   font-weight: 400;
   padding-right: 0;
 }
 /* line 233, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child {
+.nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child {
   display: table;
   left: 0;
   outline: none;
@@ -7152,12 +5219,12 @@ body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child {
 }
 @media screen and (max-width: 47.4375em) {
   /* line 233, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
-  body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child {
+  .nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child {
     line-height: 3.42857143rem;
   }
 }
 /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child::before {
+.nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child::before {
   font-family: "icomoon";
   -webkit-font-smoothing: antialiased;
   font-style: normal;
@@ -7190,461 +5257,6 @@ body.loaded .nav-bar .nav-bar-right ul.menu li.contact-us a > :first-child::befo
   /* line 267, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_navigation_bar.scss */
   .footer-nav .menu > li > a {
     padding: 0;
-  }
-}
-
-/* line 1, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification {
-  line-height: 1.14285714rem;
-  padding-top: 0.57142857rem;
-}
-/* line 8, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification.alert, .notification.error, .notification.info, .notification .close-button {
-  color: #fefefe;
-}
-/* line 12, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification .close-button {
-  font-size: 1.71428571rem;
-  right: 0.42857143rem;
-  top: 0;
-}
-/* line 17, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification .close-button:focus {
-  outline: none;
-}
-/* line 20, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification.alert {
-  background-color: #ec5840;
-}
-/* line 26, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification.error {
-  background-color: #da4453;
-}
-/* line 32, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_notifications.scss */
-.notification.info {
-  background-color: #2199e8;
-}
-
-/* line 5, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator {
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
-  margin-top: 2.14285714rem;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 5, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator {
-    max-width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 0.85714286rem;
-  }
-  /* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-  .progress-indicator::before, .progress-indicator::after {
-    content: ' ';
-    display: table;
-    -webkit-flex-basis: 0;
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-    -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1;
-  }
-  /* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-  .progress-indicator::after {
-    clear: both;
-  }
-  /* line 15, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator hr {
-    display: none;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 5, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 4.57142857rem;
-  }
-  /* line 138, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-  .progress-indicator::before, .progress-indicator::after {
-    content: ' ';
-    display: table;
-    -webkit-flex-basis: 0;
-        -ms-flex-preferred-size: 0;
-            flex-basis: 0;
-    -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1;
-  }
-  /* line 146, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-  .progress-indicator::after {
-    clear: both;
-  }
-  /* line 23, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator hr {
-    display: block;
-    left: 12.5%;
-    position: absolute;
-    right: 12.5%;
-    top: 2.28571429rem;
-  }
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 5, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator {
-    margin-top: 1.42857143rem;
-    margin-bottom: 1.42857143rem;
-  }
-}
-
-/* line 50, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-] {
-  width: 25%;
-  float: left;
-  padding-left: 0;
-  padding-right: 0;
-  position: relative;
-}
-/* line 82, /Users/ryan/Documents/acquisition/node_modules/foundation-sites/scss/grid/_column.scss */
-.progress-indicator.acquisition-application [class*=step-]:last-child:not(:first-child) {
-  float: right;
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-]::before, .progress-indicator.acquisition-application [class*=step-]::after {
-  display: block;
-}
-/* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-]::after {
-  content: ' ';
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-]::before, .progress-indicator.acquisition-application [class*=step-]::after {
-  margin: 0 auto !important;
-}
-/* line 41, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-]::before {
-  font-family: "Museo";
-  font-style: normal;
-  font-weight: 300;
-  color: #aeaeae;
-  top: -0.57142857rem;
-}
-/* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-]::after {
-  border-radius: 71.42857143rem;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-]::after {
-    background: #aeaeae;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-]::after {
-    background: #fefefe;
-    border: 0.07142857rem solid #aeaeae;
-  }
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-].step-1::before, .progress-indicator.acquisition-application [class*=step-].step-1::after {
-  position: relative;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-1::after {
-    height: 0.85714286rem;
-    width: 0.85714286rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-1::after {
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    content: "";
-    font-size: 2rem;
-    color: #aeaeae;
-    margin: 0;
-    padding: 0;
-    height: 4.57142857rem;
-    line-height: 4.57142857rem;
-    text-align: center;
-    width: 4.57142857rem;
-  }
-  /* line 41, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-1::before {
-    content: "Get started";
-    text-transform: capitalize;
-  }
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-].step-2::before, .progress-indicator.acquisition-application [class*=step-].step-2::after {
-  position: relative;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-2::after {
-    height: 0.85714286rem;
-    width: 0.85714286rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-2::after {
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    content: "";
-    font-size: 2.57142857rem;
-    color: #aeaeae;
-    margin: 0;
-    padding: 0;
-    height: 4.57142857rem;
-    line-height: 4.57142857rem;
-    text-align: center;
-    width: 4.57142857rem;
-  }
-  /* line 41, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-2::before {
-    content: "About me";
-    text-transform: capitalize;
-  }
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-].step-3::before, .progress-indicator.acquisition-application [class*=step-].step-3::after {
-  position: relative;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-3::after {
-    height: 0.85714286rem;
-    width: 0.85714286rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-3::after {
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    content: "";
-    font-size: 2.28571429rem;
-    color: #aeaeae;
-    margin: 0;
-    padding: 0;
-    height: 4.57142857rem;
-    line-height: 4.57142857rem;
-    text-align: center;
-    width: 4.57142857rem;
-  }
-  /* line 41, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-3::before {
-    content: "My work";
-    text-transform: capitalize;
-  }
-}
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application [class*=step-].step-4::before, .progress-indicator.acquisition-application [class*=step-].step-4::after {
-  position: relative;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-4::after {
-    height: 0.85714286rem;
-    width: 0.85714286rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 88, /Users/ryan/Documents/acquisition/app/assets/stylesheets/modules/_icons.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-4::after {
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    content: "";
-    font-size: 2.57142857rem;
-    color: #aeaeae;
-    margin: 0;
-    padding: 0;
-    height: 4.57142857rem;
-    line-height: 4.57142857rem;
-    text-align: center;
-    width: 4.57142857rem;
-  }
-  /* line 41, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application [class*=step-].step-4::before {
-    content: "My finances";
-    text-transform: capitalize;
-  }
-}
-
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application.step-1 .step-1::before, .progress-indicator.acquisition-application.step-1 .step-1::after,
-.step-1 .progress-indicator.acquisition-application .step-1::before,
-.step-1 .progress-indicator.acquisition-application .step-1::after {
-  color: #2199e8;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-1 .step-1::after,
-  .step-1 .progress-indicator.acquisition-application .step-1::after {
-    background: #2199e8;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-1 .step-1::after,
-  .step-1 .progress-indicator.acquisition-application .step-1::after {
-    border: 0.07142857rem solid #2199e8;
-  }
-}
-
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application.step-2 .step-2::before, .progress-indicator.acquisition-application.step-2 .step-2::after,
-.step-2 .progress-indicator.acquisition-application .step-2::before,
-.step-2 .progress-indicator.acquisition-application .step-2::after {
-  color: #2199e8;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-2 .step-2::after,
-  .step-2 .progress-indicator.acquisition-application .step-2::after {
-    background: #2199e8;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-2 .step-2::after,
-  .step-2 .progress-indicator.acquisition-application .step-2::after {
-    border: 0.07142857rem solid #2199e8;
-  }
-}
-
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application.step-3 .step-3::before, .progress-indicator.acquisition-application.step-3 .step-3::after,
-.step-3 .progress-indicator.acquisition-application .step-3::before,
-.step-3 .progress-indicator.acquisition-application .step-3::after {
-  color: #2199e8;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-3 .step-3::after,
-  .step-3 .progress-indicator.acquisition-application .step-3::after {
-    background: #2199e8;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-3 .step-3::after,
-  .step-3 .progress-indicator.acquisition-application .step-3::after {
-    border: 0.07142857rem solid #2199e8;
-  }
-}
-
-/* line 37, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-.progress-indicator.acquisition-application.step-4 .step-4::before, .progress-indicator.acquisition-application.step-4 .step-4::after,
-.step-4 .progress-indicator.acquisition-application .step-4::before,
-.step-4 .progress-indicator.acquisition-application .step-4::after {
-  color: #2199e8;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-4 .step-4::after,
-  .step-4 .progress-indicator.acquisition-application .step-4::after {
-    background: #2199e8;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-4 .step-4::after,
-  .step-4 .progress-indicator.acquisition-application .step-4::after {
-    border: 0.07142857rem solid #2199e8;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-2 .step-1::after,
-  .step-2 .progress-indicator.acquisition-application .step-1::after {
-    background: #2199e8;
-    border: 0.07142857rem solid #2199e8;
-    color: #fefefe;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-3 .step-1::after,
-  .step-3 .progress-indicator.acquisition-application .step-1::after {
-    background: #2199e8;
-    border: 0.07142857rem solid #2199e8;
-    color: #fefefe;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-3 .step-2::after,
-  .step-3 .progress-indicator.acquisition-application .step-2::after {
-    background: #2199e8;
-    border: 0.07142857rem solid #2199e8;
-    color: #fefefe;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-4 .step-1::after,
-  .step-4 .progress-indicator.acquisition-application .step-1::after {
-    background: #2199e8;
-    border: 0.07142857rem solid #2199e8;
-    color: #fefefe;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-4 .step-2::after,
-  .step-4 .progress-indicator.acquisition-application .step-2::after {
-    background: #2199e8;
-    border: 0.07142857rem solid #2199e8;
-    color: #fefefe;
-  }
-}
-
-@media screen and (min-width: 47.5em) {
-  /* line 45, /Users/ryan/Documents/acquisition/app/assets/stylesheets/components/_progress_indicator.scss */
-  .progress-indicator.acquisition-application.step-4 .step-3::after,
-  .step-4 .progress-indicator.acquisition-application .step-3::after {
-    background: #2199e8;
-    border: 0.07142857rem solid #2199e8;
-    color: #fefefe;
   }
 }
 
@@ -8062,745 +5674,8 @@ ul.numbers li:not(.header).three::before {
   border-width: 1.71428571rem 1.71428571rem 0;
 }
 
-.simple_form input.error, .simple_form .input.approximate_length label.error.collapse-left, .input.approximate_length .simple_form label.error.collapse-left {
-  border: 0.0714286rem solid red !important;
-  box-shadow: 0 0 0.142857rem 0 red !important;
-}
-
-.simple_form select.error {
-  border: 0.0714286rem solid red !important;
-  box-shadow: 0 0 0.142857rem 0 red !important;
-}
-
-.simple_form input[type='checkbox'].error, .simple_form .input.approximate_length label[type='checkbox'].error.collapse-left, .input.approximate_length .simple_form label[type='checkbox'].error.collapse-left {
-  outline: 1px solid red;
-}
-
-.simple_form input[type='radio'].error, .simple_form .input.approximate_length label[type='radio'].error.collapse-left, .input.approximate_length .simple_form label[type='radio'].error.collapse-left {
-  outline: 1px solid red;
-}
-
-.simple_form label.error {
-  color: red;
-}
-
-.input.error input:not(.hideShowPassword-field):hover, .input.error input:not(.hideShowPassword-field):focus, .input.error input, .input.error .input.approximate_length label.collapse-left, .input.approximate_length .input.error label.collapse-left, .input.error select, .input.error small.error {
-  box-shadow: 0 0 0.14285714rem 0 #da4453;
-  border: 0.07142857rem solid #da4453;
-}
-
-.input.side_by_side .input-wrapper .input.error:not(.password):not(.select), .input.error:not(.password):not(.select) .input-wrapper {
-  position: relative;
-}
-.input.side_by_side .input-wrapper .input.error:not(.select):not(.password)::before, .input.error:not(.password):not(.select) .input-wrapper::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  color: #de5967;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 0.85714286rem;
-  top: 0.85714286rem;
-  z-index: 4;
-}
-
-.input.side_by_side .input-wrapper .input.error.select::before, .input.error.select .input-wrapper::before {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1;
-  color: #de5967;
-}
-
-form .approximate_length .input.error::before {
-  margin-right: 0.57142857rem !important;
-  right: 50% !important;
-}
-form .approximate_length .input.error label.collapse-left {
-  border-left: 1px solid #aeaeae !important;
-}
-form .approximate_length .input.error input.collapse-right, form .input.approximate_length .input.error label.collapse-right.collapse-left {
-  border-right: none !important;
-}
-
-.input.error .hideShowPassword-wrapper .hideShowPassword-toggle {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1;
-}
-.input.error .hideShowPassword-wrapper .hideShowPassword-toggle::before {
-  color: #da4453;
-}
-.input.error input[type=number], .input.error .input.approximate_length label[type=number].collapse-left, .input.approximate_length .input.error label[type=number].collapse-left, .input.error select[type=number] {
-  -moz-appearance: textfield;
-}
-.input.error input[type=number]::-webkit-inner-spin-button, .input.error .input.approximate_length label[type=number].collapse-left::-webkit-inner-spin-button, .input.approximate_length .input.error label[type=number].collapse-left::-webkit-inner-spin-button, .input.error input[type=number]::-webkit-outer-spin-button, .input.error .input.approximate_length label[type=number].collapse-left::-webkit-outer-spin-button, .input.approximate_length .input.error label[type=number].collapse-left::-webkit-outer-spin-button, .input.error select[type=number]::-webkit-inner-spin-button, .input.error select[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-.input.error.check_box_expanders ul.expander ~ small.error, .input.error.radio_button_expanders ul.expander ~ small.error {
-  padding-left: 0;
-  padding-right: 0;
-  padding: 0.57142857rem 0.57142857rem;
-  width: 100%;
-  float: left;
-  padding-left: 0.53571429rem;
-  padding-right: 0.53571429rem;
-}
-@media screen and (min-width: 47.5em) {
-  .input.error.check_box_expanders ul.expander ~ small.error, .input.error.radio_button_expanders ul.expander ~ small.error {
-    padding-left: 0.80357143rem;
-    padding-right: 0.80357143rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  .input.error.check_box_expanders ul.expander ~ small.error, .input.error.radio_button_expanders ul.expander ~ small.error {
-    padding-left: 1.07142857rem;
-    padding-right: 1.07142857rem;
-  }
-}
-
-.input.error.check_box_expanders ul.expander ~ small.error:last-child:not(:first-child), .input.error.radio_button_expanders ul.expander ~ small.error:last-child:not(:first-child) {
-  float: right;
-}
-@media screen and (min-width: 47.5em) {
-  .input.error.check_box_expanders ul.expander ~ small.error, .input.error.radio_button_expanders ul.expander ~ small.error {
-    width: 66.66666667%;
-    float: left;
-    padding-left: 0.53571429rem;
-    padding-right: 0.53571429rem;
-    margin-left: 25%;
-  }
-}
-@media screen and (min-width: 47.5em) and (min-width: 47.5em) {
-  .input.error.check_box_expanders ul.expander ~ small.error, .input.error.radio_button_expanders ul.expander ~ small.error {
-    padding-left: 0.80357143rem;
-    padding-right: 0.80357143rem;
-  }
-}
-@media screen and (min-width: 47.5em) and (min-width: 66.25em) {
-  .input.error.check_box_expanders ul.expander ~ small.error, .input.error.radio_button_expanders ul.expander ~ small.error {
-    padding-left: 1.07142857rem;
-    padding-right: 1.07142857rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  .input.error.check_box_expanders ul.expander ~ small.error:last-child:not(:first-child), .input.error.radio_button_expanders ul.expander ~ small.error:last-child:not(:first-child) {
-    float: right;
-  }
-}
-
-.input.error input, .input.error .input.approximate_length label.collapse-left, .input.approximate_length .input.error label.collapse-left, .input.error select {
-  border-bottom-left-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
-  margin-bottom: 0 !important;
-}
-.input.error small.error {
-  border-bottom-left-radius: 0.14285714rem;
-  border-bottom-right-radius: 0.14285714rem;
-  background-color: #da4453;
-  color: #fefefe;
-  font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.85714286rem;
-  font-weight: 300;
-  padding: 0.07142857rem 0.57142857rem;
-}
-
-.input.valid input:not(.hideShowPassword-field):hover, .input.valid input:not(.hideShowPassword-field):focus, .input.valid input, .input.valid .input.approximate_length label.collapse-left, .input.approximate_length .input.valid label.collapse-left, .input.valid select {
-  box-shadow: 0 0 0.14285714rem 0 #3adb76;
-  border: 0.07142857rem solid #3adb76;
-}
-
-.input.side_by_side .input-wrapper .input.valid:not(.password):not(.select), .input.valid:not(.password):not(.select) .input-wrapper {
-  position: relative;
-}
-.input.side_by_side .input-wrapper .input.valid:not(.select):not(.password)::before, .input.valid:not(.password):not(.select) .input-wrapper::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  color: #50df85;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 0.85714286rem;
-  top: 0.85714286rem;
-  z-index: 4;
-}
-
-.input.side_by_side .input-wrapper .input.valid.select::before, .input.valid.select .input-wrapper::before {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1;
-  color: #50df85;
-}
-
-form .approximate_length .input.valid::before {
-  margin-right: 0.57142857rem !important;
-  right: 50% !important;
-}
-form .approximate_length .input.valid label.collapse-left {
-  border-left: 1px solid #aeaeae !important;
-}
-form .approximate_length .input.valid input.collapse-right, form .input.approximate_length .input.valid label.collapse-right.collapse-left {
-  border-right: none !important;
-}
-
-.input.valid .hideShowPassword-wrapper .hideShowPassword-toggle {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1;
-}
-.input.valid .hideShowPassword-wrapper .hideShowPassword-toggle::before {
-  color: #3adb76;
-}
-.input.valid input[type=number], .input.valid .input.approximate_length label[type=number].collapse-left, .input.approximate_length .input.valid label[type=number].collapse-left, .input.valid select[type=number] {
-  -moz-appearance: textfield;
-}
-.input.valid input[type=number]::-webkit-inner-spin-button, .input.valid .input.approximate_length label[type=number].collapse-left::-webkit-inner-spin-button, .input.approximate_length .input.valid label[type=number].collapse-left::-webkit-inner-spin-button, .input.valid input[type=number]::-webkit-outer-spin-button, .input.valid .input.approximate_length label[type=number].collapse-left::-webkit-outer-spin-button, .input.approximate_length .input.valid label[type=number].collapse-left::-webkit-outer-spin-button, .input.valid select[type=number]::-webkit-inner-spin-button, .input.valid select[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-@media screen and (min-width: 47.5em) {
-  [data-context*=registrations] body #main > .row {
-    padding-left: 1.60714286rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  [data-context*=registrations] body #main > .row {
-    padding-right: 1.60714286rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context*=registrations] body #main > .row {
-    padding-left: 2.14285714rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context*=registrations] body #main > .row {
-    padding-right: 2.14285714rem;
-  }
-}
-[data-context*=registrations] body #main > .row > .row .row {
-  margin-left: 0;
-  margin-right: 0;
-}
-[data-context*=registrations] body #main > .row .panel.acquisition {
-  border-radius: 0.28571429rem;
-  padding-left: 1.07142857rem;
-  background: #fefefe;
-  margin-top: 2.28571429rem;
-  padding-top: 1.71428571rem;
-}
-@media screen and (min-width: 47.5em) {
-  [data-context*=registrations] body #main > .row .panel.acquisition {
-    padding-left: 1.60714286rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context*=registrations] body #main > .row .panel.acquisition {
-    padding-left: 2.14285714rem;
-  }
-}
-@media screen and (max-width: 47.4375em) {
-  [data-context*=registrations] body #main > .row .panel.acquisition {
-    margin-top: 0px;
-    padding-top: 0.42857143rem;
-  }
-}
-[data-context*=registrations] body #main > .row .panel.sidebar {
-  padding-left: 1.14285714rem;
-  padding-right: 1.07142857rem;
-  text-align: center;
-}
-@media screen and (min-width: 47.5em) {
-  [data-context*=registrations] body #main > .row .panel.sidebar {
-    padding-left: 1.67857143rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context*=registrations] body #main > .row .panel.sidebar {
-    padding-left: 2.21428571rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context*=registrations] body #main > .row .panel.sidebar {
-    padding-right: 2.14285714rem;
-  }
-}
-@media screen and (max-width: 47.4375em) {
-  [data-context*=registrations] body #main > .row .panel.sidebar {
-    padding-top: 3.42857143rem;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  [data-context*=registrations] body #main > .row .panel.sidebar {
-    padding-top: 10.14285714rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context*=registrations] body #main > .row .panel.sidebar {
-    padding-top: 12rem;
-  }
-}
-[data-context*=registrations] body #main > .row .panel.sidebar .subpanel {
-  border-radius: 0.28571429rem;
-  background: #f9f9f9;
-  height: 11.42857143rem;
-  margin-top: 2.14285714rem;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar ul.checkboxes {
-  list-style: none;
-  margin-left: 0;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar ul.checkboxes li.checkbox {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  width: 12.71428571rem;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar ul.checkboxes li.checkbox::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  color: #3adb76;
-  margin: 0;
-  padding: 0;
-  margin-right: 0.42857143rem;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar ul.checkboxes li:not(:last-child) {
-  margin-bottom: 1.07142857rem;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar .contact-us a::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  color: #2199e8;
-  margin: 0;
-  padding: 0;
-  -webkit-transform: scale(1.25, 1.25);
-  transform: scale(1.25, 1.25);
-  display: inline;
-  padding-right: 0.57142857rem;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar .contact-us a h6 {
-  display: inline;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar .friendly-hero-copy, [data-context*=registrations] body #main > .row .panel.sidebar .customer-rating, [data-context*=registrations] body #main > .row .panel.sidebar .customer-quote-name {
-  font-family: "Museo";
-  font-style: normal;
-  font-weight: 300;
-  color: #0a0a0a;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar .customer-rating {
-  margin-top: 2.14285714rem;
-}
-[data-context*=registrations] body #main > .row .panel.sidebar .customer-quote-name {
-  color: #aeaeae;
-}
-
-code {
-  display: none;
-}
-
-body {
-  min-width: 14.28571429rem;
-  overflow-x: hidden;
-  width: 100%;
-}
-body #main {
-  overflow-y: visible;
-}
-
-.applyOnlineH5 {
-  margin-bottom: 0px !important;
-}
-
-.phoneNoBold {
-  font-weight: bold;
-}
-
-.becomeHappyCustomers {
-  font-size: 15px;
-}
-
-.bureau-badge {
-  display: none;
-}
-
-[data-context$=locomotive_index] body.loaded #main-bg {
-  height: 44.28571429rem;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-/*
- * Targeting iPhone 6 and 6s
- */
-@media screen and (max-width: 375px) {
-  [data-context$=locomotive_index] body.loaded #main-bg {
-    background-image: url(../images/home-hero-small.png);
-    background-position: center 75%;
-    background-repeat: no-repeat;
-    background-size: 300% auto;
-    height: 36.5rem;
-  }
-}
-/*
- * Targeting iPhone 6 plus portrait
- */
-@media screen and (min-width: 376px) and (max-width: 30em) {
-  [data-context$=locomotive_index] body.loaded #main-bg {
-    background-image: url(../images/home-hero-small.png);
-    background-position: center 75%;
-    background-repeat: no-repeat;
-    background-size: 300% auto;
-    height: 42rem;
-  }
-}
-/*
- * Targeting iPhone 6 plus landscape
- */
-@media screen and (min-width: 30em) and (max-width: 47.4375em) {
-  [data-context$=locomotive_index] body.loaded #main-bg {
-    background-image: url(../images/home-hero-small.png);
-    background-position: center 75%;
-    background-repeat: no-repeat;
-    background-size: 180% auto;
-    height: 42rem;
-  }
-}
-[data-context$=locomotive_index] body.loaded #main-bg .bureau-badge {
-  display: block;
-  position: absolute;
-  right: 0.85714286rem;
-  bottom: 0.85714286rem;
-}
-@media screen and (max-width: 47.4375em) {
-  [data-context$=locomotive_index] body.loaded #main-bg .bureau-badge {
-    display: none;
-  }
-}
-@media screen and (min-width: 47.5em) and (max-width: 66.1875em) {
-  [data-context$=locomotive_index] body.loaded #main-bg {
-    background-image: url(../images/home-hero-small.png);
-    background-position: center 50%;
-    background-repeat: no-repeat;
-    background-size: 150% auto;
-    min-height: 44.28571429rem;
-  }
-}
-@media screen and (min-width: 66.25em) {
-  [data-context$=locomotive_index] body.loaded #main-bg {
-    background-image: url(../images/home-hero-small.png);
-    background-position: center 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 44.28571429rem;
-  }
-}
-
-[data-context*=locomotive]:not([data-context$=locomotive_index]) #main-bg {
-  height: 360px !important;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-@media screen and (max-width: 47.4375em) {
-  [data-context*=locomotive]:not([data-context$=locomotive_index]) #main-bg {
-    background-image: url(../images/generic-hero-small.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: auto;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  [data-context*=locomotive]:not([data-context$=locomotive_index]) #main-bg {
-    background-image: url(../images/generic-hero-small.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: auto;
-  }
-}
-
-[data-context*=locomotive][data-context*=partner] #main-bg {
-  height: 360px !important;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-@media screen and (max-width: 47.4375em) {
-  [data-context*=locomotive][data-context*=partner] #main-bg {
-    background-image: url(../images/generic-hero-small.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: auto;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  [data-context*=locomotive][data-context*=partner] #main-bg {
-    background-image: url(../images/generic-hero-small.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: auto;
-  }
-}
-
-@media screen and (min-width: 110em) {
-  [data-context$=locomotive_index] body.loaded #main-bg {
-    background-color: #343741;
-    background-size: 75%;
-  }
-
-  [data-context$=locomotive_index] body.loaded #main-bg .bureau-badge {
-    right: 13%;
-  }
-}
-
-:not([data-context*='engines#']) body.loaded {
-  background: #ebebeb;
-}
-:not([data-context*='engines#']) body.loaded #main .nav-bg {
-  z-index: 4;
-}
-
-.small-centered, .medium-centered, .large-centered {
-  float: none !important;
-}
-
-.holderjs {
-  display: inline-block;
-}
-
-.position-sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 6;
-}
-
-@media screen and (max-width: 47.4375em) {
-  .position-sticky--scroll {
-    opacity: 0 !important;
-  }
-}
-
-.main-copy-1, .main-copy-2 {
-  text-shadow: 0 0 1px #0a0a0a;
-  color: #fefefe;
-  text-align: center;
-}
-
-.main-copy-1 {
-  font-size: 3rem;
-  margin-top: 10rem;
-}
-@media screen and (max-width: 22em) {
-  .main-copy-1 {
-    font-size: 2.42857143rem;
-    margin-top: 2rem;
-  }
-}
-@media screen and (min-width: 22em) and (max-width: 24em) {
-  .main-copy-1 {
-    font-size: 2.42857143rem;
-    margin-top: 4rem;
-  }
-}
-@media screen and (min-width: 24em) and (max-width: 47.4375em) {
-  .main-copy-1 {
-    font-size: 2.42857143rem;
-    margin-top: 8rem;
-  }
-}
-@media screen and (min-width: 47.5em) and (max-width: 66.1875em) {
-  .main-copy-1 {
-    font-size: 2.71428571rem;
-    margin-top: 8.57142857rem;
-  }
-}
-
-@media screen and (max-width: 47.4375em) {
-  .main-copy-2 {
-    font-size: 1.28571429rem;
-    margin: 1.14285714rem 1.71428571rem 1rem;
-  }
-}
-
-.biggerApplyNow {
-  font-size: 20px;
-}
-
-a.apply-now {
-  position: relative;
-  width: 40%;
-  background-color: #e98319;
-  margin: 1.28571429rem 0px;
-}
-@media screen and (max-width: 47.4375em) {
-  a.apply-now {
-    display: block;
-    width: 100%;
-  }
-}
-a.apply-now::after {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  color: #fefefe;
-  margin: 0;
-  padding: 0;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6;
-  display: block;
-  font-size: 1.14285714rem;
-  margin-top: -0.57142857rem;
-  position: absolute;
-  right: 1.14285714rem;
-  text-indent: 0;
-  top: 50%;
-}
-
-input[type=submit], .input.approximate_length label[type=submit].collapse-left {
-  position: relative;
-}
-input[type=submit]::after, .input.approximate_length label[type=submit].collapse-left::after {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  color: #fefefe;
-  margin: 0;
-  padding: 0;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6;
-  display: inline-block;
-  font-size: 1.14285714rem;
-  margin-top: -0.57142857rem;
-  position: absolute;
-  right: 1.14285714rem;
-  text-indent: 0;
-  top: 50%;
-}
-
-input[type=submit], .input.approximate_length label[type=submit].collapse-left, button[type=submit] {
-  background-color: #2199e8;
-}
-
-.credit-score-copy {
-  font-family: "Indie Flower";
-  font-style: normal;
-  font-weight: 400;
-  color: #fefefe;
-}
-
-.review-hero, .friendly-hero {
-  border-radius: 71.42857143rem;
-  display: inline-block;
-  height: 4.57142857rem;
-  margin-bottom: 1.71428571rem;
-  width: 4.57142857rem;
-}
-
-.friendly-hero {
-  background-image: url(../images/support-hero.png);
-  background-position: top center;
-  border: 0.07142857rem solid #aeaeae;
-}
-
 .position-relative {
   position: relative !important;
-}
-
-.step-header {
-  border-bottom: 1px solid #ebebeb;
-}
-@media screen and (min-width: 47.5em) {
-  .step-header {
-    margin-bottom: 3.21428571rem;
-    position: relative;
-  }
-  .step-header::before {
-    font-family: "icomoon";
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    content: "";
-    font-size: 16px;
-    color: #aeaeae;
-    margin: 0;
-    padding: 0;
-    left: -25px;
-    position: absolute;
-    top: -15px;
-  }
-  .step-header::after {
-    color: #aeaeae;
-    content: 'Secure Form';
-    font-size: 12px;
-    left: -4px;
-    position: absolute;
-    speak: none;
-    top: -14px;
-  }
-  .step-header h2 {
-    padding: 1.07142857rem;
-  }
-}
-
-.with-divider.columns {
-  border-left: 2px solid #ebebeb;
-}
-.with-divider.row {
-  border-top: 2px solid #ebebeb;
-}
-
-.divider {
-  margin-bottom: 0.71428571rem;
-  border-bottom: 1px solid #ebebeb;
 }
 
 span.underline {
@@ -8814,173 +5689,6 @@ span.underline {
 
 .bold {
   font-weight: bold;
-}
-
-.same_address,
-.married_flg {
-  -webkit-transition: none;
-  transition: none;
-}
-.same_address .radio-wrapper,
-.married_flg .radio-wrapper {
-  position: relative;
-  padding: 0.5rem 0;
-  border: 1px solid #ebebeb;
-}
-.same_address .radio-wrapper.active,
-.married_flg .radio-wrapper.active {
-  border: 1px solid #2199e8;
-}
-.same_address .radio-wrapper.active h4,
-.married_flg .radio-wrapper.active h4 {
-  color: #2199e8;
-}
-.same_address .input-wrapper:first-of-type .radio-wrapper,
-.married_flg .input-wrapper:first-of-type .radio-wrapper {
-  margin-right: 5px;
-}
-.same_address .input-wrapper:last-of-type .radio-wrapper,
-.married_flg .input-wrapper:last-of-type .radio-wrapper {
-  margin-left: 5px;
-}
-.same_address .iradio_flat-blue,
-.married_flg .iradio_flat-blue {
-  position: absolute !important;
-  top: 15%;
-  left: 10px;
-}
-.same_address h4,
-.married_flg h4 {
-  margin: 0 0 0 25%;
-  font-size: 14px;
-}
-
-.military_status .option {
-  position: relative;
-  padding: 0.5rem 1.5rem 0.5rem 2.5rem;
-  margin-top: 10px;
-  border: 1px solid #ebebeb;
-  max-height: 140px;
-  overflow: scroll;
-  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
-}
-.military_status .option .additional-copy {
-  display: none;
-  margin-left: -0.25em;
-}
-.military_status .option.active {
-  background-color: #fafafa;
-}
-.military_status .option.active .additional-copy {
-  display: inline;
-}
-.military_status .option:last-of-type {
-  margin-bottom: 10px;
-}
-.military_status .iradio_flat-blue {
-  position: absolute !important;
-  left: 0.5rem;
-}
-.military_status .bold {
-  margin: 1em 0;
-}
-
-.state_id_number .input-wrapper:first-of-type {
-  padding-right: 5px;
-}
-.state_id_number .input-wrapper:last-of-type {
-  padding-left: 5px;
-}
-
-.display-copy-group .display-copy {
-  margin-bottom: 10px;
-  padding: 1rem;
-}
-.display-copy-group .display-copy.scroll {
-  max-height: 10rem;
-  border: 1px solid #ebebeb;
-  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
-  overflow: scroll;
-}
-.display-copy-group .display-copy:last-of-type {
-  margin-bottom: 0;
-}
-.display-copy-group .display-copy.highlight {
-  border: 1px solid #2199e8;
-}
-.display-copy-group .display-copy ul {
-  margin-left: 2rem;
-  margin-bottom: 0;
-}
-.display-copy-group .display-copy li {
-  margin-bottom: 0.5rem;
-}
-.display-copy-group .display-copy li:last-of-type {
-  margin-bottom: 0;
-}
-
-.modal-block {
-  position: fixed;
-  padding: 0 10px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(255, 255, 255, 0.95);
-  z-index: 10;
-  -webkit-transition: none;
-  transition: none;
-}
-.modal-block .modal-container {
-  max-width: 720px;
-  margin: 0 auto;
-  margin-top: 80px;
-  border-radius: 0.28571429rem;
-  border: 1px solid #ebebeb;
-  background-color: #ffffff;
-  box-shadow: 1px 1px 4px rgba(10, 10, 10, 0.1);
-  overflow: hidden;
-  -webkit-transition: none;
-  transition: none;
-}
-@media (max-width: 760px) {
-  .modal-block .modal-container {
-    margin-top: 25px;
-  }
-}
-.modal-block .title,
-.modal-block .copy {
-  padding: 0.5rem 1.5rem;
-  overflow: scroll;
-  -webkit-transition: none;
-  transition: none;
-}
-.modal-block .title {
-  position: relative;
-  color: #ffffff;
-  text-align: center;
-  background-color: #2199e8;
-}
-.modal-block .title .close-btn {
-  position: absolute;
-  top: 50%;
-  right: 1rem;
-  margin-top: -0.75rem;
-  width: 1.5rem;
-  height: 1.5rem;
-  text-align: center;
-  line-height: 1.4rem;
-  border-radius: 50%;
-  border: 1px solid #ffffff;
-  cursor: pointer;
-  -webkit-transition: none;
-  transition: none;
-}
-.modal-block .title h4 {
-  padding: 0 2rem;
-  margin: 0;
-  -webkit-transition: none;
-  transition: none;
 }
 
 @media (max-width: 760px) {
@@ -9006,10 +5714,6 @@ span.underline {
     display: none;
   }
 }
-.iradio_flat-blue .radio_button,
-.iradio_flat-blue .checkbox {
-  visibility: visible !important;
-}
 
 .wrap {
   display: inline;
@@ -9026,10 +5730,6 @@ span.underline {
 }
 .button--no-transition:hover {
   background-color: #e98319;
-}
-
-#sep-footer {
-  padding-top: 360px !important;
 }
 
 body.ready, body.ready :not([class*=noUi-]), body.ready :not(input:focus),
@@ -9351,12 +6051,12 @@ body.ready :not(a:active), body.ready :not(a:focus), body.ready :not(a:hover) {
 }
 
 .background-float:not(.nav-bar) {
-  -moz-transition: margin-bottom 0.1s ease-in-out 0s;
-  -o-transition: margin-bottom 0.1s ease-in-out 0s;
-  -webkit-transition: margin-bottom 0.1s ease-in-out;
+  -moz-transition: margin-bottom 0.2s ease-in-out 0s;
+  -o-transition: margin-bottom 0.2s ease-in-out 0s;
+  -webkit-transition: margin-bottom 0.2s ease-in-out;
   -webkit-transition-delay: 0s;
-  -webkit-transition: margin-bottom 0.1s ease-in-out 0s;
-  transition: margin-bottom 0.1s ease-in-out 0s;
+  -webkit-transition: margin-bottom 0.2s ease-in-out 0s;
+  transition: margin-bottom 0.2s ease-in-out 0s;
 }
 
 .row.background-float.genericTemplateBackgroundAdjust {
@@ -9485,286 +6185,6 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
 }
 
 /*
- * Masthead
- *
- */
-.masthead {
-  position: relative;
-  display: block;
-  color: #fefefe;
-  height: 5rem;
-  padding: 0.71429rem 0.42857rem 0px 0;
-  z-index: 10;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
-
-.masthead--overlay {
-  background-color: rgba(21, 30, 52, 0.85);
-  z-index: 6;
-}
-
-@media screen and (max-width: 47.4375em) {
-  .position-sticky--scroll .masthead {
-    opacity: 0 !important;
-  }
-}
-
-/* line 14, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead a {
-  color: white;
-}
-
-/* line 18, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead-left {
-  display: inline-block;
-  float: left;
-}
-/* line 22, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead-left a {
-  position: relative;
-  z-index: 6;
-}
-/* line 27, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead-left a.logo {
-  margin-top: 0px !important;
-  z-index: 8;
-}
-/* line 32, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead-left a.logo img {
-  position: relative;
-  top: -4px;
-}
-/* line 37, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead-left span.tagline {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  margin-left: 0.28571rem;
-  padding-left: 0.57143rem;
-  border-left: 1px solid #fefefe;
-  word-spacing: 0.14286rem;
-}
-@media screen and (max-width: 66.1875em) {
-  /* line 37, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-  .masthead-left span.tagline {
-    display: none;
-  }
-}
-/* line 49, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead-left span.secure {
-  display: block;
-  margin-top: -8px;
-  margin-left: 12px;
-  font-size: 1rem;
-  font-weight: 100;
-}
-/* line 88, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.masthead-left span.secure::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  font-size: 16px;
-  color: #fefefe;
-  margin: 0;
-  padding: 0;
-  z-index: 4;
-  display: inline-block;
-  font-size: 0.85714rem;
-  margin-right: 0.28571rem;
-}
-
-/* line 64, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead-right {
-  position: relative;
-  display: inline-block;
-  float: right;
-  z-index: 6;
-  margin-top: 0.57143rem;
-}
-/* line 71, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead-right a {
-  font-size: 1rem;
-}
-
-/* line 76, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead .navigation {
-  display: inline-block;
-  list-style: none;
-  font-size: 1rem;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 76, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-  .masthead .navigation {
-    display: none;
-  }
-}
-/* line 85, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead .navigation ul {
-  margin: 0px 0px 1.71429rem;
-}
-/* line 89, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead .navigation p, .masthead .navigation hr, .masthead .navigation .close {
-  display: none;
-  vertical-align: middle;
-}
-/* line 94, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead .navigation p {
-  margin-top: 1.71429rem;
-}
-@media screen and (min-width: 47.5em) {
-  /* line 94, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-  .masthead .navigation p {
-    display: none;
-  }
-}
-/* line 102, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead .navigation .close {
-  position: absolute;
-  top: 18px;
-  right: 18px;
-}
-/* line 108, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead .navigation .navigation__item {
-  display: inline-block;
-  margin: 0px 0.71429rem;
-}
-
-/* line 121, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead.expanded .navigation p, .masthead.expanded .navigation hr, .masthead.expanded .navigation .close {
-  display: block;
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 119, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-  .masthead.expanded .navigation {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(21, 30, 52, 0.95);
-    margin: 0px;
-    padding: 5.14286rem 1.28571rem 1.28571rem;
-  }
-}
-@media screen and (max-width: 47.4375em) {
-  /* line 137, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-  .masthead.expanded .navigation .navigation__item {
-    display: block;
-    text-align: center;
-    width: 100%;
-    margin: 1.14286rem 0px;
-  }
-}
-
-/* line 147, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead .phone, .masthead .hamburger {
-  display: inline-block;
-  margin: 0px 0.42857rem;
-}
-
-/* line 152, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead .phone {
-  font-weight: 700;
-}
-/* line 88, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/modules/_icons.scss */
-.masthead .phone::before {
-  font-family: "icomoon";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
-  content: "";
-  font-size: 16px;
-  color: #fefefe;
-  margin: 0;
-  padding: 0;
-  z-index: 4;
-  display: inline-block;
-  margin-right: 0.28571rem;
-}
-
-/* line 161, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead .hamburger {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  cursor: pointer;
-  width: 28px;
-  height: 16px;
-}
-/* line 79, /Users/timgremore/entrision/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.masthead .hamburger::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: #8a8a8a;
-  top: 0;
-  left: 0;
-  box-shadow: 0 7px 0 #8a8a8a, 0 14px 0 #8a8a8a;
-}
-/* line 105, /Users/timgremore/entrision/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
-.masthead .hamburger:hover::after {
-  background: #ebebeb;
-  box-shadow: 0 7px 0 #ebebeb, 0 14px 0 #ebebeb;
-}
-@media screen and (min-width: 47.5em) {
-  /* line 161, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-  .masthead .hamburger {
-    display: none;
-  }
-}
-
-/* line 169, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead.expanded .hamburger {
-  display: none;
-}
-
-/* line 173, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead .apply-now {
-  padding: 0.28571rem 0.42857rem;
-  border-color: #fefefe;
-}
-
-/* line 178, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.masthead.expanded .apply-now {
-  padding: 0.85714rem;
-}
-
-@keyframes slideInLeft {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-/* line 195, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-.slide-left {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: slideInLeft;
-  animation-name: slideInLeft;
-}
-
-/*
  * These are just helpers to modify spacing
  * Naming convention follows:
  *  - "m": margin
@@ -9815,7 +6235,7 @@ html .nav-bar .nav-bar-right ul.menu > li > a :first-child, html body .nav-bar .
 
 .stars {
   position: relative;
-  display: block;
+  display: inline-block;
   width: 121px;
   height: 16px;
   margin: 0 auto;

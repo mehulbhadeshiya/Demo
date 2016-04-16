@@ -4,7 +4,6 @@
 
     new BackgroundFloater();
     new CollisionDetector();
-    new CustomerRating();
     new Slider();
 
     initFlexVerticalCenter();

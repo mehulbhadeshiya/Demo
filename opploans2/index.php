@@ -17,6 +17,7 @@
   <head>
     <title><?php wp_title(); ?></title>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
     <?php
       ob_start();
       wp_head();
@@ -24,15 +25,21 @@
       ob_end_clean();
 
       echo substr($head, 0, strpos($head, "<script"));
-
-      echo '<link rel="stylesheet" type="text/css" href="' . get_stylesheet_uri() . '" />';
-
-      if (get_the_ID() == $homepage_id) {
-        echo '<link rel="stylesheet" type="text/css" href="' . get_template_directory_uri() . '/css/application-homepage.css" />';
-      } else {
-        echo '<link rel="stylesheet" type="text/css" href="' . get_template_directory_uri() . '/css/application.css" />';
-      }
     ?>
+
+    <style rel='stylesheet' type='text/css'>
+      [data-context$=locomotive_index] .fade-in-on-load {
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      [data-context$=locomotive_index] body.loaded .fade-in-on-load {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: opacity 0.3s ease-out 0.1s;
+        transition: opacity 0.3s ease-out 0.1s;
+      }
+    </style>
   </head>
 
   <?php
@@ -48,8 +55,11 @@
       echo "<body data-context='engines#locomotive_pages'>";
     }
   ?>
+    <div id='main-bg' class='fade-in-on-load'>
+      <img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png'>
+    </div>
 
-    <div id='main'>
+    <div id='main' class='fade-in-on-load'>
 
   <?php
     get_header();
@@ -83,13 +93,21 @@
       endwhile; endif;
     }
   ?>
-
-    </div>
-    <div id='main-bg'>
-      <img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png'>
     </div>
 
+  <!-- W3TC-include-css -->
   <?php
+    wp_print_styles('icons');
+    wp_print_styles('masthead');
+
+    if (get_the_ID() == $homepage_id) {
+        wp_print_styles('application-homepage');
+    } else {
+        wp_print_styles('application');
+    }
+
+    echo '<link rel="stylesheet" type="text/css" href="' . get_stylesheet_uri() . '" />';
+
     show_admin_bar(false);
     wp_enqueue_script('application_runner');
     wp_footer();
