@@ -28,10 +28,6 @@ body #main {
   font-size: 15px;
 }
 
-.bureau-badge {
-  display: none;
-}
-
 [data-context$=locomotive_index] #main-bg {
   width: 100%;
   min-height: 44.28571429rem;

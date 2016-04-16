@@ -9128,11 +9128,6 @@ body #main {
   font-size: 15px;
 }
 
-/* line 27, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
-.bureau-badge {
-  display: none;
-}
-
 /* line 33, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
 [data-context$=locomotive_index] body.loaded #main-bg {
   height: 44.28571429rem;

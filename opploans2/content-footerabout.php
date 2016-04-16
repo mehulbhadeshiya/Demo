@@ -56,6 +56,9 @@
               <li class='twitter'><a alt-text="Twitter Profile" href="https://twitter.com/opploans"></a></li>
               <li class='facebook'><a alt-text="Facebook Profile" href="https://www.facebook.com/OpportunityLoans/"></a></li>
             </ul>
+            <div>
+              <img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png'>
+            </div>
           </div>
           <br>
         </div>
