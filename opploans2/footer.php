@@ -31,7 +31,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="/faq/"><h6>FAQ</h6>
+                  <a href="/faqs/"><h6>FAQ</h6>
                   </a>
                 </li>
                 <li>

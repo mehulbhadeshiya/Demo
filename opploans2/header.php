@@ -26,7 +26,7 @@ $pagePath = substr($pagePath, 1, -1);//remove slashes
               <a href="/about-us/">About Us</a>
             </li>
             <li class="navigation__item">
-              <a href="/faq/">FAQ</a>
+              <a href="/faqs/">FAQ</a>
             </li>
             <li class="navigation__item">
               <a href="/glossary/">Glossary</a>
