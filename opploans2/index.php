@@ -44,7 +44,7 @@
 
   <?php
     if (get_the_ID() == $homepage_id) {
-      echo "<body data-context='engines#locomotive_index'>";
+      echo "<body data-context='engines#locomotive_index' class=home>";
     } else if (get_the_ID() == $about_id) {
       echo "<body data-context='engines#locomotive_pages' class=about-us>";
     } else if (get_the_ID() == $blog_id) {
