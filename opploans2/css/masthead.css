@@ -12,9 +12,7 @@ body #main {
   overflow-y: visible;
 }
 
-body, #main {
-  overflow-x: hidden;
-}
+
 
 .slider input {
   display: none;
@@ -44,11 +42,20 @@ body, #main {
   background-color: #41454F;
 }
 
-[data-context$=locomotive_index] #main-bg .bureau-badge {
-  display: block;
+.bureau-badge {
+  display: none;
+}
+
+.home #main-bg .bureau-badge {
+  display: inline-block;
   position: absolute;
   right: 0.85714286rem;
   bottom: 0.85714286rem;
+}
+
+.bg-gray .bureau-badge {
+  display: inline-block;
+  margin: 1rem 0;
 }
 
 [data-context*=locomotive]:not([data-context$=locomotive_index]) #main-bg {
@@ -59,7 +66,7 @@ body, #main {
   width: 100%;
 }
 
-@media screen and (max-width: 47.4375em) {
+@media screen and (max-width: 47.5em) {
   [data-context$=locomotive_index] #main-bg .bureau-badge {
     display: none;
   }
@@ -70,7 +77,7 @@ body, #main {
   }
 }
 
-@media screen and (max-width: 47.4375em) {
+@media screen and (max-width: 47.5em) {
   [data-context*=locomotive]:not([data-context$=locomotive_index]) #main-bg {
     background-image: url(../images/generic-hero-small.png);
     background-position: center top;
@@ -96,7 +103,7 @@ body, #main {
   top: 0;
   width: 100%;
 }
-@media screen and (max-width: 47.4375em) {
+@media screen and (max-width: 47.5em) {
   [data-context*=locomotive][data-context*=partner] #main-bg {
     background-image: url(../images/generic-hero-small.png);
     background-position: center top;
@@ -137,7 +144,7 @@ body, #main {
   z-index: 6;
 }
 
-@media screen and (max-width: 47.4375em) {
+@media screen and (max-width: 47.5em) {
   .position-sticky--scroll {
     opacity: 0 !important;
   }
@@ -159,7 +166,7 @@ body, #main {
     margin-top: 2rem;
   }
 }
-@media screen and (min-width: 22em) and (max-width: 47.4375em) {
+@media screen and (min-width: 22em) and (max-width: 47.5em) {
   .main-copy-1 {
     font-size: 2.42857143rem;
     margin-top: 7rem;
@@ -172,7 +179,7 @@ body, #main {
   }
 }
 
-@media screen and (max-width: 47.4375em) {
+@media screen and (max-width: 47.5em) {
   .main-copy-2 {
     font-size: 1.28571429rem;
     margin: 1.14285714rem 1.71428571rem 2.28571429rem;
@@ -189,7 +196,7 @@ a.apply-now {
   background-color: #e98319;
   margin: 1.28571429rem 0px;
 }
-@media screen and (max-width: 47.4375em) {
+@media screen and (max-width: 47.5em) {
   a.apply-now {
     display: block;
     width: 100%;
@@ -292,7 +299,7 @@ input[type=submit], .input.approximate_length label[type=submit].collapse-left, 
   z-index: 6;
 }
 
-@media screen and (max-width: 47.4375em) {
+@media screen and (max-width: 47.5em) {
   .position-sticky--scroll .masthead {
     opacity: 0 !important;
   }
@@ -388,7 +395,7 @@ input[type=submit], .input.approximate_length label[type=submit].collapse-left, 
   list-style: none;
   font-size: 1rem;
 }
-@media screen and (max-width: 47.4375em) {
+@media screen and (max-width: 47.5em) {
   /* line 76, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
   .masthead .navigation {
     display: none;
@@ -434,7 +441,7 @@ input[type=submit], .input.approximate_length label[type=submit].collapse-left, 
 .masthead.expanded .navigation p, .masthead.expanded .navigation hr, .masthead.expanded .navigation .close {
   display: block;
 }
-@media screen and (max-width: 47.4375em) {
+@media screen and (max-width: 47.5em) {
   /* line 119, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
   .masthead.expanded .navigation {
     display: block;
@@ -448,7 +455,7 @@ input[type=submit], .input.approximate_length label[type=submit].collapse-left, 
     padding: 5.14286rem 1.28571rem 1.28571rem;
   }
 }
-@media screen and (max-width: 47.4375em) {
+@media screen and (max-width: 47.5em) {
   /* line 137, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
   .masthead.expanded .navigation .navigation__item {
     display: block;
