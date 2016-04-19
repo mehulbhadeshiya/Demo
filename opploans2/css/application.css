@@ -9,6 +9,14 @@ html, html body {
   max-width: 1200px;
 }
 
+/* line 152, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
+.positionsticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 6;
+}
+
 .notification, form small.error, form small.valid {
   -webkit-animation: bounce 1s ease 0.1s 1 both;
   animation: bounce 1s ease 0.1s 1 both;
@@ -9255,14 +9263,6 @@ body #main {
 /* line 147, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
 .holderjs {
   display: inline-block;
-}
-
-/* line 152, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */
-.position-sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 6;
 }
 
 /* line 169, /Users/ryan/Documents/acquisition/app/assets/stylesheets/partials/_scratch.scss */

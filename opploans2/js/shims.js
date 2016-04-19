@@ -29,15 +29,15 @@ $(function() {
   };
 
   var setMastheadOverlayByScrollPosition = function() {
-    var scrollPosition = parseInt($('.position-sticky').offset().top)
-    var $sticky = $('.position-sticky')
-    var $masthead = $('.masthead')
+    var scrollPosition = parseInt($('.position-sticky').offset().top) || window.scrollY;
+    var $sticky = $('.position-sticky');
+    var $masthead = $('.masthead');
 
     if (!$masthead.hasClass('masthead--overlay--persist')) {
       if (scrollPosition < 1) {
-        $masthead.removeClass('masthead--overlay')
+        $masthead.removeClass('masthead--overlay');
       } else {
-        $masthead.addClass('masthead--overlay')
+        $masthead.addClass('masthead--overlay');
       }
     }
   }
