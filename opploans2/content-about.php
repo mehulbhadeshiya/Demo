@@ -4,7 +4,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_FastFunding.svg" />
     </div>
     <h5 class=mt>Fast funding.</h5>
-    <h6>Get approved today and receive money in your bank account as soon as the next business day!*</h6>
+    <h6>Get approved today and receive money in your bank account as soon as the next business day!**</h6>
   </div>
   <div class='grid__item small-block text-center'>
     <div class='about-us__highlight mt'>
@@ -99,14 +99,12 @@
       <h6>Director of Operations</h6>
     </div>
     <div class=grid__item>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_KristinSculli0114_edited.png" class=image--profile />
-      <h6 class='mt mb0 bold'>Kristin Sculli</h6>
-      <h6>General Counsel</h6>
-    </div>
-    <div class=grid__item>
       <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_BobOConnell0624.png" class=image--profile />
       <h6 class='mt mb0 bold'>Bob O'Connell</h6>
       <h6>Director of Sales</h6>
+    </div>
+    <div class=grid__item>
+      &nbsp;
     </div>
   </div>
 </div>
@@ -138,7 +136,7 @@
             <p class=mv+>Do you want to enable people to transform their financial lives for the better? At OppLoans, we’re helping people every day, and we’re looking for talent to help us carry out that mission.</p>
           </div>
           <div class=about-us__contact__item__footer>
-            <a href='#' class='btn btn--blue'>Join the Team</a>
+            <a href='mailto:talent@opploans.com' class='btn btn--blue'>Join the Team</a>
           </div>
         </div>
       </div>
@@ -152,7 +150,7 @@
             <p class=mv+>Have questions? Good! Reach out to us so we can get started helping you today!</p>
           </div>
           <div class=about-us__contact__item__footer>
-            <a href='#' class='btn btn--blue'>Contact Us</a>
+            <a href='/contact-us/' class='btn btn--blue'>Contact Us</a>
           </div>
         </div>
       </div>

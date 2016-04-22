@@ -38,8 +38,8 @@
               <div style='width: 96%'></div>
             </div>
             <strong>
-              <span class='wrap'>Become one of our 20,000+</span>
-              <span class='wrap'>happy customers today.</span>
+              <span class='wrap'>Become one of our 25,000+</span>
+              <span class='wrap'>happy customers today. (4.9/5.0 Customer Satisfaction)</span>
             </strong>
           </span>
         </div>
@@ -133,7 +133,7 @@
             </li>
             <li class='checkmark'>
               <h5>More Personal.</h5>
-              <h6>OppLoans treats customers like family. Our 20,000+ customers rate us 4.9 out of 5 stars.*</h6>
+              <h6>OppLoans treats customers like family. Our 25,000+ customers rate us 4.9 out of 5 stars.*</h6>
             </li>
           </ul>
         </div>
