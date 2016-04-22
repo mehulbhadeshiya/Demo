@@ -30,18 +30,6 @@ body #main {
   font-size: 15px;
 }
 
-[data-context$=locomotive_index] #main-bg {
-  width: 100%;
-  min-height: 44.28571429rem;
-  height: 44.28571429rem;
-  left: 0;
-  top: 0;
-  position: absolute;
-  background: url(../images/home-hero-small.png) center no-repeat;
-  background-size: cover;
-  background-color: #41454F;
-}
-
 .bureau-badge {
   display: none;
 }
@@ -56,70 +44,6 @@ body #main {
 .bg-gray .bureau-badge {
   display: inline-block;
   margin: 1rem 0;
-}
-
-[data-context*=locomotive]:not([data-context$=locomotive_index]) #main-bg {
-  height: 360px !important;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-@media screen and (max-width: 47.5em) {
-  [data-context$=locomotive_index] #main-bg .bureau-badge {
-    display: none;
-  }
-
-  [data-context$=locomotive_index] #main-bg {
-    min-height: 39.5rem;
-    height: 39.5rem;
-  }
-}
-
-@media screen and (max-width: 47.5em) {
-  [data-context*=locomotive]:not([data-context$=locomotive_index]) #main-bg {
-    background-image: url(../images/generic-hero-small.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: auto;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  [data-context*=locomotive]:not([data-context$=locomotive_index]) #main-bg {
-    background-image: url(../images/generic-hero-small.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: auto;
-  }
-}
-
-[data-context*=locomotive][data-context*=partner] #main-bg {
-  height: 360px !important;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-@media screen and (max-width: 47.5em) {
-  [data-context*=locomotive][data-context*=partner] #main-bg {
-    background-image: url(../images/generic-hero-small.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: auto;
-  }
-}
-@media screen and (min-width: 47.5em) {
-  [data-context*=locomotive][data-context*=partner] #main-bg {
-    background-image: url(../images/generic-hero-small.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: auto;
-  }
 }
 
 :not([data-context*='engines#']) body.loaded {
@@ -463,6 +387,13 @@ input[type=submit], .input.approximate_length label[type=submit].collapse-left, 
 .masthead .phone {
   font-weight: 700;
 }
+
+@media screen and (max-width: 22em) {
+  .masthead .phone {
+    display: none;
+  }
+}
+
 /* line 88, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/modules/_icons.scss */
 .masthead .phone::before {
   font-family: "icomoon";
@@ -551,4 +482,134 @@ input[type=submit], .input.approximate_length label[type=submit].collapse-left, 
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
   visibility: visible;
+}
+
+
+/* MAIN COVER BACKGROUND */
+
+[data-context*=locomotive]:not([data-context$=locomotive_index]) #main-bg {
+  height: 360px !important;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 47.5em) {
+  [data-context*=locomotive]:not([data-context$=locomotive_index]) #main-bg {
+    background-image: url(../images/generic-hero-small.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: auto;
+  }
+}
+@media screen and (min-width: 47.5em) {
+  [data-context*=locomotive]:not([data-context$=locomotive_index]) #main-bg {
+    background-image: url(../images/generic-hero-small.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: auto;
+  }
+}
+
+[data-context*=locomotive][data-context*=partner] #main-bg {
+  height: 360px !important;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+@media screen and (max-width: 47.5em) {
+  [data-context*=locomotive][data-context*=partner] #main-bg {
+    background-image: url(../images/generic-hero-small.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: auto;
+  }
+}
+@media screen and (min-width: 47.5em) {
+  [data-context*=locomotive][data-context*=partner] #main-bg {
+    background-image: url(../images/generic-hero-small.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: auto;
+  }
+}
+
+/* MAIN COVER BACKGROUND - FOR HOMEPAGE */
+
+[data-context$=locomotive_index] #main {
+  padding-top: 70px !important;
+}
+
+[data-context$=locomotive_index] #main > div:nth-child(2) {
+  display: none !important;
+}
+
+[data-context$=locomotive_index] #main > div.fade-in-on-load {
+  display: block !important;
+}
+
+[data-context$=locomotive_index] #main-bg {
+  width: 100%;
+  min-height: 50rem;
+  height: 50rem;
+  top: -10rem;
+  position: absolute;
+  background: url(../images/home-hero-small.png) center no-repeat;
+  background-size: cover;
+  background-color: #41454F;
+}
+
+@media screen and (min-width: 47.5em) {
+  [data-context$=locomotive_index] #main-bg {
+    height: 53rem;
+  }
+
+  [data-context$=locomotive_index] .background-float > .text-center {
+  }
+}
+
+@media screen and (max-width: 47.5em) {
+  [data-context$=locomotive_index] #main-bg .bureau-badge {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 22em) {
+  [data-context$=locomotive_index] .main-copy-1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  [data-context$=locomotive_index] .background-float > .text-center {
+    position: relative;
+    top: 4rem;
+  }
+}
+
+@media screen and (min-width: 66.25em) {
+  [data-context$=locomotive_index] #main-bg {
+    top: -6rem;
+    height: 50rem;
+  }
+
+  [data-context$=locomotive_index] .background-float > .text-center {
+    padding-top: 0rem;
+  }
+}
+
+@media screen and (min-width: 95em) {
+  [data-context$=locomotive_index] #main-bg {
+    top: -2rem;
+    height: 60rem;
+  }
+
+  [data-context$=locomotive_index] .background-float > .text-center {
+    padding-top: 9rem;
+  }
 }
