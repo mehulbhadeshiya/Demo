@@ -39,7 +39,7 @@
             </div>
             <strong>
               <span class='wrap'>Become one of our 25,000+</span>
-              <span class='wrap'>happy customers today. (4.9/5.0 Customer Satisfaction)</span>
+              <span class='wrap'>happy customers today. (4.9/5.0 Customer Satisfaction*)</span>
             </strong>
           </span>
         </div>
