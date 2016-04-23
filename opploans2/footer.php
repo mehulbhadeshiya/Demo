@@ -56,7 +56,7 @@
           <div class='small-12 columns text-center'>
             <div class='menu-centered'>
               <ul class='menu social-links'>
-                <li class='google'><a alt-text="Google+ Profile" href="https://plus.google.com/s/opploans/top"></a></li>
+                <li class='google'><a alt-text="Google+ Profile" href="https://plus.google.com/+OpportunityFinancialChicago/posts"></a></li>
                 <li class='twitter'><a alt-text="Twitter Profile" href="https://twitter.com/opploans"></a></li>
                 <li class='facebook'><a alt-text="Facebook Profile" href="https://www.facebook.com/OpportunityLoans/"></a></li>
               </ul>
