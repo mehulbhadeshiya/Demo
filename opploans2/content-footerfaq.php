@@ -25,19 +25,7 @@
           <div class='menu-centered footer-nav'>
             <ul class='menu'>
               <li>
-                <a href="/blog/"><h6>Blog</h6>
-                </a>
-              </li>
-              <li>
-                <a href="/faqs/"><h6>FAQ</h6>
-                </a>
-              </li>
-              <li>
-                <a href="/glossary/"><h6>Glossary</h6>
-                </a>
-              </li>
-              <li>
-                <a href="/rates-terms/"><h6>Guides</h6>
+                <a href="/licenses/"><h6>Rates, Terms &amp; Licenses</h6>
                 </a>
               </li>
               <li>
