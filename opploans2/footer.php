@@ -27,19 +27,7 @@
             <div class='menu-centered footer-nav'>
               <ul class='menu'>
                 <li>
-                  <a href="/blog/"><h6>Blog</h6>
-                  </a>
-                </li>
-                <li>
-                  <a href="/faqs/"><h6>FAQ</h6>
-                  </a>
-                </li>
-                <li>
-                  <a href="/glossary/"><h6>Glossary</h6>
-                  </a>
-                </li>
-                <li>
-                  <a href="/rates-terms/"><h6>Guides</h6>
+                  <a href="/licenses/"><h6>Rates, Terms &amp; Licenses</h6>
                   </a>
                 </li>
                 <li>
@@ -56,7 +44,7 @@
           <div class='small-12 columns text-center'>
             <div class='menu-centered'>
               <ul class='menu social-links'>
-                <li class='google'><a alt-text="Google+ Profile" href="https://plus.google.com/s/opploans/top"></a></li>
+                <li class='google'><a alt-text="Google+ Profile" href="https://plus.google.com/+OpportunityFinancialChicago/posts"></a></li>
                 <li class='twitter'><a alt-text="Twitter Profile" href="https://twitter.com/opploans"></a></li>
                 <li class='facebook'><a alt-text="Facebook Profile" href="https://www.facebook.com/OpportunityLoans/"></a></li>
               </ul>
@@ -75,9 +63,6 @@
                 &copy; 2016 Opportunity Financial, LLC. All Rights Reserved. Use of Opportunity Financial, LLC is subject to our 
                 <a href="/licenses/terms-of-use/">Terms of Use</a>, 
                 <a href="/licenses/privacy-policy/">Privacy Policy</a>, 
-                <a href="/licenses/communication-policy/">Communication Policy</a>, 
-                <a href="/licenses/policy-on-responsible-lending/">Policy on Responsible Lending</a>, 
-                <a href="/licenses/">Rates, Terms &amp; Licenses</a>, 
                 and <a href="/licenses/additional-disclosures/">Additional Disclosures</a>.
               </small>
             </p>
