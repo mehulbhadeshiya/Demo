@@ -70,9 +70,6 @@
               &copy; 2016 Opportunity Financial, LLC. All Rights Reserved. Use of Opportunity Financial, LLC is subject to our 
               <a href="/licenses/terms-of-use/">Terms of Use</a>, 
               <a href="/licenses/privacy-policy/">Privacy Policy</a>, 
-              <a href="/licenses/communication-policy/">Communication Policy</a>, 
-              <a href="/licenses/policy-on-responsible-lending/">Policy on Responsible Lending</a>, 
-              <a href="/licenses/">Rates, Terms &amp; Licenses</a>, 
               and <a href="/licenses/additional-disclosures/">Additional Disclosures</a>.
             </small>
           </p>
