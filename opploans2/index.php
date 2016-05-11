@@ -17,6 +17,10 @@
   <head>
     <title><?php wp_title(); ?></title>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+<meta name="msvalidate.01" content="9F8A9B3F39A381307795E8D6318FFFAF" />
+<meta name="msvalidate.01" content="A83353A4E9457491D73053B8B78F1AE1" />
+<meta name="google-site-verification" content="XfIZQoj4X8dDTkViazj55euxe93aIENbhS9Fuy__yRU" />
+<meta name="google-site-verification" content="9u1x53iWXZEOU3Rs6Zv1Iodm9C-Fdn66HSxUy6rng3A" />
     <meta charset="UTF-8">
     <?php
       ob_start();
@@ -111,6 +115,7 @@
     show_admin_bar(false);
     wp_enqueue_script('application_runner');
     wp_footer();
+    get_template_part('google_analytics.php');
   ?>
   </body>
 </html>

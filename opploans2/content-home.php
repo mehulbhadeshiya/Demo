@@ -31,7 +31,7 @@
     </div>
     <div class='bg-gray'>
       <div class=page--wrap>
-        <div class='customer-rating weight-400' data-alt-display='true' data-rating='4.9'>
+        <div class='customer-rating weight-400' data-alt-display='true' data-rating='5.0'>
           <span>
             <div class=stars>
               <div></div>
@@ -39,7 +39,7 @@
             </div>
             <strong>
               <span class='wrap'>Become one of our 25,000+</span>
-              <span class='wrap'>happy customers today. (4.9/5.0 Customer Satisfaction*)</span>
+              <span class='wrap'>happy customers today.</span> <a href="https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1" target="_blank"><span class='wrap'>Rated 5.0 / 5.0 Stars</span></a><span class='wrap'> by Google customers.</span>
             </strong>
           </span>
         </div>
@@ -55,10 +55,10 @@
               </div>
               <div class='review-panel'>
                 <div class='review-header'>
-                  <strong>"I used my personal loan to get my rent in on time." - Mel*</strong>
+                  <strong>"I used my personal loan to fix my car." &mdash; Mel</strong>
                 </div>
                 <div class='review-footer'>
-                  <p class=mb0>LOS ANGELES, CA | $1,000 OPPLOAN</p>
+                  <p class=mb0>LOS ANGELES, CA | $2,800 OPPLOAN</p>
                   <div class=stars>
                     <div></div>
                     <div style='width: 96%'></div>
@@ -77,7 +77,7 @@
               </div>
               <div class='review-panel'>
                 <div class='review-header'>
-                  <strong>"I was able to use my installment loan to fix my car!" - Jose*</strong>
+                  <strong>"I was able to use my loan to get my rent in on time!" &mdash; Jose</strong>
                 </div>
                 <div class='review-footer'>
                   <p class=mb0>CHICAGO, IL | $2,000 OPPLOAN</p>
@@ -99,7 +99,7 @@
               </div>
               <div class='review-panel'>
                 <div class='review-header'>
-                  <strong>"My loan helped me cover an unforeseen medical emergency!" - Julie*</strong>
+                  <strong>"My loan helped me during a medical emergency!" &mdash; Julie</strong>
                 </div>
                 <div class='review-footer'>
                   <p class=mb0>MADISON, WI | $1,600 OPPLOAN</p>
@@ -125,15 +125,15 @@
             </li>
             <li class='checkmark'>
               <h5>Fast Funding.</h5>
-              <h6>Get approved today and receive money in your account as soon as the next business day.**</h6>
+              <h6>Get approved today and receive money in your account as soon as the next business day.*</h6>
             </li>
             <li class='checkmark'>
               <h5>Lower Interest.</h5>
-              <h6>OppLoans personal loans are up to 70-125% cheaper than payday loans.</h6>
+              <h6>OppLoans personal loans are up to 125% cheaper than payday loans.</h6>
             </li>
             <li class='checkmark'>
               <h5>More Personal.</h5>
-              <h6>OppLoans treats customers like family. Our 25,000+ customers rate us 4.9 out of 5 stars.*</h6>
+              <h6>We treat customers like family. Our 25,000+ customers rate us 5 out of 5 stars.</h6>
             </li>
           </ul>
         </div>
@@ -168,7 +168,7 @@
       <div class='box text-center'>
         <h4 class='weight-300'>
           Get approved today. Receive your money as soon as
-          <strong>tomorrow!</strong>**
+          <strong>tomorrow!</strong>*
         </h4>
         <a class='apply-now button' href='/registrations/step1'>
           Apply Online
@@ -181,3 +181,4 @@
       </div>
     </div>
 </div>
+<meta name="msvalidate.01" content="9F8A9B3F39A381307795E8D6318FFFAF" />
