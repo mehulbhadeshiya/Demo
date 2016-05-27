@@ -5,4 +5,3 @@
     <h4 class='main-copy-2 weight-300'>You have questions? Great! We've got answers!</h4>
   </div>
 </div>
-

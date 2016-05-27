@@ -61,4 +61,3 @@ $pagePath = substr($pagePath, 1, -1);//remove slashes
     </div>
   </div>
 </div>
-

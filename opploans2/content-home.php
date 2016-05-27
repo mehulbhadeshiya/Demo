@@ -39,7 +39,7 @@
             </div>
             <strong>
               <span class='wrap'>Become one of our 25,000+</span>
-              <span class='wrap'>happy customers today.</span> <a href="https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1" target="_blank"><span class='wrap'>Rated 5.0 / 5.0 Stars</span></a><span class='wrap'> by Google customers.</span>
+              <span class='wrap'>happy customers today.</span> <a href="https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1" target="_blank"><span class='wrap'>Rated 5.0 / 5.0 stars</span></a><span class='wrap'> by Google customers.</span>
             </strong>
           </span>
         </div>
