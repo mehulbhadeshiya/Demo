@@ -30,6 +30,10 @@
                   <a href="/licenses/"><h6>Rates, Terms &amp; Licenses</h6>
                   </a>
                 </li>
+              <li>
+                <a title="Personal Loans" href="/personal-loans/"><h6>About Personal Loans</h6>
+                </a>
+              </li>
                 <li>
                   <a href="/contact-us/"><h6>Contact Us</h6>
                   </a>
@@ -50,7 +54,7 @@
               <ul class='menu social-links'>
                 <li class='google'><a alt-text="Google+ Profile" href="https://plus.google.com/+OpportunityFinancialChicago/posts"></a></li>
                 <li class='twitter'><a alt-text="Twitter Profile" href="https://twitter.com/opploans"></a></li>
-                <li class='facebook'><a alt-text="Facebook Profile" href="https://www.facebook.com/OpportunityLoans/"></a></li>
+                <li class='facebook'><a alt-text="Facebook Profile" href="https://www.facebook.com/OppLoans/"></a></li>
               </ul>
               <div>
                 <a title="BBB Business Review" href="http://www.bbb.org/chicago/business-reviews/consumer-finance-and-loan-companies/opportunity-financial-llc-in-chicago-il-88577853/" target="_blank"><img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png'></a>
@@ -103,16 +107,6 @@
           </div>
         </div>
       </div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-33985336-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 <?php if ($_REQUEST['aff'] == "facebook_marketing") { ?>
 <script>

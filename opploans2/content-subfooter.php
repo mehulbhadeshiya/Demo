@@ -6,7 +6,7 @@
 </div>
 <div class='row'>
   <div class='small-12 medium-8 small-centered small-collapse columns text-center'>
-    <a class='apply-now button' href='/registrations/step1'>
+    <a class='apply-now button' href='/register'>
       Apply Online
     </a>
     <h6 class='credit-score-copy color-black'>

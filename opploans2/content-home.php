@@ -16,7 +16,7 @@
       ' id='loan-amount' name='loan-amount' type='text' value='2500'>
             </div>
             <div class=ph+>
-            <a class='apply-now button' href='/registrations/step1'>
+            <a class='apply-now button' href='/register'>
               Apply Online
             </a>
           </div>
@@ -39,9 +39,11 @@
             </div>
             <strong>
               <span class='wrap'>Become one of our 25,000+</span>
-              <span class='wrap'>happy customers today.</span> <a href="https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1" target="_blank"><span class='wrap'>Rated 5.0 / 5.0 stars</span></a><span class='wrap'> by Google customers.</span>
+              <span class='wrap'>happy customers today.</span> <a href="https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1" target="_blank"><span class='wrap'>Rated 5/5 stars</span></a><span class='wrap'> by Google customers.</span>
             </strong>
           </span>
+
+          <!--<div class=bureau-badge-container><img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png' class=u-hidden@sm></div>-->
         </div>
       </div>
     </div>
@@ -55,7 +57,7 @@
               </div>
               <div class='review-panel'>
                 <div class='review-header'>
-                  <strong>"I used my personal loan to fix my car." &mdash; Mel</strong>
+                  <strong>"I used my installment loan to fix my car." &mdash; Mel</strong>
                 </div>
                 <div class='review-footer'>
                   <p class=mb0>LOS ANGELES, CA | $2,800 OPPLOAN</p>
@@ -71,13 +73,13 @@
         </div>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            <a href='https://www.facebook.com/OpportunityLoans?sk=reviews'>
+            <a href='https://business.facebook.com/OppLoans/reviews?business_id=1052194401498985'>
               <div class='review-hero'>
                 <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-center.png'>
               </div>
               <div class='review-panel'>
                 <div class='review-header'>
-                  <strong>"I was able to use my loan to get my rent in on time!" &mdash; Jose</strong>
+                  <strong>"I got my rent in on time thanks to my installment loan!" &mdash; Jose</strong>
                 </div>
                 <div class='review-footer'>
                   <p class=mb0>CHICAGO, IL | $2,000 OPPLOAN</p>
@@ -170,7 +172,7 @@
           Get approved today. Receive your money as soon as
           <strong>tomorrow!</strong>*
         </h4>
-        <a class='apply-now button' href='/registrations/step1'>
+        <a class='apply-now button' href='/register'>
           Apply Online
         </a>
         <h6 class='credit-score-copy color-black'>
@@ -182,3 +184,10 @@
     </div>
 </div>
 <meta name="msvalidate.01" content="9F8A9B3F39A381307795E8D6318FFFAF" />
+
+<script type="text/javascript">
+  var axel = Math.random() + "";
+  var a = axel * 10000000000000;
+  var category = "oppor006";
+  document.write('<iframe src="https://5472306.fls.doubleclick.net/activityi;src=5472306;type=oppfi0;cat=' + category + ';dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>

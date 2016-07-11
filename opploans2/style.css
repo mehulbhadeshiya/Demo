@@ -124,3 +124,7 @@ body:not(.home, .about) .is-active > .accordion-title::before {
   content: '-' !important;
   top: 50% !important;
 }
+
+.bureau-badge {
+  z-index: 2;
+}

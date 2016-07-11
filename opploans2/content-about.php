@@ -132,7 +132,8 @@
             <p class=mv+>At OppLoans, we're helping people every day, and we're looking for talent to help us carry out that mission.</p>
           </div>
           <div class=about-us__contact__item__footer>
-            <a href='mailto:talent@opploans.com' class='btn btn--blue'>Join Us</a>
+            <a href='mailto:talent@opploans.com' class='button btn--blue'>Join Us</a>
+<!--<a href='mailto:talent@opploans.com' class='btn btn--blue'>Join Us</a>-->
           </div>
         </div>
       </div>
@@ -146,7 +147,8 @@
             <p class=mv+>Have questions? Good! Reach out to us so we can get started helping you today!</p>
           </div>
           <div class=about-us__contact__item__footer>
-            <a href='/contact-us/' class='btn btn--blue'>Contact Us</a>
+            <a href='/contact-us/' class='button btn--blue'>Contact Us</a>
+<!--<a href='/contact-us/' class='btn btn--blue'>Contact Us</a>-->
           </div>
         </div>
       </div>
@@ -160,7 +162,8 @@
             <p class=mv+>OppLoans is making headlines. Check out our press releases and news coverage.</p>
           </div>
           <div class=about-us__contact__item__footer>
-            <a href='/in-the-news/' class='btn btn--blue'>In the News</a>
+            <a href='/in-the-news/' class='button btn--blue'>In the News</a>
+<!--<a href='/in-the-news/' class='btn btn--blue'>In the News</a>-->
           </div>
         </div>
       </div>
@@ -183,7 +186,7 @@
 <div class='box text-center'>
   <h5 class='weight-300'>You deserve better than a payday loan.</h5>
   <div class=mh>
-    <a class='apply-now button' href='/registrations/step1'>Apply Online</a>
+    <a class='apply-now button' href='/register'>Apply Online</a>
    </div>
  <h6 class='credit-score-copy color-black'>This does <u>not</u> affect your credit score!</h6>
 </div>

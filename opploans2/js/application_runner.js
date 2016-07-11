@@ -24,6 +24,11 @@
         function ready() { $(window.body).addClass('ready')}
         $('html').attr('data-context', $('body').attr('data-context'));
         $('body').addClass('loaded');
+
+        // Set the default loan amount if the user begins the registration
+        // process without setting a value using the slider.
+        localStorage.setItem('sliderValue', $('.slider input[data-options]').val());
+
         setTimeout(ready, 2000);
     }
 

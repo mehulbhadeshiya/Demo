@@ -18,7 +18,7 @@ Slider = (function() {
       options['hide_min_max'] = true;
       options['prettify_enabled'] = true;
       options['prettify'] = prettifyDollarAmount
-      options['onChange'] = (function(_this) {
+      options['onFinish'] = (function(_this) {
         return function(evt) {
           return localStorage.setItem('sliderValue', evt.input.val());
         };
