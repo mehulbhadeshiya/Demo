@@ -44,9 +44,9 @@
           <div class='small-12 columns text-center'>
             <div class='menu-centered'>
               <ul class='menu social-links'>
-                <li class='google'><a alt-text="Google+ Profile" href="https://plus.google.com/+OpportunityFinancialChicago/posts"></a></li>
-                <li class='twitter'><a alt-text="Twitter Profile" href="https://twitter.com/opploans"></a></li>
-                <li class='facebook'><a alt-text="Facebook Profile" href="https://www.facebook.com/OpportunityLoans/"></a></li>
+                <li class='google'><a alt-text="Google+ Profile" href="https://plus.google.com/+OpportunityFinancialChicago/posts" target='_blank'></a></li>
+                <li class='twitter'><a alt-text="Twitter Profile" href="https://twitter.com/opploans" target='_blank'></a></li>
+                <li class='facebook'><a alt-text="Facebook Profile" href="https://www.facebook.com/OppLoans/" target='_blank'></a></li>
               </ul>
               <div>
                 <img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png'>
