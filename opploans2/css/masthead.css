@@ -353,9 +353,8 @@ input[type=submit], .input.approximate_length label[type=submit].collapse-left, 
 .masthead.expanded .navigation p, .masthead.expanded .navigation hr, .masthead.expanded .navigation .close {
   display: block;
 }
-@media screen and (max-width: 47.5em) {
-  /* line 119, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-  .masthead.expanded .navigation {
+
+.masthead.expanded .navigation {
     display: block;
     position: fixed;
     top: 0;
@@ -367,9 +366,7 @@ input[type=submit], .input.approximate_length label[type=submit].collapse-left, 
     padding: 5.14286rem 1.28571rem 1.28571rem;
   }
 }
-@media screen and (max-width: 47.5em) {
-  /* line 137, /Users/timgremore/entrision/acquisition/app/assets/stylesheets/components/_masthead.scss */
-  .masthead.expanded .navigation .navigation__item {
+.masthead.expanded .navigation .navigation__item {
     display: block;
     text-align: center;
     width: 100%;
@@ -422,6 +419,8 @@ input[type=submit], .input.approximate_length label[type=submit].collapse-left, 
   cursor: pointer;
   width: 28px;
   height: 16px;
+  margin-left: 15px;
+  margin-right: 10px;
 }
 /* line 79, /Users/timgremore/entrision/acquisition/node_modules/foundation-sites/scss/util/_mixins.scss */
 .masthead .hamburger::after {
