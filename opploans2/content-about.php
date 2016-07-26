@@ -1,10 +1,11 @@
+<!--
 <div class='grid grid--alternate'>
   <div class='grid__item small-block text-center'>
     <div class='about-us__highlight mt pt'>
       <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_FastFunding.svg" />
     </div>
     <h5 class=mt>Fast funding.</h5>
-    <h6>Get approved today and receive money in your bank account as soon as the next business day!**</h6>
+    <h6>Get approved today and receive money in your bank account as soon as the next business day!*</h6>
   </div>
   <div class='grid__item small-block text-center'>
     <div class='about-us__highlight mt'>
@@ -21,7 +22,9 @@
     <h6>OppLoans' highly-trained Loan Advocates combine amazing <em>human</em> customer service with our easy online application to deliver the money you need now!</h6>
   </div>
 </div>
+-->
 
+<!--
 <div class=about-us__compare>
   <h5 class="text-center">Just right rates.</h5>
   <div class="grid grid--transparent">
@@ -47,32 +50,22 @@
     </div>
   </div>
 </div>
-
-<div class="primary-content">
-  <div class='about-us__testimony'>
-    <img src="<?php echo get_template_directory_uri(); ?>/images/quote.png" width=40 height=40 />
-    <p class='mh+ ph+'>
-      "If you’ve been turned away from a less than 36% APR loan from other lenders, OppLoans is your home for affordable loans with flexible terms and the <em>best</em> customer service."
-      <br>
-      <strong>Jared Kaplan, CEO</strong>
-    </p>
-    <!-- <p class=mt+><a href='#'>See what others are saying about us ></a></p> -->
-  </div>
-</div>
+-->
 
 <div class='about-us__team mt+ pt+'>
   <div class='about-us__team__heading mb+'>
+    <p>&nbsp;</p>
     <h6 class='text-center'><strong>LEADERSHIP TEAM</strong></h6>
     <h5 class='text-center mh+ ph+'>Family-owned OppLoans is dedicated to providing affordable personal loans to improve your credit.</h5>
   </div>
   <div class='grid grid--transparent grid--center'>
     <div class=grid__item>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_ToddSchwartz0436.png" class=image--profile />
+      <img alt="Photograph of Todd Schwartz" src="/wp-content/uploads/2016/05/headshot_todd_schwartz.jpg" class=image--profile />
       <h6 class='mt mb0 bold'>Todd Schwartz</h6>
       <h6>Founder</h6>
     </div>
     <div class=grid__item>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/IMG_JaredKaplan0470.png" class=image--profile />
+      <img alt="Photograph of Jared Kaplan" src="/wp-content/uploads/2016/05/headshot_jared_kaplan.jpg" class=image--profile />
       <h6 class='mt mb0 bold'>Jared Kaplan</h6>
       <h6>Chief Executive Officer</h6>
     </div>
@@ -109,7 +102,8 @@
   </div>
 </div>
 
-<!-- <div class='box box--blue box__scholarship mh0'>
+<!--
+<div class='box box--blue box__scholarship mh0'>
   <div class="primary-content">
     <div class=row>
       <div class='small-12 medium-8 columns'>
@@ -123,24 +117,27 @@
   </div>
 </div>
  -->
+
+
 <div class='box mh0'>
   <div class="primary-content">
     <div class=row>
-      <div class='small-12 medium-6 columns text-center column--divider'>
+      <div class='small-12 medium-4 columns text-center column--divider'>
         <div class=about-us__contact__item>
           <div class=about-us__contact__item__heading>
             <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_JoinTheTeam.svg" />
           </div>
           <div class=about-us__contact__item__content>
             <h5>We're Growing!</h5>
-            <p class=mv+>Do you want to enable people to transform their financial lives for the better? At OppLoans, we’re helping people every day, and we’re looking for talent to help us carry out that mission.</p>
+            <p class=mv+>At OppLoans, we're helping people every day, and we're looking for talent to help us carry out that mission.</p>
           </div>
           <div class=about-us__contact__item__footer>
-            <a href='mailto:talent@opploans.com' class='btn btn--blue'>Join the Team</a>
+            <a href='mailto:talent@opploans.com' class='button btn--blue'>Join Us</a>
+<!--<a href='mailto:talent@opploans.com' class='btn btn--blue'>Join Us</a>-->
           </div>
         </div>
       </div>
-      <div class='small-12 medium-6 columns text-center'>
+      <div class='small-12 medium-4 columns text-center column--divider'>
         <div class=about-us__contact__item>
           <div class=about-us__contact__item__heading>
             <img src="<?php echo get_template_directory_uri(); ?>/images/Icon_GetinTouch.svg" />
@@ -150,7 +147,23 @@
             <p class=mv+>Have questions? Good! Reach out to us so we can get started helping you today!</p>
           </div>
           <div class=about-us__contact__item__footer>
-            <a href='/contact-us/' class='btn btn--blue'>Contact Us</a>
+            <a href='/contact-us/' class='button btn--blue'>Contact Us</a>
+<!--<a href='/contact-us/' class='btn btn--blue'>Contact Us</a>-->
+          </div>
+        </div>
+      </div>
+      <div class='small-12 medium-4 columns text-center'>
+        <div class=about-us__contact__item>
+          <div class=about-us__contact__item__heading>
+            <img alt="Icon - In the News" src="/wp-content/uploads/2016/05/icon_inthenews-2.png" />
+          </div>
+          <div class=about-us__contact__item__content>
+            <h5>In the News!</h5>
+            <p class=mv+>OppLoans is making headlines. Check out our press releases and news coverage.</p>
+          </div>
+          <div class=about-us__contact__item__footer>
+            <a href='/in-the-news/' class='button btn--blue'>In the News</a>
+<!--<a href='/in-the-news/' class='btn btn--blue'>In the News</a>-->
           </div>
         </div>
       </div>
@@ -158,10 +171,22 @@
   </div>
 </div>
 
+<div class="primary-content">
+  <div class='about-us__testimony'>
+    <img src="<?php echo get_template_directory_uri(); ?>/images/quote.png" width=40 height=40 />
+    <p class='mh+ ph+'>
+      "If you’ve been turned away from a less than 36% APR loan by other lenders, OppLoans is your home for affordable loans with flexible terms and the <em>best</em> customer service."
+      <br>
+      <strong>Jared Kaplan, CEO</strong>
+    </p>
+    <!-- <p class=mt+><a href='#'>See what others are saying about us ></a></p> -->
+  </div>
+</div>
+
 <div class='box text-center'>
   <h5 class='weight-300'>You deserve better than a payday loan.</h5>
   <div class=mh>
-    <a class='apply-now button' href='/registrations/step1'>Apply Online</a>
+    <a class='apply-now button' href='/register'>Apply Online</a>
    </div>
  <h6 class='credit-score-copy color-black'>This does <u>not</u> affect your credit score!</h6>
 </div>
