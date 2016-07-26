@@ -13,7 +13,7 @@ $pagePath = substr($pagePath, 1, -1);//remove slashes
     <div class=page--wrap>
       <div class="masthead-left">
         <a alt-text="Opportunity Loans: A better personal loan" class="logo" href="/">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/OppLoans-logo-white.png" alt="Opp Loans" width="150" height="45">
+          <img src="https://www.opploans.com/wp-content/themes/wordpress/opploans2/images/OppLoans-logo-white.png" alt="Opp Loans" width="150" height="45">
           <span class="tagline">A better personal loan</span>
         </a>
       </div>
@@ -26,6 +26,10 @@ $pagePath = substr($pagePath, 1, -1);//remove slashes
               <a href="/about-us/">About Us</a>
             </li>
             <li class="navigation__item">
+              <a href="/content/">Resources</a>
+            </li>
+<!--
+            <li class="navigation__item">
               <a href="/faqs/">FAQ</a>
             </li>
             <li class="navigation__item">
@@ -34,6 +38,7 @@ $pagePath = substr($pagePath, 1, -1);//remove slashes
             <li class="navigation__item">
               <a href="/rates-terms/">Guides</a>
             </li>
+-->
             <li class="navigation__item">
               <a href="/blog/">Blog</a>
             </li>
@@ -41,7 +46,7 @@ $pagePath = substr($pagePath, 1, -1);//remove slashes
               <a href="https://www.opploans-app.com/myaccount.aspx?">Sign In</a>
             </li>
             <li class="navigation__item button hollow apply-now">
-              <a href="/registrations/step1">Apply Now</a>
+              <a href="/register">Apply Now</a>
             </li>
           </ul>
           <hr>
@@ -56,4 +61,3 @@ $pagePath = substr($pagePath, 1, -1);//remove slashes
     </div>
   </div>
 </div>
-
