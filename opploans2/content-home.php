@@ -39,7 +39,7 @@
             </div>
             <strong>
               <span class='wrap'>Become one of our 25,000+</span>
-              <span class='wrap'>happy customers today.</span> <a href="https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1" target="_blank"><span class='wrap'>Rated 5/5 stars</span></a><span class='wrap'> by Google customers.</span>
+              <span class='wrap'>happy customers today.</span> <a href="https://www.google.com/search?q=opportunity%20loans&lrd=0x880fce91c9b5f8d1%3A0xc909d707f609e6a7%2C1&cad=h&dlnr=1&sei=zjyWV5TEDeGXjwScqLGgCw#dlnr=1&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,3," target="_blank"><span class='wrap'>Rated 5/5 stars</span></a><span class='wrap'> by Google customers.</span>
             </strong>
           </span>
 
@@ -51,7 +51,7 @@
       <div class='row collapse'>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            <a href='https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1'>
+            <a href='https://www.google.com/search?q=opportunity%20loans&lrd=0x880fce91c9b5f8d1%3A0xc909d707f609e6a7%2C1&cad=h&dlnr=1&sei=zjyWV5TEDeGXjwScqLGgCw#dlnr=1&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,3,'>
               <div class='review-hero'>
                 <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-left.png'>
               </div>
@@ -95,7 +95,7 @@
         </div>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            <a href='https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1'>
+            <a href='https://www.google.com/search?q=opportunity%20loans&lrd=0x880fce91c9b5f8d1%3A0xc909d707f609e6a7%2C1&cad=h&dlnr=1&sei=zjyWV5TEDeGXjwScqLGgCw#dlnr=1&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,3,'>
               <div class='review-hero'>
                 <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-right.png'>
               </div>
