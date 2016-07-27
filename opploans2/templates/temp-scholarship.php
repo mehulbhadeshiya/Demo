@@ -49,7 +49,7 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 min-height: auto;
-                z-index: -1;
+                z-index: 1;
                 min-height: 300px;
                 padding: 0 0 3rem 0;
             }
