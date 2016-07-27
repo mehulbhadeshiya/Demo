@@ -51,7 +51,7 @@
       <div class='row collapse'>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            <a href='https://www.google.com/search?q=opportunity%20loans&lrd=0x880fce91c9b5f8d1%3A0xc909d707f609e6a7%2C1&cad=h&dlnr=1&sei=zjyWV5TEDeGXjwScqLGgCw#dlnr=1&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,3,'>
+            <a target='_blank' href='https://www.google.com/search?q=opportunity%20loans&lrd=0x880fce91c9b5f8d1%3A0xc909d707f609e6a7%2C1&cad=h&dlnr=1&sei=zjyWV5TEDeGXjwScqLGgCw#dlnr=1&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,3,'>
               <div class='review-hero'>
                 <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-left.png'>
               </div>
@@ -73,7 +73,7 @@
         </div>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            <a href='https://business.facebook.com/OppLoans/reviews?business_id=1052194401498985'>
+            <a target='_blank' href='https://business.facebook.com/OppLoans/reviews?business_id=1052194401498985'>
               <div class='review-hero'>
                 <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-center.png'>
               </div>
@@ -95,7 +95,7 @@
         </div>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            <a href='https://www.google.com/search?q=opportunity%20loans&lrd=0x880fce91c9b5f8d1%3A0xc909d707f609e6a7%2C1&cad=h&dlnr=1&sei=zjyWV5TEDeGXjwScqLGgCw#dlnr=1&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,3,'>
+            <a target='_blank' href='https://www.google.com/search?q=opportunity%20loans&lrd=0x880fce91c9b5f8d1%3A0xc909d707f609e6a7%2C1&cad=h&dlnr=1&sei=zjyWV5TEDeGXjwScqLGgCw#dlnr=1&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,3,'>
               <div class='review-hero'>
                 <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-right.png'>
               </div>
