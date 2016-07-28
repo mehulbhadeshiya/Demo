@@ -16,7 +16,7 @@
       ' id='loan-amount' name='loan-amount' type='text' value='2500'>
             </div>
             <div class=ph+>
-            <a class='apply-now button' href='/register'>
+            <a class='apply-now button' href='/registrations/step1'>
               Apply Online
             </a>
           </div>
@@ -31,7 +31,7 @@
     </div>
     <div class='bg-gray'>
       <div class=page--wrap>
-        <div class='customer-rating weight-400' data-alt-display='true' data-rating='5.0'>
+        <div class='customer-rating weight-400' data-alt-display='true' data-rating='4.9'>
           <span>
             <div class=stars>
               <div></div>
@@ -39,11 +39,9 @@
             </div>
             <strong>
               <span class='wrap'>Become one of our 25,000+</span>
-              <span class='wrap'>happy customers today.</span> <a href="https://www.google.com/search?q=opportunity%20loans&lrd=0x880fce91c9b5f8d1%3A0xc909d707f609e6a7%2C1&cad=h&dlnr=1&sei=zjyWV5TEDeGXjwScqLGgCw#dlnr=1&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,3," target="_blank"><span class='wrap'>Rated 5/5 stars</span></a><span class='wrap'> by Google customers.</span>
+              <span class='wrap'>happy customers today. (4.9/5.0 Customer Satisfaction*)</span>
             </strong>
           </span>
-
-          <!--<div class=bureau-badge-container><img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png' class=u-hidden@sm></div>-->
         </div>
       </div>
     </div>
@@ -51,16 +49,16 @@
       <div class='row collapse'>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            <a target='_blank' href='https://www.google.com/search?q=opportunity%20loans&lrd=0x880fce91c9b5f8d1%3A0xc909d707f609e6a7%2C1&cad=h&dlnr=1&sei=zjyWV5TEDeGXjwScqLGgCw#dlnr=1&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,3,'>
+            <a href='https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1'>
               <div class='review-hero'>
                 <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-left.png'>
               </div>
               <div class='review-panel'>
                 <div class='review-header'>
-                  <strong>"I used my installment loan to fix my car." &mdash; Mel</strong>
+                  <strong>"I used my personal loan to get my rent in on time." - Mel*</strong>
                 </div>
                 <div class='review-footer'>
-                  <p class=mb0>LOS ANGELES, CA | $2,800 OPPLOAN</p>
+                  <p class=mb0>LOS ANGELES, CA | $1,000 OPPLOAN</p>
                   <div class=stars>
                     <div></div>
                     <div style='width: 96%'></div>
@@ -73,13 +71,13 @@
         </div>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            <a target='_blank' href='https://business.facebook.com/OppLoans/reviews?business_id=1052194401498985'>
+            <a href='https://www.facebook.com/OpportunityLoans?sk=reviews'>
               <div class='review-hero'>
                 <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-center.png'>
               </div>
               <div class='review-panel'>
                 <div class='review-header'>
-                  <strong>"I got my rent in on time thanks to my installment loan!" &mdash; Jose</strong>
+                  <strong>"I was able to use my installment loan to fix my car!" - Jose*</strong>
                 </div>
                 <div class='review-footer'>
                   <p class=mb0>CHICAGO, IL | $2,000 OPPLOAN</p>
@@ -95,13 +93,13 @@
         </div>
         <div class='small-12 small-collapse medium-4 columns'>
           <div class='online-review'>
-            <a target='_blank' href='https://www.google.com/search?q=opportunity%20loans&lrd=0x880fce91c9b5f8d1%3A0xc909d707f609e6a7%2C1&cad=h&dlnr=1&sei=zjyWV5TEDeGXjwScqLGgCw#dlnr=1&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,3,'>
+            <a href='https://www.google.com/?gws_rd=ssl#q=opportunity+loans&lrd=0x880fce91c9b5f8d1:0xc909d707f609e6a7,1'>
               <div class='review-hero'>
                 <img src='<?php echo get_template_directory_uri(); ?>/images/review-hero-right.png'>
               </div>
               <div class='review-panel'>
                 <div class='review-header'>
-                  <strong>"My loan helped me during a medical emergency!" &mdash; Julie</strong>
+                  <strong>"My loan helped me cover an unforeseen medical emergency!" - Julie*</strong>
                 </div>
                 <div class='review-footer'>
                   <p class=mb0>MADISON, WI | $1,600 OPPLOAN</p>
@@ -127,15 +125,15 @@
             </li>
             <li class='checkmark'>
               <h5>Fast Funding.</h5>
-              <h6>Get approved today and receive money in your account as soon as the next business day.*</h6>
+              <h6>Get approved today and receive money in your account as soon as the next business day.**</h6>
             </li>
             <li class='checkmark'>
               <h5>Lower Interest.</h5>
-              <h6>OppLoans personal loans are up to 125% cheaper than payday loans.</h6>
+              <h6>OppLoans personal loans are up to 70-125% cheaper than payday loans.</h6>
             </li>
             <li class='checkmark'>
               <h5>More Personal.</h5>
-              <h6>We treat customers like family. Our 25,000+ customers rate us 5 out of 5 stars.</h6>
+              <h6>OppLoans treats customers like family. Our 25,000+ customers rate us 4.9 out of 5 stars.*</h6>
             </li>
           </ul>
         </div>
@@ -170,9 +168,9 @@
       <div class='box text-center'>
         <h4 class='weight-300'>
           Get approved today. Receive your money as soon as
-          <strong>tomorrow!</strong>*
+          <strong>tomorrow!</strong>**
         </h4>
-        <a class='apply-now button' href='/register'>
+        <a class='apply-now button' href='/registrations/step1'>
           Apply Online
         </a>
         <h6 class='credit-score-copy color-black'>
@@ -183,11 +181,3 @@
       </div>
     </div>
 </div>
-<meta name="msvalidate.01" content="9F8A9B3F39A381307795E8D6318FFFAF" />
-
-<script type="text/javascript">
-  var axel = Math.random() + "";
-  var a = axel * 10000000000000;
-  var category = "oppor006";
-  document.write('<iframe src="https://5472306.fls.doubleclick.net/activityi;src=5472306;type=oppfi0;cat=' + category + ';dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
-</script>

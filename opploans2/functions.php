@@ -1,4 +1,5 @@
 <?php
+
 function register_script($handle, $deps=array()) {
     wp_deregister_script($handle); // overide with our version
     $path = get_template_directory_uri() . '/js/' . $handle . '.js';
@@ -16,7 +17,7 @@ function register_opploans_scripts() {
         'my-jquery', 'foundation','underscore', 'stickyfill',
         'jquery-verticalcenter', 'jquery-overlaps', 'jquery-slimscroll',
         'jquery-ion.rangeslider', 'camelize', 'slider', 'shims',
-        'imagesloaded', 'collision_detector', 'background_floater','jquery.textareaCounter.plugin','placeholders.jquery.min','wordcount'
+        'imagesloaded', 'collision_detector', 'background_floater'
     );
 
     array_map('register_script', $all_scripts);
@@ -55,4 +56,3 @@ function theme_slug_dequeue_footer_jquery() {
        wp_dequeue_script('admin-bar');
    }
 }
-show_admin_bar(false);

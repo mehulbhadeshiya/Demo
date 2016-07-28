@@ -30,18 +30,10 @@
                   <a href="/licenses/"><h6>Rates, Terms &amp; Licenses</h6>
                   </a>
                 </li>
-              <li>
-                <a title="Personal Loans" href="/personal-loans/"><h6>About Personal Loans</h6>
-                </a>
-              </li>
                 <li>
                   <a href="/contact-us/"><h6>Contact Us</h6>
                   </a>
                 </li>
-              <li>
-                <a href="/sitemap/"><h6>Sitemap</h6>
-                </a>
-              </li>
               </ul>
             </div>
           </div>
@@ -52,12 +44,12 @@
           <div class='small-12 columns text-center'>
             <div class='menu-centered'>
               <ul class='menu social-links'>
-                <li class='google'><a alt-text="Google+ Profile" href="https://plus.google.com/+OpportunityFinancialChicago/posts" target='_blank'></a></li>
-                <li class='twitter'><a alt-text="Twitter Profile" href="https://twitter.com/opploans" target='_blank'></a></li>
-                <li class='facebook'><a alt-text="Facebook Profile" href="https://www.facebook.com/OppLoans/" target='_blank'></a></li>
+                <li class='google'><a alt-text="Google+ Profile" href="https://plus.google.com/+OpportunityFinancialChicago/posts"></a></li>
+                <li class='twitter'><a alt-text="Twitter Profile" href="https://twitter.com/opploans"></a></li>
+                <li class='facebook'><a alt-text="Facebook Profile" href="https://www.facebook.com/OpportunityLoans/"></a></li>
               </ul>
               <div>
-                <a title="BBB Business Review" href="http://www.bbb.org/chicago/business-reviews/consumer-finance-and-loan-companies/opportunity-financial-llc-in-chicago-il-88577853/" target="_blank"><img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png'></a>
+                <img class='bureau-badge' src='<?php echo get_template_directory_uri(); ?>/images/Logo_BBB_horizontal_ARating.png'>
               </div>
             </div>
           </div>
@@ -69,9 +61,9 @@
             <p>
               <small>
                 &copy; 2016 Opportunity Financial, LLC. All Rights Reserved. Use of Opportunity Financial, LLC is subject to our 
-                <a href="/licenses/terms-of-use/" target='_blank'>Terms of Use</a>, 
-                <a href="/licenses/privacy-policy/" target='_blank'>Privacy Policy</a>, 
-                and <a href="/licenses/additional-disclosures/" target='_blank'>Additional Disclosures</a>.
+                <a href="/licenses/terms-of-use/">Terms of Use</a>, 
+                <a href="/licenses/privacy-policy/">Privacy Policy</a>, 
+                and <a href="/licenses/additional-disclosures/">Additional Disclosures</a>.
               </small>
             </p>
             <p>
@@ -81,7 +73,7 @@
             </p>
             <p>
               <small>
-                DE residents: Opportunity Financial, LLC is licensed by the Delaware State Bank Commissioner, License No. 013016, expiring December 31, 2016.
+                DE residents: Opportunity Financial, LLC is licensed by the Delaware State Bank Commissioner, License No. 013016, expiring December 31,2016.
               </small>
             </p>
             <p>
@@ -91,32 +83,19 @@
             </p>
             <p>
               <small>
-                Based on customer service ratings on Google and Facebook. Testimonials reflect the individual's opinion and may not be illustrative of all individual experiences with Opportunity Loans.
+                * Based on customer service ratings on Google and Facebook. Testimonials reflect the individual's opinion and may not be illustrative of all individual experiences with Opportunity Loans.
               </small>
             </p>
             <p>
               <small>
-                * Approval may take longer if additional verification documents are requested. Not all loan requests are approved. Approval and loan terms vary based on credit determination and state law.  Applications processed and approved before 7:30 p.m. ET Monday-Friday are typically funded the next business day.
+                ** Approval may take longer if additional verification documents are requested. Not all loan requests are approved. Approval and loan terms vary based on credit determination and state law.  Applications processed and approved before 7:30 p.m. ET Monday-Friday are typically funded next business day.
               </small>
             </p>
             <p>
               <small>
-                Rates and terms vary by state. An example of an OppLoan is $1,000 with 17 bi-weekly payments of $81, and an APR of 99%.
+                Rates and terms vary by state. An example of an OppLoan is $1,000 with 12 bi-weekly payments of $72, and an APR of 99%.
               </small>
             </p>
           </div>
         </div>
       </div>
-
-<?php if ($_REQUEST['aff'] == "facebook_marketing") { ?>
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '166406163722240');
-fbq('track', "ViewContent");
-</script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id= 166406163722240&ev=ViewContent&noscript=1" /></noscript>
-<?php } ?>
