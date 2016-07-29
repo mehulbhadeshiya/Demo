@@ -240,7 +240,7 @@
                 border: 1px solid #910b0b;
             }
             .masthead--overlay{
-                background: transparent;
+/*                background: transparent;*/
             }
             .appl-sec {
                 background: #fff;
