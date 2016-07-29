@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /home/ec2-user/opploans2/opploans2
 cp -r * /var/www/html/site/wp-content/themes/opploans2
 cd /var/www/html/
 find . -type d -exec chmod 0755 {} \;
