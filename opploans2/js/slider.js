@@ -30,3 +30,17 @@ Slider = (function() {
   return Slider;
 
 })();
+//nav fix
+    $(window).on('load', function () {
+        if ($('.home').length) {
+            
+            $(window).on('scroll', function () {
+                if ($(window).scrollTop() > 50) {
+                    $('.masthead').addClass('activebg');
+
+                } else {
+                    $('.masthead').removeClass('activebg');
+                }
+            });
+        }
+    });

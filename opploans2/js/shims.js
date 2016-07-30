@@ -45,18 +45,7 @@ $(function () {
 
 
 
-    $(window).on('load', function () {
-        if ($('.home').length) {
-            $(window).on('scroll', function (evt) {
-                if ($(window).scrollTop() > 50) {
-                    $('.masthead').addClass('activebg');
 
-                } else {
-                    $('.masthead').removeClass('activebg');
-                }
-            });
-        }
-    });
 
 
 

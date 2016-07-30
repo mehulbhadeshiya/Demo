@@ -10263,7 +10263,7 @@ body.about-us[data-context*=locomotive] #main-bg {
 }
 
 body.about-us[data-context*=locomotive] .main-copy-1 {
-  margin-top: 4rem !important;
+  margin-top: 0 !important;
 }
 
 body.about-us[data-context*=locomotive] .grid__item {
