@@ -4,7 +4,7 @@ get_header();
 
 if (have_posts()) : while (have_posts()) : the_post();
         get_template_part('content', 'header');
-        require_once ( dirname(__FILE__) . '/templates/breads.php' );
+//        require_once ( dirname(__FILE__) . '/templates/breads.php' );
         ?>
         <div class='primary-content resource-texo blockquote_blue'>
             <div class="row">
@@ -30,11 +30,11 @@ if (have_posts()) : while (have_posts()) : the_post();
                         ?>
                         <p class="auther-meta"><?php echo $useName; ?></br><?php echo $post_date; ?></p>
                         <div class="clearfix"></div>
-                        <h1 class="pg_ttl"><?php the_title(); ?></h1>
+                        <h1 class="pg_ttl"><?php the_field('ri_frt_ttl'); ?></h1>
                     </div>
                 </div>
-            
-                
+
+
                 <div class="row">
                     <div class="large-7 medium-7 small-12 columns">
                         <?php the_content(); ?>
