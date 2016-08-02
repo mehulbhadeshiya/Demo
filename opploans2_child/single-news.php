@@ -1,7 +1,6 @@
 <?php
 get_header();
 /* * ******************************** page content************************************* */
-
 if (have_posts()) : while (have_posts()) : the_post();
         get_template_part('content', 'header');
         //require_once ( dirname(__FILE__) . '/templates/breads.php' );
