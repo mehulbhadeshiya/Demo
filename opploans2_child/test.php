@@ -1,7 +1,5 @@
 <?php
 //test
-
-
 /* Blog */
 $labels = array(
     'name' => _x('Blog', 'post type general name', 'opploans'),
